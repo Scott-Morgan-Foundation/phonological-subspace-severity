@@ -1,0 +1,47 @@
+{
+  "language": "french",
+  "mfa_model": "french_mfa",
+  "consonant_features": {
+    "nasal": {
+      "positive": ["m", "n", "ɲ", "ŋ"],
+      "negative": ["p", "b", "t", "d", "k", "ɡ"]
+    },
+    "voicing": {
+      "positive": ["b", "d", "ɡ", "v", "z", "ʒ", "m", "n", "ɲ", "ŋ", "l", "ʁ", "j", "w", "ɥ"],
+      "negative": ["p", "t", "k", "f", "s", "ʃ"]
+    },
+    "strident": {
+      "positive": ["s", "z", "ʃ", "ʒ", "f", "v"],
+      "negative": ["p", "t", "k", "b", "d", "ɡ", "m", "n", "l", "ʁ"]
+    },
+    "sonorant": {
+      "positive": ["m", "n", "ɲ", "ŋ", "l", "ʁ", "j", "w", "ɥ"],
+      "negative": ["p", "b", "t", "d", "k", "ɡ", "f", "v", "s", "z", "ʃ", "ʒ"]
+    },
+    "manner": {
+      "positive": ["p", "b", "t", "d", "k", "ɡ", "m", "n", "ɲ", "ŋ"],
+      "negative": ["f", "v", "s", "z", "ʃ", "ʒ", "ʁ"]
+    }
+  },
+  "vowel_features": {
+    "high": {
+      "positive": ["i", "y", "u"],
+      "negative": ["a", "ɛ", "ɔ", "e", "o", "ə", "ø", "œ"]
+    },
+    "low": {
+      "positive": ["a"],
+      "negative": ["i", "y", "u", "e", "o", "ə", "ɛ", "ø"]
+    },
+    "back": {
+      "positive": ["u", "o", "ɔ"],
+      "negative": ["i", "y", "e", "ɛ", "a", "ø", "œ"]
+    },
+    "round": {
+      "positive": ["u", "o", "ɔ", "y", "ø", "œ"],
+      "negative": ["i", "e", "ɛ", "a", "ə"]
+    }
+  },
+  "vowel_triangle": ["i", "a", "u"],
+  "all_consonants": ["p", "b", "t", "d", "k", "ɡ", "m", "n", "ɲ", "ŋ", "f", "v", "s", "z", "ʃ", "ʒ", "ʁ", "l", "j", "w", "ɥ"],
+  "all_vowels": ["i", "y", "u", "e", "ø", "o", "ɛ", "œ", "ɔ", "a", "ə"]
+}

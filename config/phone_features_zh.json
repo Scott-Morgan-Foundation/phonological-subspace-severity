@@ -1,0 +1,47 @@
+{
+  "language": "mandarin",
+  "mfa_model": "mandarin_mfa",
+  "consonant_features": {
+    "nasal": {
+      "positive": ["m", "n", "ŋ"],
+      "negative": ["p", "b", "t", "d", "k", "ɡ"]
+    },
+    "voicing": {
+      "positive": ["m", "n", "ŋ", "l", "ɻ", "j", "w"],
+      "negative": ["p", "pʰ", "t", "tʰ", "k", "kʰ", "f", "s", "ʂ", "ɕ", "x", "ts", "tsʰ", "tʂ", "tʂʰ", "tɕ", "tɕʰ"]
+    },
+    "strident": {
+      "positive": ["s", "ʂ", "ɕ", "f", "ts", "tsʰ", "tʂ", "tʂʰ", "tɕ", "tɕʰ"],
+      "negative": ["p", "pʰ", "t", "tʰ", "k", "kʰ", "m", "n", "ŋ", "l"]
+    },
+    "sonorant": {
+      "positive": ["m", "n", "ŋ", "l", "ɻ", "j", "w"],
+      "negative": ["p", "pʰ", "t", "tʰ", "k", "kʰ", "f", "s", "ʂ", "ɕ", "x"]
+    },
+    "manner": {
+      "positive": ["p", "pʰ", "t", "tʰ", "k", "kʰ", "m", "n", "ŋ"],
+      "negative": ["f", "s", "ʂ", "ɕ", "x"]
+    }
+  },
+  "vowel_features": {
+    "high": {
+      "positive": ["i", "y", "u", "ɨ"],
+      "negative": ["a", "ɛ", "ɔ", "e", "o", "ə"]
+    },
+    "low": {
+      "positive": ["a"],
+      "negative": ["i", "y", "u", "e", "o", "ə", "ɨ"]
+    },
+    "back": {
+      "positive": ["u", "o", "ɔ"],
+      "negative": ["i", "y", "e", "ɛ", "a"]
+    },
+    "round": {
+      "positive": ["u", "o", "ɔ", "y"],
+      "negative": ["i", "e", "ɛ", "a", "ə", "ɨ"]
+    }
+  },
+  "vowel_triangle": ["i", "a", "u"],
+  "all_consonants": ["p", "pʰ", "b", "t", "tʰ", "d", "k", "kʰ", "ɡ", "m", "n", "ŋ", "f", "s", "ʂ", "ɕ", "x", "ts", "tsʰ", "tʂ", "tʂʰ", "tɕ", "tɕʰ", "l", "ɻ", "j", "w"],
+  "all_vowels": ["i", "y", "u", "ɨ", "e", "o", "ɛ", "ɔ", "a", "ə"]
+}

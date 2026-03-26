@@ -1,0 +1,30 @@
+# Project notes (contains internal details)
+CLAUDE.md
+
+# Data (too large, restricted access)
+results/aligned/
+results/embeddings/
+results/*.csv
+data/
+
+# Paper builds
+paper/*.docx
+
+# Abandoned/local-only scripts
+scripts/test_local.py
+scripts/mfa_batch.py
+scripts/run_mfa_local.py
+scripts/pseudolabel_ipvs.py
+scripts/pseudolabel_ipvs_whisper.py
+
+# Python
+__pycache__/
+*.pyc
+
+# MFA temp
+*.db
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

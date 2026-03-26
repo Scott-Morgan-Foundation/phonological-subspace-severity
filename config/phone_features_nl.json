@@ -1,0 +1,47 @@
+{
+  "language": "dutch",
+  "mfa_model": "dutch_mfa",
+  "consonant_features": {
+    "nasal": {
+      "positive": ["m", "n", "ŋ"],
+      "negative": ["p", "b", "t", "d", "k"]
+    },
+    "voicing": {
+      "positive": ["b", "d", "v", "z", "ʒ", "ɣ", "m", "n", "ŋ", "l", "r", "j", "ʋ"],
+      "negative": ["p", "t", "k", "f", "s", "ʃ", "x", "h"]
+    },
+    "strident": {
+      "positive": ["s", "z", "ʃ", "ʒ", "f", "v"],
+      "negative": ["p", "t", "k", "b", "d", "m", "n", "l", "r"]
+    },
+    "sonorant": {
+      "positive": ["m", "n", "ŋ", "l", "r", "j", "ʋ"],
+      "negative": ["p", "b", "t", "d", "k", "f", "v", "s", "z", "ʃ", "ʒ", "x", "ɣ"]
+    },
+    "manner": {
+      "positive": ["p", "b", "t", "d", "k", "m", "n", "ŋ"],
+      "negative": ["f", "v", "s", "z", "ʃ", "ʒ", "x", "ɣ", "h"]
+    }
+  },
+  "vowel_features": {
+    "high": {
+      "positive": ["i", "y", "u", "ɪ"],
+      "negative": ["a", "ɑ", "ɛ", "ɔ", "e", "o", "ə", "ø"]
+    },
+    "low": {
+      "positive": ["a", "ɑ"],
+      "negative": ["i", "y", "u", "ɪ", "e", "o", "ə"]
+    },
+    "back": {
+      "positive": ["u", "o", "ɔ", "ɑ"],
+      "negative": ["i", "y", "ɪ", "e", "ɛ", "a", "ø"]
+    },
+    "round": {
+      "positive": ["u", "o", "ɔ", "y", "ø"],
+      "negative": ["i", "ɪ", "e", "ɛ", "a", "ɑ", "ə"]
+    }
+  },
+  "vowel_triangle": ["i", "a", "u"],
+  "all_consonants": ["p", "b", "t", "d", "k", "m", "n", "ŋ", "f", "v", "s", "z", "ʃ", "ʒ", "x", "ɣ", "h", "l", "r", "j", "ʋ"],
+  "all_vowels": ["i", "y", "u", "ɪ", "e", "ø", "o", "ɛ", "ɔ", "a", "ɑ", "ə"]
+}
