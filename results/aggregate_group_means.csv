@@ -1,0 +1,5 @@
+severity_label,nasal_dprime,sonorant_dprime,voicing_dprime,strident_dprime,manner_dprime,high_dprime,low_dprime,back_dprime,round_dprime,boundary_sharpness,cross_position_cosim,vowel_triangle_area
+control,3.8351,2.9400,2.6960,3.0547,2.6116,2.0197,2.7421,2.6708,2.1795,0.4154,0.4174,25.3094
+mild,2.4116,2.0035,2.0079,2.2166,1.8727,1.5991,2.1149,2.2376,1.6678,0.4120,0.4150,19.3537
+moderate,2.2192,1.7452,1.7426,2.0703,1.7848,1.6766,1.8602,2.2388,1.8009,0.4067,0.4094,20.7689
+severe,1.5868,1.2748,1.1822,1.0008,1.0867,1.0206,1.3941,1.5424,0.9131,0.4632,0.4699,15.4083

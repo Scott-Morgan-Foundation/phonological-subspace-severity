@@ -5,6 +5,7 @@ CLAUDE.md
 results/aligned/
 results/embeddings/
 results/*.csv
+!results/aggregate_*.csv
 data/
 
 # Paper builds

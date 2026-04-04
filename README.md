@@ -2,7 +2,7 @@
 
 **Training-free, cross-lingual dysarthria severity assessment via phonological subspace analysis in self-supervised speech representations.**
 
-> B. Muller and L. Roberts, "Training-Free Cross-Lingual Dysarthria Severity Assessment via Phonological Subspace Analysis in Self-Supervised Speech Representations," *[Journal TBD]*, 2026.
+> B. Muller, A.A. Ortiz Barrañón, and L. Roberts, "Training-Free Cross-Lingual Dysarthria Severity Assessment via Phonological Subspace Analysis in Self-Supervised Speech Representations," submitted to *PLOS Digital Health*, 2026. Preprint: [arXiv:TBD]
 
 ## Overview
 
@@ -111,6 +111,19 @@ Each language has a JSON config mapping IPA phones to binary phonological featur
 
 To add a new language, create `config/phone_features_<lang>.json` using the IPA symbols from the corresponding MFA dictionary.
 
+## Aggregate Results
+
+Aggregate statistics are provided in `results/` for verification of the paper's tables and figures without requiring access to restricted datasets:
+
+| File | Description |
+|------|-------------|
+| `results/aggregate_pooled_correlations.csv` | Spearman rho for all 12 features vs ordinal severity (Table 5 / Fig 5) |
+| `results/aggregate_group_means.csv` | Mean d' by severity group for all 12 features (Table 6) |
+| `results/aggregate_corpus_correlations.csv` | Per-corpus Spearman rho for consonant features (Table 4) |
+| `results/aggregate_speaker_counts.csv` | Speaker counts by dataset and severity (Table 1) |
+
+Per-speaker results are available from the corresponding author upon reasonable request, subject to the data sharing agreements of the underlying corpora.
+
 ## Datasets
 
 The paper validates on these corpora (not included in this repository due to licensing):
@@ -125,7 +138,7 @@ The paper validates on these corpora (not included in this repository due to lic
 | Neurovoz | Spanish | Parkinson's | 111 | Moro-Velazquez et al., 2019 |
 | PC-GITA | Spanish | Parkinson's | 100 | Orozco-Arroyave et al., 2014 |
 | MDSC | Mandarin | Cerebral palsy | 56 | Wang et al., 2022 |
-| YouTube French | French | ALS | 24 | Muller & Roberts, 2026 |
+| YouTube French | French | ALS | 24 | Muller, Ortiz Barrañón & Roberts, 2026 |
 | VOC-ALS | Italian | ALS | 153 | Turrisi et al., 2024 |
 
 ## Citation
@@ -135,8 +148,8 @@ If you use this code, please cite:
 ```bibtex
 @article{muller2026phonological,
   title={Training-Free Cross-Lingual Dysarthria Severity Assessment via Phonological Subspace Analysis in Self-Supervised Speech Representations},
-  author={Muller, Bernard and Roberts, LaVonne},
-  journal={[TBD]},
+  author={Muller, Bernard and Ortiz Barra{\~n}{\'o}n, Antonio Armando and Roberts, LaVonne},
+  journal={PLOS Digital Health},
   year={2026},
   note={The Scott-Morgan Foundation}
 }

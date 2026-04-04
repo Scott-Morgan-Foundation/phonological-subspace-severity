@@ -1,0 +1,11 @@
+dataset,control,mild,moderate,severe,total
+COPAS,44,74,77,23,218
+LibriSpeech_English,150,0,0,0,150
+MDSC,25,11,6,14,56
+Neurovoz,58,43,10,0,111
+PC-GITA,50,30,16,4,100
+SAP,0,159,24,5,188
+TORGO,7,2,2,4,15
+UASPEECH,0,5,0,10,15
+UASPEECH_control,13,0,0,0,13
+YouTube_French,20,1,3,0,24

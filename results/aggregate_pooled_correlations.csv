@@ -1,0 +1,13 @@
+feature,n,rho,p
+nasal_dprime,829,-0.5474,5.50e-66
+sonorant_dprime,862,-0.5287,2.98e-63
+voicing_dprime,859,-0.5268,1.64e-62
+strident_dprime,813,-0.4863,1.78e-49
+manner_dprime,841,-0.4735,3.24e-48
+high_dprime,636,-0.4001,7.45e-26
+low_dprime,628,-0.3714,5.59e-22
+back_dprime,699,-0.2995,5.91e-16
+round_dprime,660,-0.3551,4.84e-21
+boundary_sharpness,890,0.0133,6.91e-01
+cross_position_cosim,890,0.0229,4.95e-01
+vowel_triangle_area,382,-0.3244,8.20e-11
