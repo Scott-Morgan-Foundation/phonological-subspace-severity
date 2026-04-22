@@ -99,6 +99,12 @@ DATASET_CONFIG = {
         "notes": "HC for UASPEECH; word-only — vowel triangle via MFA",
         "is_hc_only": True,
     },
+    "CDLI_Kenyan_Swahili": {
+        "language": "sw",
+        "mfa_model": "swahili_mfa",
+        "severity_scale": "clinical_4class",
+        "notes": "CP + PD + MS + 1 typical control; SLP-rated severity; Kenyan Swahili",
+    },
     # --- Healthy control datasets (for languages without matched controls) ---
     "LibriSpeech_English": {
         "language": "en",

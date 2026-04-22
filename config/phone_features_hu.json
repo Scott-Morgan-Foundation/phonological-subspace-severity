@@ -1,0 +1,45 @@
+{
+  "language": "hu",
+  "description": "Hungarian phonological features for Track 4. Based on hungarian_cv MFA phone set.",
+  "consonants": {
+    "nasal": {
+      "positive": ["m", "n", "ɲ", "nː"],
+      "negative": ["p", "b", "t", "d", "k", "ɡ", "f", "v", "s", "z", "ʃ", "h", "ts", "tʃ", "dː", "l", "lː", "r", "j", "ɟ", "tː", "sː", "bː"]
+    },
+    "voicing": {
+      "positive": ["b", "d", "ɡ", "v", "z", "m", "n", "ɲ", "l", "lː", "r", "j", "ɟ", "dː", "nː", "bː"],
+      "negative": ["p", "t", "k", "f", "s", "ʃ", "h", "ts", "tʃ", "tː", "sː"]
+    },
+    "strident": {
+      "positive": ["s", "z", "ʃ", "ts", "tʃ", "sː"],
+      "negative": ["p", "b", "t", "d", "k", "ɡ", "f", "v", "h", "m", "n", "ɲ", "l", "lː", "r", "j", "ɟ", "dː", "tː", "nː", "bː"]
+    },
+    "sonorant": {
+      "positive": ["m", "n", "ɲ", "l", "lː", "r", "j", "nː"],
+      "negative": ["p", "b", "t", "d", "k", "ɡ", "f", "v", "s", "z", "ʃ", "h", "ts", "tʃ", "ɟ", "dː", "tː", "sː", "bː"]
+    },
+    "manner": {
+      "positive": ["p", "b", "t", "d", "k", "ɡ", "ts", "tʃ", "ɟ", "dː", "tː", "bː"],
+      "negative": ["f", "v", "s", "z", "ʃ", "h", "m", "n", "ɲ", "l", "lː", "r", "j", "nː", "sː"]
+    }
+  },
+  "vowels": {
+    "high": {
+      "positive": ["i", "iː", "y", "u", "uː"],
+      "negative": ["ɛ", "eː", "ɑ", "a", "aː", "o", "oː", "ø", "øː", "ö"]
+    },
+    "low": {
+      "positive": ["ɑ", "a", "aː"],
+      "negative": ["i", "iː", "y", "u", "uː", "ɛ", "eː", "o", "oː", "ø", "øː", "ö"]
+    },
+    "back": {
+      "positive": ["ɑ", "a", "aː", "o", "oː", "u", "uː"],
+      "negative": ["i", "iː", "y", "ɛ", "eː", "ø", "øː", "ö"]
+    },
+    "round": {
+      "positive": ["o", "oː", "u", "uː", "y", "ø", "øː", "ö"],
+      "negative": ["i", "iː", "ɛ", "eː", "ɑ", "a", "aː"]
+    }
+  },
+  "vowel_triangle": ["ɑ", "i", "u"]
+}

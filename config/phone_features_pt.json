@@ -1,0 +1,47 @@
+{
+  "language": "portuguese",
+  "mfa_model": "portuguese_mfa",
+  "consonant_features": {
+    "nasal": {
+      "positive": ["m", "n", "ɲ"],
+      "negative": ["p", "b", "t", "d", "k", "ɡ"]
+    },
+    "voicing": {
+      "positive": ["b", "d", "ɡ", "v", "z", "ʒ", "m", "n", "ɲ", "l", "ʎ", "ɾ", "ʁ", "j", "w"],
+      "negative": ["p", "t", "k", "f", "s", "ʃ"]
+    },
+    "strident": {
+      "positive": ["s", "z", "ʃ", "ʒ", "f", "v", "tʃ", "dʒ"],
+      "negative": ["p", "b", "t", "d", "k", "ɡ", "m", "n", "l", "ɾ"]
+    },
+    "sonorant": {
+      "positive": ["m", "n", "ɲ", "l", "ʎ", "ɾ", "ʁ", "j", "w"],
+      "negative": ["p", "b", "t", "d", "k", "ɡ", "f", "v", "s", "z", "ʃ", "ʒ"]
+    },
+    "manner": {
+      "positive": ["p", "b", "t", "d", "k", "ɡ", "m", "n", "ɲ", "tʃ", "dʒ"],
+      "negative": ["f", "v", "s", "z", "ʃ", "ʒ", "ʁ", "l", "ɾ"]
+    }
+  },
+  "vowel_features": {
+    "high": {
+      "positive": ["i", "u"],
+      "negative": ["a", "ɛ", "e", "ɔ", "o", "ɐ"]
+    },
+    "low": {
+      "positive": ["a", "ɐ"],
+      "negative": ["i", "u", "e", "o", "ɛ"]
+    },
+    "back": {
+      "positive": ["u", "o", "ɔ", "a"],
+      "negative": ["i", "e", "ɛ"]
+    },
+    "round": {
+      "positive": ["u", "o", "ɔ"],
+      "negative": ["i", "e", "ɛ", "a", "ɐ"]
+    }
+  },
+  "vowel_triangle": ["i", "a", "u"],
+  "all_consonants": ["p", "b", "t", "d", "k", "ɡ", "tʃ", "dʒ", "m", "n", "ɲ", "f", "v", "s", "z", "ʃ", "ʒ", "ʁ", "l", "ʎ", "ɾ", "j", "w"],
+  "all_vowels": ["i", "u", "e", "ɛ", "o", "ɔ", "a", "ɐ"]
+}

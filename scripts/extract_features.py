@@ -40,7 +40,7 @@ from tqdm import tqdm
 # Configuration
 # =============================================================================
 
-BASE_DIR = Path(os.environ.get("DYSARTHRIA_BASE", os.path.expanduser("~/dysarthria")))
+BASE_DIR = Path(os.environ.get("DYSARTHRIA_BASE", Path(__file__).resolve().parent.parent))
 RESULTS_DIR = BASE_DIR / "results" / "track4"
 ALIGNED_DIR = RESULTS_DIR / "aligned"
 CORPUS_DIR = RESULTS_DIR / "corpus"
@@ -62,6 +62,13 @@ LANGUAGE_HC_DATASETS = {
     "es": ["Neurovoz", "PC-GITA"],
     "zh": ["MDSC"],
     "it": ["IPVS", "VOC-ALS"],
+    "sk": ["EWA-DB"],
+    "hu": ["Hungarian_HC", "CV_Hungarian"],
+    "de": ["YouTube_German", "SVD"],
+    "ta": ["SLR65_Tamil", "SSNCE_Tamil"],
+    "pt": ["AVFAD"],
+    "sw": ["CDLI_Kenyan_Swahili"],
+    "el": ["Kostas_Greek_reading", "Kostas_Greek_v3_reading"],
 }
 
 # Dataset → language mapping
@@ -71,6 +78,28 @@ DATASET_LANGUAGE = {
     "VOC-ALS": "it", "PC-GITA": "es",
     "UASPEECH": "en", "UASPEECH_control": "en",
     "LibriSpeech_English": "en",
+    "EWA-DB": "sk",
+    "Hungarian_Dysarthria": "hu",
+    "Hungarian_HC": "hu",
+    "CDSD": "zh",
+    "YouTube_German": "de",
+    "SVD": "de",
+    "EasyCall": "it",
+    "Domotica": "nl",
+    "SSNCE_Tamil": "ta",
+    "SLR65_Tamil": "ta",
+    "AVFAD": "pt",
+    "CDLI_Kenyan_Swahili": "sw",
+    "CHASING": "nl",
+    "TreasureHunters1": "nl",
+    "SAP_all": "en",
+    "SAP_unlabeled": "en",
+    "TORGO_FC01": "en",
+    "CV_Hungarian": "hu",
+    "Kostas_Greek": "el",
+    "Kostas_Greek_v2": "el",
+    "Kostas_Greek_reading": "el",
+    "Kostas_Greek_v3_reading": "el",
 }
 
 # Datasets where vowel triangle is computed directly from sustained vowel files
@@ -194,19 +223,40 @@ class PhoneFeatureMapper:
 # HuBERT
 # =============================================================================
 
-def load_hubert(model_path: Optional[str] = None):
-    """Load HuBERT model and feature extractor."""
-    from transformers import HubertModel, Wav2Vec2FeatureExtractor
+SSL_MODELS = {
+    "hubert": "facebook/hubert-base-ls960",
+    "hubert-large": "facebook/hubert-large-ls960-ft",
+    "wav2vec2": "facebook/wav2vec2-base",
+    "xlsr": "facebook/wav2vec2-xls-r-300m",
+    "mms": "facebook/mms-300m",
+    "wavlm": "microsoft/wavlm-base",
+}
+
+
+def load_ssl_model(model_name: str = "hubert", model_path: Optional[str] = None):
+    """Load SSL model and feature extractor."""
+    from transformers import AutoModel, Wav2Vec2FeatureExtractor
 
     if model_path is None:
-        local_path = BASE_DIR / "models" / "hubert-base-ls960"
-        model_path = str(local_path) if local_path.exists() else "facebook/hubert-base-ls960"
+        # Check local cache first for HuBERT
+        if model_name == "hubert":
+            local_path = BASE_DIR / "models" / "hubert-base-ls960"
+            if local_path.exists():
+                model_path = str(local_path)
+        if model_path is None:
+            model_path = SSL_MODELS.get(model_name, model_name)
 
-    print(f"Loading HuBERT from {model_path}...")
-    model = HubertModel.from_pretrained(model_path).to(DEVICE).eval()
+    print(f"Loading {model_name} from {model_path}...")
+    model = AutoModel.from_pretrained(model_path).to(DEVICE).eval()
     extractor = Wav2Vec2FeatureExtractor.from_pretrained(model_path)
-    print(f"  Device: {DEVICE}")
+    hidden_size = model.config.hidden_size
+    print(f"  Device: {DEVICE}, hidden_size: {hidden_size}")
     return model, extractor
+
+
+def load_hubert(model_path: Optional[str] = None):
+    """Load HuBERT model — backward compatibility wrapper."""
+    return load_ssl_model("hubert", model_path)
 
 
 def extract_frame_embeddings(model, extractor, audio_path: Path) -> Optional[np.ndarray]:
@@ -599,6 +649,11 @@ def main():
     parser.add_argument("--dataset", type=str, help="Single dataset")
     parser.add_argument("--all", action="store_true", help="All datasets")
     parser.add_argument("--hubert-path", type=str, default=None, help="HuBERT model path")
+    parser.add_argument("--model", type=str, default="hubert",
+                        choices=["hubert", "hubert-large", "wav2vec2", "xlsr", "mms", "wavlm"],
+                        help="SSL backbone: hubert (default), xlsr (XLS-R-300M), mms (MMS-1B), wavlm")
+    parser.add_argument("--output-suffix", type=str, default="",
+                        help="Suffix for output CSV filename (e.g., '_xlsr')")
     parser.add_argument("--save-embeddings", action="store_true",
                         help="Save per-speaker phone embeddings as .npz for downstream analysis")
     args = parser.parse_args()
@@ -607,12 +662,12 @@ def main():
         parser.error("Specify --dataset NAME or --all")
 
     print("=" * 80)
-    print("Track 4: Phonological Feature Extraction")
+    print(f"Track 4: Phonological Feature Extraction ({args.model})")
     print("=" * 80)
     print(f"Device: {DEVICE}")
 
-    # Load HuBERT
-    model, extractor = load_hubert(args.hubert_path)
+    # Load SSL model
+    model, extractor = load_ssl_model(args.model, args.hubert_path)
 
     # Load inventory
     inventory = load_inventory()
@@ -634,6 +689,13 @@ def main():
             print(f"ERROR: No aligned data for '{args.dataset}'. Available: {available_datasets}")
             sys.exit(1)
         datasets = [args.dataset]
+        # Also include HC datasets for the target language (needed for feature directions)
+        lang = DATASET_LANGUAGE.get(args.dataset, "en")
+        hc_datasets = LANGUAGE_HC_DATASETS.get(lang, [])
+        for hc_ds in hc_datasets:
+            if hc_ds in available_datasets and hc_ds not in datasets:
+                datasets.append(hc_ds)
+                print(f"  Auto-adding HC dataset '{hc_ds}' for {lang} feature directions")
 
     print(f"Datasets to process: {datasets}")
 
@@ -770,17 +832,38 @@ def main():
                       "severity_label", "severity_numeric", "is_control",
                       "n_phones"] + metric_cols
 
-        with open(OUTPUT_CSV, "w", newline="", encoding="utf-8") as f:
-            writer = csv.DictWriter(f, fieldnames=fieldnames)
+        out_csv = RESULTS_DIR / f"track4_results{args.output_suffix}.csv"
+
+        if args.dataset and out_csv.exists():
+            # Single dataset: load existing, remove old rows for this dataset, append new
+            existing = []
+            with open(out_csv, "r", encoding="utf-8") as f:
+                for r in csv.DictReader(f):
+                    if r["dataset"] == args.dataset:
+                        continue
+                    # Normalize column names
+                    if "nasality_dprime" in r and "nasal_dprime" not in r:
+                        r["nasal_dprime"] = r.pop("nasality_dprime")
+                    existing.append(r)
+            print(f"  Merged with existing ({len(existing)} kept + {len(results)} new)")
+        else:
+            existing = []
+
+        with open(out_csv, "w", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
             writer.writeheader()
+            for r in existing:
+                for col in metric_cols:
+                    if col not in r:
+                        r[col] = ""
+                writer.writerow(r)
             for r in results:
-                # Fill missing metrics with NaN
                 for col in metric_cols:
                     if col not in r:
                         r[col] = float("nan")
                 writer.writerow(r)
 
-        print(f"\nWrote {len(results)} speaker results to {OUTPUT_CSV}")
+        print(f"\nWrote {len(existing) + len(results)} speaker results to {out_csv}")
     else:
         print("\nNo results to write!")
 

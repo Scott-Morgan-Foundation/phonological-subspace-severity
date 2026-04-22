@@ -1,0 +1,47 @@
+{
+  "language": "tamil",
+  "mfa_model": "tamil_cv",
+  "consonant_features": {
+    "nasal": {
+      "positive": ["m", "n", "ɳ", "ɲ", "ŋ"],
+      "negative": ["p", "b", "t", "d", "ʈ", "ɖ", "k", "ɡ"]
+    },
+    "voicing": {
+      "positive": ["b", "d", "ɖ", "ɡ", "v", "z", "ʒ", "m", "n", "ɳ", "l", "ɭ", "ɾ", "r", "j"],
+      "negative": ["p", "t", "ʈ", "k", "tʃ", "s", "ʃ", "h"]
+    },
+    "strident": {
+      "positive": ["s", "ʃ", "tʃ", "dʒ"],
+      "negative": ["p", "b", "t", "d", "ʈ", "ɖ", "k", "ɡ", "m", "n", "l", "ɾ"]
+    },
+    "sonorant": {
+      "positive": ["m", "n", "ɳ", "ɲ", "ŋ", "l", "ɭ", "ɾ", "r", "j"],
+      "negative": ["p", "b", "t", "d", "ʈ", "ɖ", "k", "ɡ", "s", "ʃ", "tʃ"]
+    },
+    "manner": {
+      "positive": ["p", "b", "t", "d", "ʈ", "ɖ", "k", "ɡ", "m", "n", "ɳ", "ɲ", "ŋ", "tʃ", "dʒ"],
+      "negative": ["s", "ʃ", "h", "v", "l", "��", "ɾ", "r"]
+    }
+  },
+  "vowel_features": {
+    "high": {
+      "positive": ["i", "iː", "u", "uː"],
+      "negative": ["a", "aː", "e", "eː", "o", "oː"]
+    },
+    "low": {
+      "positive": ["a", "aː"],
+      "negative": ["i", "iː", "u", "uː", "e", "eː", "o", "oː"]
+    },
+    "back": {
+      "positive": ["u", "uː", "o", "oː", "a", "aː"],
+      "negative": ["i", "i��", "e", "eː"]
+    },
+    "round": {
+      "positive": ["u", "uː", "o", "o��"],
+      "negative": ["i", "iː", "e", "eː", "a", "aː"]
+    }
+  },
+  "vowel_triangle": ["i", "aː", "u"],
+  "all_consonants": ["p", "b", "t", "d", "ʈ", "ɖ", "k", "ɡ", "tʃ", "dʒ", "m", "n", "ɳ", "ɲ", "ŋ", "s", "ʃ", "h", "v", "l", "ɭ", "ɾ", "r", "j"],
+  "all_vowels": ["i", "iː", "u", "uː", "e", "eː", "o", "oː", "a", "aː"]
+}

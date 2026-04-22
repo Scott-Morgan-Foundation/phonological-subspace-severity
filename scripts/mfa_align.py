@@ -144,6 +144,14 @@ DATASET_ALIGN_CONFIG = {
         "max_speakers": 150,
         "max_samples_per_speaker": 10,
     },
+    "CDLI_Kenyan_Swahili": {
+        "language": "sw",
+        "mfa_acoustic": "swahili_mfa",
+        "mfa_dict": "swahili_mfa",
+        "content_filter": {"sentence", "sentences", "read_speech", "connected_speech", "unknown"},
+        "text_source": "manifest",
+        "notes": "CP + PD + MS + 1 typical control; SLP-rated; Kenyan Swahili",
+    },
 }
 
 
