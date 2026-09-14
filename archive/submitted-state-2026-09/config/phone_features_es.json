@@ -1,0 +1,47 @@
+{
+  "language": "spanish",
+  "mfa_model": "spanish_mfa",
+  "consonant_features": {
+    "nasal": {
+      "positive": ["m", "n", "ɲ"],
+      "negative": ["p", "b", "t", "d", "k", "ɡ"]
+    },
+    "voicing": {
+      "positive": ["b", "d", "ɡ", "β", "ð", "ɣ", "m", "n", "ɲ", "l", "ʎ", "r", "ɾ", "j", "w"],
+      "negative": ["p", "t", "k", "f", "s", "x", "θ", "tʃ"]
+    },
+    "strident": {
+      "positive": ["s", "f", "tʃ", "θ"],
+      "negative": ["p", "t", "k", "b", "d", "ɡ", "m", "n", "l", "r", "ɾ"]
+    },
+    "sonorant": {
+      "positive": ["m", "n", "ɲ", "l", "ʎ", "r", "ɾ", "j", "w"],
+      "negative": ["p", "b", "t", "d", "k", "ɡ", "f", "s", "x", "θ", "β", "ð", "ɣ"]
+    },
+    "manner": {
+      "positive": ["p", "b", "t", "d", "k", "ɡ", "m", "n", "ɲ"],
+      "negative": ["f", "s", "x", "θ", "β", "ð", "ɣ"]
+    }
+  },
+  "vowel_features": {
+    "high": {
+      "positive": ["i", "u"],
+      "negative": ["a", "e", "o"]
+    },
+    "low": {
+      "positive": ["a"],
+      "negative": ["i", "u", "e", "o"]
+    },
+    "back": {
+      "positive": ["u", "o"],
+      "negative": ["i", "e", "a"]
+    },
+    "round": {
+      "positive": ["u", "o"],
+      "negative": ["i", "e", "a"]
+    }
+  },
+  "vowel_triangle": ["i", "a", "u"],
+  "all_consonants": ["p", "b", "t", "d", "k", "ɡ", "m", "n", "ɲ", "f", "s", "x", "θ", "β", "ð", "ɣ", "tʃ", "l", "ʎ", "r", "ɾ", "j", "w"],
+  "all_vowels": ["i", "e", "a", "o", "u"]
+}

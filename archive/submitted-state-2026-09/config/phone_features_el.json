@@ -1,0 +1,47 @@
+{
+  "language": "greek",
+  "mfa_model": "greek_cv",
+  "consonant_features": {
+    "nasal": {
+      "positive": ["m", "n̪", "n", "ɲ", "ŋ"],
+      "negative": ["p", "b", "t̪", "t", "d̪", "d", "k", "ɡ", "g"]
+    },
+    "voicing": {
+      "positive": ["b", "d̪", "d", "ɡ", "g", "v", "z", "ð", "ɣ", "m", "n̪", "n", "ɲ", "ŋ", "l", "ʎ", "ɾ", "r", "j"],
+      "negative": ["p", "t̪", "t", "k", "f", "s", "θ", "x", "c"]
+    },
+    "strident": {
+      "positive": ["s", "z", "f", "v"],
+      "negative": ["p", "t̪", "t", "k", "b", "d̪", "d", "ɡ", "g", "m", "n̪", "n", "l", "ɾ", "r", "θ", "ð"]
+    },
+    "sonorant": {
+      "positive": ["m", "n̪", "n", "ɲ", "ŋ", "l", "ʎ", "ɾ", "r", "j"],
+      "negative": ["p", "b", "t̪", "t", "d̪", "d", "k", "ɡ", "g", "f", "v", "s", "z", "θ", "ð", "x", "ɣ"]
+    },
+    "manner": {
+      "positive": ["p", "b", "t̪", "t", "d̪", "d", "k", "ɡ", "g", "c", "m", "n̪", "n", "ɲ", "ŋ"],
+      "negative": ["f", "v", "s", "z", "θ", "ð", "x", "ɣ"]
+    }
+  },
+  "vowel_features": {
+    "high": {
+      "positive": ["i", "u"],
+      "negative": ["ɐ", "a", "e", "ɛ", "o"]
+    },
+    "low": {
+      "positive": ["ɐ", "a"],
+      "negative": ["i", "u", "e", "ɛ", "o"]
+    },
+    "back": {
+      "positive": ["u", "o"],
+      "negative": ["i", "e", "ɛ"]
+    },
+    "round": {
+      "positive": ["u", "o"],
+      "negative": ["i", "e", "ɛ", "ɐ", "a"]
+    }
+  },
+  "all_consonants": ["p", "b", "t̪", "t", "d̪", "d", "k", "ɡ", "g", "c", "f", "v", "s", "z", "θ", "ð", "x", "ɣ", "m", "n̪", "n", "ɲ", "ŋ", "l", "ʎ", "ɾ", "r", "j"],
+  "all_vowels": ["i", "e", "ɛ", "ɐ", "a", "o", "u"],
+  "vowel_triangle": ["i", "ɐ", "u"]
+}

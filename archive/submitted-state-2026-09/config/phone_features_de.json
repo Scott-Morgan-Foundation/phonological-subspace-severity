@@ -1,0 +1,47 @@
+{
+  "language": "german",
+  "mfa_model": "german_mfa",
+  "consonant_features": {
+    "nasal": {
+      "positive": ["m", "n", "ŋ"],
+      "negative": ["p", "b", "t", "d", "k", "ɡ"]
+    },
+    "voicing": {
+      "positive": ["b", "d", "ɡ", "v", "z", "ʒ", "m", "n", "l", "ʁ", "j"],
+      "negative": ["p", "t", "k", "f", "s", "ʃ", "x", "ç", "h", "pf", "ts"]
+    },
+    "strident": {
+      "positive": ["s", "z", "ʃ", "ʒ", "f", "v", "pf", "ts"],
+      "negative": ["p", "t", "k", "b", "d", "ɡ", "m", "n", "l", "ʁ"]
+    },
+    "sonorant": {
+      "positive": ["m", "n", "ŋ", "l", "ʁ", "j"],
+      "negative": ["p", "b", "t", "d", "k", "ɡ", "f", "v", "s", "z", "ʃ", "ʒ"]
+    },
+    "manner": {
+      "positive": ["p", "b", "t", "d", "k", "ɡ", "m", "n", "ŋ", "pf", "ts"],
+      "negative": ["f", "v", "s", "z", "ʃ", "ʒ", "x", "ç", "h", "ʁ"]
+    }
+  },
+  "vowel_features": {
+    "high": {
+      "positive": ["iː", "ɪ", "yː", "ʏ", "uː", "ʊ"],
+      "negative": ["aː", "a", "ɛ", "eː", "ɔ", "oː", "ə", "øː", "œ"]
+    },
+    "low": {
+      "positive": ["aː", "a"],
+      "negative": ["iː", "ɪ", "uː", "ʊ", "eː", "ə", "ɛ", "oː"]
+    },
+    "back": {
+      "positive": ["uː", "ʊ", "oː", "ɔ", "aː", "a"],
+      "negative": ["iː", "ɪ", "eː", "ɛ", "yː", "ʏ", "øː", "œ"]
+    },
+    "round": {
+      "positive": ["uː", "ʊ", "oː", "ɔ", "yː", "ʏ", "øː", "œ"],
+      "negative": ["iː", "ɪ", "eː", "ɛ", "aː", "a", "ə"]
+    }
+  },
+  "vowel_triangle": ["iː", "aː", "uː"],
+  "all_consonants": ["p", "b", "t", "d", "k", "ɡ", "m", "n", "ŋ", "f", "v", "s", "z", "ʃ", "ʒ", "x", "ç", "h", "pf", "ts", "l", "ʁ", "j"],
+  "all_vowels": ["iː", "ɪ", "yː", "ʏ", "uː", "ʊ", "eː", "ɛ", "aː", "a", "oː", "ɔ", "øː", "œ", "ə"]
+}

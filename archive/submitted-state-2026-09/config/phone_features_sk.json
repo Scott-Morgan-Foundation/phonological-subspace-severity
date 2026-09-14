@@ -1,0 +1,46 @@
+{
+  "language": "Slovak (Czech MFA model)",
+  "consonant_features": {
+    "nasality": {
+      "positive": ["m", "n", "ɲ", "ŋ", "m̩"],
+      "negative": ["p", "b", "t", "d", "k", "ɡ", "c", "ɟ", "f", "v", "s", "z", "ʃ", "ʒ", "x", "ɦ", "ts", "tʃ", "r", "l", "j", "r̩", "l̩"]
+    },
+    "voicing": {
+      "positive": ["b", "d", "ɡ", "ɟ", "v", "z", "ʒ", "ɦ", "m", "n", "ɲ", "ŋ", "r", "l", "j", "r̩", "l̩", "m̩"],
+      "negative": ["p", "t", "k", "c", "f", "s", "ʃ", "x", "ts", "tʃ"]
+    },
+    "strident": {
+      "positive": ["s", "z", "ʃ", "ʒ", "ts", "tʃ"],
+      "negative": ["p", "b", "t", "d", "k", "ɡ", "c", "ɟ", "f", "v", "x", "ɦ", "m", "n", "ɲ", "ŋ", "r", "l", "j", "r̩", "l̩", "m̩"]
+    },
+    "sonorant": {
+      "positive": ["m", "n", "ɲ", "ŋ", "r", "l", "j", "r̩", "l̩", "m̩"],
+      "negative": ["p", "b", "t", "d", "k", "ɡ", "c", "ɟ", "f", "v", "s", "z", "ʃ", "ʒ", "x", "ɦ", "ts", "tʃ"]
+    },
+    "manner": {
+      "positive": ["p", "b", "t", "d", "k", "ɡ", "c", "ɟ", "ts", "tʃ"],
+      "negative": ["f", "v", "s", "z", "ʃ", "ʒ", "x", "ɦ"]
+    }
+  },
+  "vowel_features": {
+    "high": {
+      "positive": ["ɪ", "iː", "u", "uː"],
+      "negative": ["a", "aː", "ɛ", "ɛː", "o", "ə"]
+    },
+    "low": {
+      "positive": ["a", "aː"],
+      "negative": ["ɪ", "iː", "u", "uː", "ɛ", "ɛː", "o", "ə"]
+    },
+    "back": {
+      "positive": ["u", "uː", "o"],
+      "negative": ["ɪ", "iː", "ɛ", "ɛː", "a", "aː", "ə"]
+    },
+    "round": {
+      "positive": ["u", "uː", "o"],
+      "negative": ["ɪ", "iː", "ɛ", "ɛː", "a", "aː", "ə"]
+    }
+  },
+  "all_consonants": ["p", "b", "t", "d", "k", "ɡ", "c", "ɟ", "f", "v", "s", "z", "ʃ", "ʒ", "x", "ɦ", "ts", "tʃ", "m", "n", "ɲ", "ŋ", "r", "l", "j", "r̩", "l̩", "m̩"],
+  "all_vowels": ["a", "aː", "ɛ", "ɛː", "ɪ", "iː", "o", "u", "uː", "ə", "ow"],
+  "vowel_triangle": ["iː", "a", "u"]
+}

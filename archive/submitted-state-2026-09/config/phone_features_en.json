@@ -1,0 +1,47 @@
+{
+  "language": "english",
+  "mfa_model": "english_mfa",
+  "consonant_features": {
+    "nasal": {
+      "positive": ["m", "n", "ŋ"],
+      "negative": ["p", "b", "t", "d", "k", "ɡ"]
+    },
+    "voicing": {
+      "positive": ["b", "d", "ɡ", "v", "z", "ʒ", "ð", "m", "n", "l", "ɹ", "j", "w"],
+      "negative": ["p", "t", "k", "f", "s", "ʃ", "θ", "h"]
+    },
+    "strident": {
+      "positive": ["s", "z", "ʃ", "ʒ", "f", "v", "tʃ", "dʒ"],
+      "negative": ["p", "t", "k", "b", "d", "ɡ", "m", "n", "l", "ɹ"]
+    },
+    "sonorant": {
+      "positive": ["m", "n", "ŋ", "l", "ɹ", "j", "w"],
+      "negative": ["p", "b", "t", "d", "k", "ɡ", "f", "v", "s", "z", "ʃ", "ʒ"]
+    },
+    "manner": {
+      "positive": ["p", "b", "t", "d", "k", "ɡ", "m", "n", "ŋ"],
+      "negative": ["f", "v", "s", "z", "ʃ", "ʒ", "θ", "ð", "h"]
+    }
+  },
+  "vowel_features": {
+    "high": {
+      "positive": ["i", "ɪ", "u", "ʊ"],
+      "negative": ["ɑ", "æ", "ɛ", "ɔ", "ə", "ʌ"]
+    },
+    "low": {
+      "positive": ["ɑ", "æ"],
+      "negative": ["i", "ɪ", "u", "ʊ", "ə", "ɛ"]
+    },
+    "back": {
+      "positive": ["u", "ʊ", "ɔ", "ɑ", "ʌ"],
+      "negative": ["i", "ɪ", "ɛ", "æ"]
+    },
+    "round": {
+      "positive": ["u", "ʊ", "ɔ"],
+      "negative": ["i", "ɪ", "ɛ", "ɑ", "æ", "ə", "ʌ"]
+    }
+  },
+  "vowel_triangle": ["i", "ɑ", "u"],
+  "all_consonants": ["p", "b", "t", "d", "k", "ɡ", "m", "n", "ŋ", "f", "v", "θ", "ð", "s", "z", "ʃ", "ʒ", "h", "tʃ", "dʒ", "l", "ɹ", "j", "w"],
+  "all_vowels": ["i", "ɪ", "u", "ʊ", "ɛ", "æ", "ɑ", "ɔ", "ə", "ʌ"]
+}
