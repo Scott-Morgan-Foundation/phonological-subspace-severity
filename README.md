@@ -206,3 +206,11 @@ This project is licensed under the Apache License 2.0. See [LICENSE](LICENSE) fo
 This work is part of the [CANDOR](https://scottmorganfoundation.org) research programme at The Scott-Morgan Foundation, building cross-lingual adaptive speech technology for people with motor neurone disease and other neurological conditions.
 
 We thank the creators and custodians of all datasets used in these studies.
+
+## Revision (September 2026)
+
+The scripts test2_* through test9_*, nl_repair.py, build_corrected_inputs.py and
+assemble_corrected_master.py in scripts/ are the pre-registered analysis battery and
+data repairs for the Computer Speech & Language revision (YCSLA-D-26-00383). See
+docs/LINEAGE.md for how the April release, the submitted analysis state and the
+corrected revision relate; historical states are preserved via tags, not directories.
