@@ -19,6 +19,8 @@ paper2-revision/results/                                     # per-speaker inter
 
 The submitted-state master and the per-speaker intermediate tables fall under the same data-use restrictions.
 
+The figure scripts write to `paper2-revision/figures/`, so create that directory before running them.
+
 `scripts/v6/v6_fixed_token_dgx.py` works from phone-level embeddings. It takes the master path as its first argument and reads embeddings from the extraction tree produced by `scripts/extract_features.py` (repository root).
 
 ## Scripts and what they produce
