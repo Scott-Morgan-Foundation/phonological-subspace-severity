@@ -1,0 +1,3294 @@
+{
+ "definition": "Freeze the high-risk bindings: for each spec item (scripts/v10/hr_spec.py) find the printed value at the token's\nplace in the v10 manuscript / Highlights, and record the value together with its surrounding text (30 characters\nbefore, 15 after, within the region). The frozen contexts are what scripts/v10/check_consistency.py later requires to\nbe present with the value re-derived from the saved output, so a changed number fails the check.\nRun once after the text is final; it refuses to build if any spec item does not match the text or the saved value.\nOutput: scripts/v10/hr_bindings.json",
+ "bindings": [
+  {
+   "region": "abstract",
+   "ref": "H:p1_speakers~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "p1_speakers"
+   },
+   "value_at_build": "890",
+   "before": "representations, validated on ",
+   "after": " speakers acros"
+  },
+  {
+   "region": "abstract",
+   "ref": "H:p1_languages~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "p1_languages"
+   },
+   "value_at_build": "5",
+   "before": "idated on 890 speakers across ",
+   "after": " languages with"
+  },
+  {
+   "region": "abstract",
+   "ref": "H:n_speakers~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_speakers"
+   },
+   "value_at_build": "3,374",
+   "before": "ere, we scale the analysis to ",
+   "after": " speakers from "
+  },
+  {
+   "region": "abstract",
+   "ref": "H:n_datasets~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_datasets"
+   },
+   "value_at_build": "25",
+   "before": "alysis to 3,374 speakers from ",
+   "after": " datasets spann"
+  },
+  {
+   "region": "abstract",
+   "ref": "H:n_languages~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_languages"
+   },
+   "value_at_build": "12",
+   "before": "ers from 25 datasets spanning ",
+   "after": " languages and "
+  },
+  {
+   "region": "abstract",
+   "ref": "H:n_aetiologies~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_aetiologies"
+   },
+   "value_at_build": "5",
+   "before": "ets spanning 12 languages and ",
+   "after": " aetiologies (P"
+  },
+  {
+   "region": "abstract",
+   "ref": "H:n_backbones~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_backbones"
+   },
+   "value_at_build": "6",
+   "before": " plus healthy controls, using ",
+   "after": " SSL backbones."
+  },
+  {
+   "region": "abstract",
+   "ref": "H:n_large_main~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_large_main"
+   },
+   "value_at_build": "10",
+   "before": "guishable at the group level: ",
+   "after": " of 13 features"
+  },
+  {
+   "region": "abstract",
+   "ref": "H:n_features_main~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_features_main"
+   },
+   "value_at_build": "13",
+   "before": "ble at the group level: 10 of ",
+   "after": " features yield"
+  },
+  {
+   "region": "abstract",
+   "ref": "H:large_threshold~2dp",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "large_threshold"
+   },
+   "value_at_build": "0.14",
+   "before": "fect sizes (epsilon-squared > ",
+   "after": ", all Kruskal-W"
+  },
+  {
+   "region": "abstract",
+   "ref": "H:kw_p_max_main~lt10:-11",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "kw_p_max_main"
+   },
+   "value_at_build": "-11",
+   "before": ", all Kruskal-Wallis p < 10$^{",
+   "after": "}$), with Parki"
+  },
+  {
+   "region": "abstract",
+   "ref": "H:pd_exec_mean_d~2dp",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "pd_exec_mean_d"
+   },
+   "value_at_build": "1.01",
+   "before": " a mean pairwise Cohen's d of ",
+   "after": " on composite c"
+  },
+  {
+   "region": "abstract",
+   "ref": "H:mod_d~2dp",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "mod_d"
+   },
+   "value_at_build": "0.01",
+   "before": "me and stroke group gives d = ",
+   "after": ", a different s"
+  },
+  {
+   "region": "abstract",
+   "ref": "H:clf_macro_f1_pct~1dp",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "clf_macro_f1_pct"
+   },
+   "value_at_build": "21.9",
+   "before": "assification remains limited (",
+   "after": "\\% macro F1), s"
+  },
+  {
+   "region": "abstract",
+   "ref": "H:n_consonant_features~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_consonant_features"
+   },
+   "value_at_build": "5",
+   "before": "ty: mean cosine similarity of ",
+   "after": "-dimensional co"
+  },
+  {
+   "region": "abstract",
+   "ref": "R:b_PD_mean",
+   "src": {
+    "src": "registry",
+    "id": "b_PD_mean"
+   },
+   "value_at_build": "0.978",
+   "before": "consonant d-prime profiles is ",
+   "after": "--0.987 across "
+  },
+  {
+   "region": "abstract",
+   "ref": "R:b_CP_mean",
+   "src": {
+    "src": "registry",
+    "id": "b_CP_mean"
+   },
+   "value_at_build": "0.987",
+   "before": "nt d-prime profiles is 0.978--",
+   "after": " across languag"
+  },
+  {
+   "region": "abstract",
+   "ref": "H:random_floor~2dp",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "random_floor"
+   },
+   "value_at_build": "0.93",
+   "before": " give cross-cell cosines near ",
+   "after": ", so they indic"
+  },
+  {
+   "region": "abstract",
+   "ref": "J:results/test2_delta_corrected.json#perm_lang_dataset_hcnorm.p_null_ge_obs~3dp",
+   "src": {
+    "src": "results/test2_delta_corrected.json",
+    "path": "perm_lang_dataset_hcnorm.p_null_ge_obs"
+   },
+   "value_at_build": "0.055",
+   "before": "ofiles (block permutation p = ",
+   "after": "; Delta = +0.00"
+  },
+  {
+   "region": "abstract",
+   "ref": "J:results/test2_delta_corrected.json#primary_hcnorm.delta~4dp",
+   "src": {
+    "src": "results/test2_delta_corrected.json",
+    "path": "primary_hcnorm.delta"
+   },
+   "value_at_build": "0.0004",
+   "before": "rmutation p = 0.055; Delta = +",
+   "after": ", 95\\% CI [-0.0"
+  },
+  {
+   "region": "abstract",
+   "ref": "J:results/test2_delta_corrected.json#primary_hcnorm.ci95.0~3dp",
+   "src": {
+    "src": "results/test2_delta_corrected.json",
+    "path": "primary_hcnorm.ci95.0"
+   },
+   "value_at_build": "-0.003",
+   "before": "55; Delta = +0.0004, 95\\% CI [",
+   "after": ", +0.004]; unde"
+  },
+  {
+   "region": "abstract",
+   "ref": "J:results/test2_delta_corrected.json#primary_hcnorm.ci95.1~3dp",
+   "src": {
+    "src": "results/test2_delta_corrected.json",
+    "path": "primary_hcnorm.ci95.1"
+   },
+   "value_at_build": "0.004",
+   "before": " = +0.0004, 95\\% CI [-0.003, +",
+   "after": "]; under centre"
+  },
+  {
+   "region": "abstract",
+   "ref": "H:cp_pos~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "cp_pos"
+   },
+   "value_at_build": "15",
+   "before": "languages for cerebral palsy (",
+   "after": "/15, 14/15 conf"
+  },
+  {
+   "region": "abstract",
+   "ref": "H:cp_cells~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "cp_cells"
+   },
+   "value_at_build": "15",
+   "before": "guages for cerebral palsy (15/",
+   "after": ", 14/15 confide"
+  },
+  {
+   "region": "abstract",
+   "ref": "H:cp_ci_excl0~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "cp_ci_excl0"
+   },
+   "value_at_build": "14",
+   "before": "es for cerebral palsy (15/15, ",
+   "after": "/15 confidence "
+  },
+  {
+   "region": "abstract",
+   "ref": "H:cp_cells~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "cp_cells"
+   },
+   "value_at_build": "15",
+   "before": "for cerebral palsy (15/15, 14/",
+   "after": " confidence int"
+  },
+  {
+   "region": "abstract",
+   "ref": "H:pd_pos~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "pd_pos"
+   },
+   "value_at_build": "30",
+   "before": "ero) and Parkinson's disease (",
+   "after": "/30). Absolute "
+  },
+  {
+   "region": "abstract",
+   "ref": "H:pd_cells~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "pd_cells"
+   },
+   "value_at_build": "30",
+   "before": ") and Parkinson's disease (30/",
+   "after": "). Absolute d-p"
+  },
+  {
+   "region": "abstract",
+   "ref": "H:n_backbones~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_backbones"
+   },
+   "value_at_build": "6",
+   "before": "he composite level across the ",
+   "after": " SSL backbones "
+  },
+  {
+   "region": "abstract",
+   "ref": "R:xb_min_2dp",
+   "src": {
+    "src": "registry",
+    "id": "xb_min_2dp"
+   },
+   "value_at_build": "0.83",
+   "before": "nter-model agreement of rho = ",
+   "after": "-0.99 on per-sp"
+  },
+  {
+   "region": "abstract",
+   "ref": "R:xb_max_2dp",
+   "src": {
+    "src": "registry",
+    "id": "xb_max_2dp"
+   },
+   "value_at_build": "0.99",
+   "before": "model agreement of rho = 0.83-",
+   "after": " on per-speaker"
+  },
+  {
+   "region": "abstract",
+   "ref": "H:n_backbone_pairs~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_backbone_pairs"
+   },
+   "value_at_build": "15",
+   "before": "nt features valid) across all ",
+   "after": " backbone pairs"
+  },
+  {
+   "region": "abstract",
+   "ref": "R:t5_xlsr|mms_n_int",
+   "src": {
+    "src": "registry",
+    "id": "t5_xlsr|mms_n_int"
+   },
+   "value_at_build": "3,101",
+   "before": "ss all 15 backbone pairs (n = ",
+   "after": " speakers per p"
+  },
+  {
+   "region": "abstract",
+   "ref": "R:xb_min_2dp",
+   "src": {
+    "src": "registry",
+    "id": "xb_min_2dp"
+   },
+   "value_at_build": "0.83",
+   "before": " pair XLS-R vs.\\ MMS at rho = ",
+   "after": ", maximum pair "
+  },
+  {
+   "region": "abstract",
+   "ref": "R:xb_max_2dp",
+   "src": {
+    "src": "registry",
+    "id": "xb_max_2dp"
+   },
+   "value_at_build": "0.99",
+   "before": "BERT-base vs.\\ WavLM at rho = ",
+   "after": "). Fine-grained"
+  },
+  {
+   "region": "abstract",
+   "ref": "R:kw_min_2dp",
+   "src": {
+    "src": "registry",
+    "id": "kw_min_2dp"
+   },
+   "value_at_build": "0.33",
+   "before": "ross backbones (Kendall's W = ",
+   "after": "--0.71). In the"
+  },
+  {
+   "region": "abstract",
+   "ref": "R:kw_max_2dp",
+   "src": {
+    "src": "registry",
+    "id": "kw_max_2dp"
+   },
+   "value_at_build": "0.71",
+   "before": "ackbones (Kendall's W = 0.33--",
+   "after": "). In the 467 s"
+  },
+  {
+   "region": "abstract",
+   "ref": "R:t6n_200",
+   "src": {
+    "src": "registry",
+    "id": "t6n_200"
+   },
+   "value_at_build": "467",
+   "before": "all's W = 0.33--0.71). In the ",
+   "after": " speakers with "
+  },
+  {
+   "region": "abstract",
+   "ref": "H:budget_max~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "budget_max"
+   },
+   "value_at_build": "200",
+   "before": "he 467 speakers with at least ",
+   "after": " tokens per pho"
+  },
+  {
+   "region": "abstract",
+   "ref": "R:t6rho_200_3dp",
+   "src": {
+    "src": "registry",
+    "id": "t6rho_200_3dp"
+   },
+   "value_at_build": "-0.733",
+   "before": "e severity correlation (rho = ",
+   "after": "), so in that s"
+  },
+  {
+   "region": "contributions",
+   "ref": "H:n_large_main~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_large_main"
+   },
+   "value_at_build": "10",
+   "before": "ally across aetiologies, with ",
+   "after": " of 13 features"
+  },
+  {
+   "region": "contributions",
+   "ref": "H:n_features_main~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_features_main"
+   },
+   "value_at_build": "13",
+   "before": "cross aetiologies, with 10 of ",
+   "after": " features yield"
+  },
+  {
+   "region": "contributions",
+   "ref": "H:large_threshold~2dp",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "large_threshold"
+   },
+   "value_at_build": "0.14",
+   "before": "fect sizes (epsilon-squared > ",
+   "after": ") in distinguis"
+  },
+  {
+   "region": "contributions",
+   "ref": "H:pd_exec_mean_d~2dp",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "pd_exec_mean_d"
+   },
+   "value_at_build": "1.01",
+   "before": " a mean pairwise Cohen's d of ",
+   "after": " (composite con"
+  },
+  {
+   "region": "contributions",
+   "ref": "H:min_features~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "min_features"
+   },
+   "value_at_build": "3",
+   "before": "nant d-prime, speakers with >=",
+   "after": " valid consonan"
+  },
+  {
+   "region": "contributions",
+   "ref": "H:cp_stroke_d~2dp",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "cp_stroke_d"
+   },
+   "value_at_build": "0.04",
+   "before": "nearly indistinguishable (d = ",
+   "after": "). A separate m"
+  },
+  {
+   "region": "contributions",
+   "ref": "H:mod_d~2dp",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "mod_d"
+   },
+   "value_at_build": "0.01",
+   "before": "led execution group gives d = ",
+   "after": " (n = 42 PD, 45"
+  },
+  {
+   "region": "contributions",
+   "ref": "H:mod_pd_n~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "mod_pd_n"
+   },
+   "value_at_build": "42",
+   "before": "ion group gives d = 0.01 (n = ",
+   "after": " PD, 45 pooled)"
+  },
+  {
+   "region": "contributions",
+   "ref": "H:mod_exec_n~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "mod_exec_n"
+   },
+   "value_at_build": "45",
+   "before": "up gives d = 0.01 (n = 42 PD, ",
+   "after": " pooled). This "
+  },
+  {
+   "region": "contributions",
+   "ref": "H:n_consonant_features~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_consonant_features"
+   },
+   "value_at_build": "5",
+   "before": "le: mean cosine similarity of ",
+   "after": "-dimensional co"
+  },
+  {
+   "region": "contributions",
+   "ref": "H:b_min_mean_pd_cp_als~gt=0.95",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "b_min_mean_pd_cp_als"
+   },
+   "value_at_build": "0.95",
+   "before": "nant d-prime profiles exceeds ",
+   "after": " for Parkinson'"
+  },
+  {
+   "region": "contributions",
+   "ref": "H:b_PD_nlang~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "b_PD_nlang"
+   },
+   "value_at_build": "6",
+   "before": "or Parkinson's disease across ",
+   "after": " languages with"
+  },
+  {
+   "region": "contributions",
+   "ref": "H:min_cell~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "min_cell"
+   },
+   "value_at_build": "3",
+   "before": "cross 6 languages with n$\\geq$",
+   "after": " speakers, cere"
+  },
+  {
+   "region": "contributions",
+   "ref": "H:b_CP_nlang~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "b_CP_nlang"
+   },
+   "value_at_build": "4",
+   "before": "eakers, cerebral palsy across ",
+   "after": " languages, and"
+  },
+  {
+   "region": "contributions",
+   "ref": "H:b_ALS_nlang~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "b_ALS_nlang"
+   },
+   "value_at_build": "4",
+   "before": "s 4 languages, and ALS across ",
+   "after": " languages. For"
+  },
+  {
+   "region": "contributions",
+   "ref": "H:a2_n_boot~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "a2_n_boot"
+   },
+   "value_at_build": "1,000",
+   "before": "r we bootstrapped the cosine (",
+   "after": " resamples of s"
+  },
+  {
+   "region": "contributions",
+   "ref": "R:b_PD_mean",
+   "src": {
+    "src": "registry",
+    "id": "b_PD_mean"
+   },
+   "value_at_build": "0.978",
+   "before": "r the language pairs gives PD ",
+   "after": " {[}0.956, 0.98"
+  },
+  {
+   "region": "contributions",
+   "ref": "R:b_PD_lo",
+   "src": {
+    "src": "registry",
+    "id": "b_PD_lo"
+   },
+   "value_at_build": "0.956",
+   "before": "guage pairs gives PD 0.978 {[}",
+   "after": ", 0.984{]}, CP "
+  },
+  {
+   "region": "contributions",
+   "ref": "R:b_PD_hi",
+   "src": {
+    "src": "registry",
+    "id": "b_PD_hi"
+   },
+   "value_at_build": "0.984",
+   "before": "airs gives PD 0.978 {[}0.956, ",
+   "after": "{]}, CP 0.987 {"
+  },
+  {
+   "region": "contributions",
+   "ref": "R:b_CP_mean",
+   "src": {
+    "src": "registry",
+    "id": "b_CP_mean"
+   },
+   "value_at_build": "0.987",
+   "before": " 0.978 {[}0.956, 0.984{]}, CP ",
+   "after": " {[}0.976, 0.99"
+  },
+  {
+   "region": "contributions",
+   "ref": "R:b_CP_lo",
+   "src": {
+    "src": "registry",
+    "id": "b_CP_lo"
+   },
+   "value_at_build": "0.976",
+   "before": "}0.956, 0.984{]}, CP 0.987 {[}",
+   "after": ", 0.994{]}, ALS"
+  },
+  {
+   "region": "contributions",
+   "ref": "R:b_CP_hi",
+   "src": {
+    "src": "registry",
+    "id": "b_CP_hi"
+   },
+   "value_at_build": "0.994",
+   "before": " 0.984{]}, CP 0.987 {[}0.976, ",
+   "after": "{]}, ALS 0.985 "
+  },
+  {
+   "region": "contributions",
+   "ref": "R:b_ALS_mean",
+   "src": {
+    "src": "registry",
+    "id": "b_ALS_mean"
+   },
+   "value_at_build": "0.985",
+   "before": "0.987 {[}0.976, 0.994{]}, ALS ",
+   "after": " {[}0.954, 0.98"
+  },
+  {
+   "region": "contributions",
+   "ref": "R:b_ALS_lo",
+   "src": {
+    "src": "registry",
+    "id": "b_ALS_lo"
+   },
+   "value_at_build": "0.954",
+   "before": "0.976, 0.994{]}, ALS 0.985 {[}",
+   "after": ", 0.989{]} and "
+  },
+  {
+   "region": "contributions",
+   "ref": "R:b_ALS_hi",
+   "src": {
+    "src": "registry",
+    "id": "b_ALS_hi"
+   },
+   "value_at_build": "0.989",
+   "before": "0.994{]}, ALS 0.985 {[}0.954, ",
+   "after": "{]} and HC 0.98"
+  },
+  {
+   "region": "contributions",
+   "ref": "R:b_HC_mean",
+   "src": {
+    "src": "registry",
+    "id": "b_HC_mean"
+   },
+   "value_at_build": "0.980",
+   "before": "985 {[}0.954, 0.989{]} and HC ",
+   "after": " {[}0.968, 0.98"
+  },
+  {
+   "region": "contributions",
+   "ref": "R:b_HC_lo",
+   "src": {
+    "src": "registry",
+    "id": "b_HC_lo"
+   },
+   "value_at_build": "0.968",
+   "before": "954, 0.989{]} and HC 0.980 {[}",
+   "after": ", 0.986{]}. The"
+  },
+  {
+   "region": "contributions",
+   "ref": "R:b_HC_hi",
+   "src": {
+    "src": "registry",
+    "id": "b_HC_hi"
+   },
+   "value_at_build": "0.986",
+   "before": "989{]} and HC 0.980 {[}0.968, ",
+   "after": "{]}. These brac"
+  },
+  {
+   "region": "contributions",
+   "ref": "R:mn3_PD_min",
+   "src": {
+    "src": "registry",
+    "id": "mn3_PD_min"
+   },
+   "value_at_build": "0.937",
+   "before": "st PD language-pair cosine is ",
+   "after": ", and the pair "
+  },
+  {
+   "region": "contributions",
+   "ref": "R:b_PD_tight_cos",
+   "src": {
+    "src": "registry",
+    "id": "b_PD_tight_cos"
+   },
+   "value_at_build": "0.968",
+   "before": " Dutch--Portuguese PD (cosine ",
+   "after": "), has a lower "
+  },
+  {
+   "region": "contributions",
+   "ref": "R:b_PD_tight_lo",
+   "src": {
+    "src": "registry",
+    "id": "b_PD_tight_lo"
+   },
+   "value_at_build": "0.893",
+   "before": " 0.968), has a lower bound of ",
+   "after": ". However, a pr"
+  },
+  {
+   "region": "contributions",
+   "ref": "J:results/test2_delta_corrected.json#perm_lang_dataset_hcnorm.p_null_ge_obs~3dp",
+   "src": {
+    "src": "results/test2_delta_corrected.json",
+    "path": "perm_lang_dataset_hcnorm.p_null_ge_obs"
+   },
+   "value_at_build": "0.055",
+   "before": "logies (block permutation p = ",
+   "after": "; Delta = +0.00"
+  },
+  {
+   "region": "contributions",
+   "ref": "J:results/test2_delta_corrected.json#primary_hcnorm.delta~4dp",
+   "src": {
+    "src": "results/test2_delta_corrected.json",
+    "path": "primary_hcnorm.delta"
+   },
+   "value_at_build": "0.0004",
+   "before": "rmutation p = 0.055; Delta = +",
+   "after": ", 95\\% bootstra"
+  },
+  {
+   "region": "contributions",
+   "ref": "J:results/test2_delta_corrected.json#primary_hcnorm.ci95.0~3dp",
+   "src": {
+    "src": "results/test2_delta_corrected.json",
+    "path": "primary_hcnorm.ci95.0"
+   },
+   "value_at_build": "-0.003",
+   "before": "= +0.0004, 95\\% bootstrap CI [",
+   "after": ", +0.004]; Sect"
+  },
+  {
+   "region": "contributions",
+   "ref": "J:results/test2_delta_corrected.json#primary_hcnorm.ci95.1~3dp",
+   "src": {
+    "src": "results/test2_delta_corrected.json",
+    "path": "primary_hcnorm.ci95.1"
+   },
+   "value_at_build": "0.004",
+   "before": ", 95\\% bootstrap CI [-0.003, +",
+   "after": "]; Section 4.2)"
+  },
+  {
+   "region": "contributions",
+   "ref": "H:cp_ci_excl0~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "cp_ci_excl0"
+   },
+   "value_at_build": "14",
+   "before": " language for cerebral palsy (",
+   "after": "/15 confidence "
+  },
+  {
+   "region": "contributions",
+   "ref": "H:cp_cells~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "cp_cells"
+   },
+   "value_at_build": "15",
+   "before": "nguage for cerebral palsy (14/",
+   "after": " confidence int"
+  },
+  {
+   "region": "contributions",
+   "ref": "H:pd_pos~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "pd_pos"
+   },
+   "value_at_build": "30",
+   "before": " and Parkinson's disease (all ",
+   "after": " sign-consisten"
+  },
+  {
+   "region": "contributions",
+   "ref": "H:de_als_n~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "de_als_n"
+   },
+   "value_at_build": "5",
+   "before": "clusive (the German cell, n = ",
+   "after": ", reverses sign"
+  },
+  {
+   "region": "contributions",
+   "ref": "H:n_backbones~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_backbones"
+   },
+   "value_at_build": "6",
+   "before": "ontingent on HuBERT-base. All ",
+   "after": " SSL backbones "
+  },
+  {
+   "region": "contributions",
+   "ref": "R:xb_min_2dp",
+   "src": {
+    "src": "registry",
+    "id": "xb_min_2dp"
+   },
+   "value_at_build": "0.83",
+   "before": "nant features valid) is rho = ",
+   "after": "-0.99 across al"
+  },
+  {
+   "region": "contributions",
+   "ref": "R:xb_max_2dp",
+   "src": {
+    "src": "registry",
+    "id": "xb_max_2dp"
+   },
+   "value_at_build": "0.99",
+   "before": "features valid) is rho = 0.83-",
+   "after": " across all 15 "
+  },
+  {
+   "region": "contributions",
+   "ref": "H:n_backbone_pairs~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_backbone_pairs"
+   },
+   "value_at_build": "15",
+   "before": "is rho = 0.83-0.99 across all ",
+   "after": " pairs (n = 3,1"
+  },
+  {
+   "region": "contributions",
+   "ref": "R:t5_xlsr|mms_n_int",
+   "src": {
+    "src": "registry",
+    "id": "t5_xlsr|mms_n_int"
+   },
+   "value_at_build": "3,101",
+   "before": "0.99 across all 15 pairs (n = ",
+   "after": " per pair), and"
+  },
+  {
+   "region": "contributions",
+   "ref": "H:n_backbone_pairs~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_backbone_pairs"
+   },
+   "value_at_build": "15",
+   "before": "ology-profile cosine over the ",
+   "after": " backbone pairs"
+  },
+  {
+   "region": "contributions",
+   "ref": "R:pc_min_PD_2dp",
+   "src": {
+    "src": "registry",
+    "id": "pc_min_PD_2dp"
+   },
+   "value_at_build": "0.98",
+   "before": "over the 15 backbone pairs is ",
+   "after": " (PD), 0.96 (CP"
+  },
+  {
+   "region": "contributions",
+   "ref": "R:pc_min_CP_2dp",
+   "src": {
+    "src": "registry",
+    "id": "pc_min_CP_2dp"
+   },
+   "value_at_build": "0.96",
+   "before": " backbone pairs is 0.98 (PD), ",
+   "after": " (CP), 0.91 (AL"
+  },
+  {
+   "region": "contributions",
+   "ref": "R:pc_min_ALS_2dp",
+   "src": {
+    "src": "registry",
+    "id": "pc_min_ALS_2dp"
+   },
+   "value_at_build": "0.91",
+   "before": "airs is 0.98 (PD), 0.96 (CP), ",
+   "after": " (ALS), 0.96 (D"
+  },
+  {
+   "region": "contributions",
+   "ref": "R:pc_min_DS_2dp",
+   "src": {
+    "src": "registry",
+    "id": "pc_min_DS_2dp"
+   },
+   "value_at_build": "0.96",
+   "before": " (PD), 0.96 (CP), 0.91 (ALS), ",
+   "after": " (DS) and 0.94 "
+  },
+  {
+   "region": "contributions",
+   "ref": "R:pc_min_Stroke_2dp",
+   "src": {
+    "src": "registry",
+    "id": "pc_min_Stroke_2dp"
+   },
+   "value_at_build": "0.94",
+   "before": "P), 0.91 (ALS), 0.96 (DS) and ",
+   "after": " (stroke). The "
+  },
+  {
+   "region": "contributions",
+   "ref": "H:family_min_rho~gt=0.96",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "family_min_rho"
+   },
+   "value_at_build": "0.96",
+   "before": "avLM family clusters at rho > ",
+   "after": ". Robustness ho"
+  },
+  {
+   "region": "contributions",
+   "ref": "R:kw_min_2dp",
+   "src": {
+    "src": "registry",
+    "id": "kw_min_2dp"
+   },
+   "value_at_build": "0.33",
+   "before": "ross backbones (Kendall's W = ",
+   "after": "--0.71).\n"
+  },
+  {
+   "region": "contributions",
+   "ref": "R:kw_max_2dp",
+   "src": {
+    "src": "registry",
+    "id": "kw_max_2dp"
+   },
+   "value_at_build": "0.71",
+   "before": "ackbones (Kendall's W = 0.33--",
+   "after": ").\n"
+  },
+  {
+   "region": "conclusion",
+   "ref": "H:n_large_main~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_large_main"
+   },
+   "value_at_build": "10",
+   "before": "e, and healthy controls, with ",
+   "after": " of 13 features"
+  },
+  {
+   "region": "conclusion",
+   "ref": "H:n_features_main~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_features_main"
+   },
+   "value_at_build": "13",
+   "before": " healthy controls, with 10 of ",
+   "after": " features yield"
+  },
+  {
+   "region": "conclusion",
+   "ref": "H:large_threshold~2dp",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "large_threshold"
+   },
+   "value_at_build": "0.14",
+   "before": "fect sizes (epsilon-squared > ",
+   "after": "). Holm-correct"
+  },
+  {
+   "region": "conclusion",
+   "ref": "R:holm_alspd_d_2dp~abs",
+   "src": {
+    "src": "registry",
+    "id": "holm_alspd_d_2dp"
+   },
+   "value_at_build": "0.62",
+   "before": " the full sample (Cohen's d = ",
+   "after": "--1.05 in the f"
+  },
+  {
+   "region": "conclusion",
+   "ref": "R:holm_dspd_d_2dp~abs",
+   "src": {
+    "src": "registry",
+    "id": "holm_dspd_d_2dp"
+   },
+   "value_at_build": "1.05",
+   "before": "ull sample (Cohen's d = 0.62--",
+   "after": " in the full sa"
+  },
+  {
+   "region": "conclusion",
+   "ref": "H:mod_d~2dp",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "mod_d"
+   },
+   "value_at_build": "0.01",
+   "before": " CP/DS/stroke group gives d = ",
+   "after": ", a different s"
+  },
+  {
+   "region": "conclusion",
+   "ref": "H:holm_ns_min_p~gt=0.5",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "holm_ns_min_p"
+   },
+   "value_at_build": "0.5",
+   "before": "ion cluster (all pairwise p > ",
+   "after": " after correcti"
+  },
+  {
+   "region": "conclusion",
+   "ref": "H:clf_macro_f1_pct~1dp",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "clf_macro_f1_pct"
+   },
+   "value_at_build": "21.9",
+   "before": "e classification reaches only ",
+   "after": "\\% macro F1, so"
+  },
+  {
+   "region": "conclusion",
+   "ref": "H:n_consonant_features~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_consonant_features"
+   },
+   "value_at_build": "5",
+   "before": "stable across languages (mean ",
+   "after": "-consonant prof"
+  },
+  {
+   "region": "conclusion",
+   "ref": "R:b_PD_mean",
+   "src": {
+    "src": "registry",
+    "id": "b_PD_mean"
+   },
+   "value_at_build": "0.978",
+   "before": "an 5-consonant profile cosine ",
+   "after": "--0.987), and i"
+  },
+  {
+   "region": "conclusion",
+   "ref": "R:b_CP_mean",
+   "src": {
+    "src": "registry",
+    "id": "b_CP_mean"
+   },
+   "value_at_build": "0.987",
+   "before": "nsonant profile cosine 0.978--",
+   "after": "), and individu"
+  },
+  {
+   "region": "conclusion",
+   "ref": "H:n_backbones~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_backbones"
+   },
+   "value_at_build": "6",
+   "before": "he composite level across all ",
+   "after": " SSL backbones "
+  },
+  {
+   "region": "conclusion",
+   "ref": "H:n_consonant_features~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_consonant_features"
+   },
+   "value_at_build": "5",
+   "before": " inter-model agreement on the ",
+   "after": "-consonant comp"
+  },
+  {
+   "region": "conclusion",
+   "ref": "R:xb_min_2dp",
+   "src": {
+    "src": "registry",
+    "id": "xb_min_2dp"
+   },
+   "value_at_build": "0.83",
+   "before": "hree features valid) is rho = ",
+   "after": "-0.99 across al"
+  },
+  {
+   "region": "conclusion",
+   "ref": "R:xb_max_2dp",
+   "src": {
+    "src": "registry",
+    "id": "xb_max_2dp"
+   },
+   "value_at_build": "0.99",
+   "before": "features valid) is rho = 0.83-",
+   "after": " across all 15 "
+  },
+  {
+   "region": "conclusion",
+   "ref": "H:n_backbone_pairs~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_backbone_pairs"
+   },
+   "value_at_build": "15",
+   "before": "is rho = 0.83-0.99 across all ",
+   "after": " pairs (n = 3,1"
+  },
+  {
+   "region": "conclusion",
+   "ref": "R:t5_xlsr|mms_n_int",
+   "src": {
+    "src": "registry",
+    "id": "t5_xlsr|mms_n_int"
+   },
+   "value_at_build": "3,101",
+   "before": "0.99 across all 15 pairs (n = ",
+   "after": " per pair; mini"
+  },
+  {
+   "region": "conclusion",
+   "ref": "R:xb_min_2dp",
+   "src": {
+    "src": "registry",
+    "id": "xb_min_2dp"
+   },
+   "value_at_build": "0.83",
+   "before": "inimum pair XLS-R vs.\\ MMS at ",
+   "after": "), and per-aeti"
+  },
+  {
+   "region": "conclusion",
+   "ref": "R:pc_min_all_2dp",
+   "src": {
+    "src": "registry",
+    "id": "pc_min_all_2dp"
+   },
+   "value_at_build": "0.91",
+   "before": "ss backbone pairs is at least ",
+   "after": "; fine-grained "
+  },
+  {
+   "region": "conclusion",
+   "ref": "R:cs_rho_min_3dp",
+   "src": {
+    "src": "registry",
+    "id": "cs_rho_min_3dp"
+   },
+   "value_at_build": "-0.747",
+   "before": "on from raw embeddings (rho = ",
+   "after": " to -0.733 on a"
+  },
+  {
+   "region": "conclusion",
+   "ref": "R:cs_rho_max_3dp",
+   "src": {
+    "src": "registry",
+    "id": "cs_rho_max_3dp"
+   },
+   "value_at_build": "-0.733",
+   "before": "w embeddings (rho = -0.747 to ",
+   "after": " on a common sp"
+  },
+  {
+   "region": "conclusion",
+   "ref": "H:abl_rho~3dp",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "abl_rho"
+   },
+   "value_at_build": "-0.453",
+   "before": "n clinical-only labels (rho = ",
+   "after": ", epsilon-squar"
+  },
+  {
+   "region": "conclusion",
+   "ref": "H:abl_eps2~3dp",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "abl_eps2"
+   },
+   "value_at_build": "0.188",
+   "before": "o = -0.453, epsilon-squared = ",
+   "after": "), cross-lingua"
+  },
+  {
+   "region": "conclusion",
+   "ref": "H:min_n_threshold_top~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "min_n_threshold_top"
+   },
+   "value_at_build": "10",
+   "before": "nalysis with minimum n $\\geq$ ",
+   "after": " per cell (PD c"
+  },
+  {
+   "region": "conclusion",
+   "ref": "R:mn10_PD_mean",
+   "src": {
+    "src": "registry",
+    "id": "mn10_PD_mean"
+   },
+   "value_at_build": "0.975",
+   "before": "$\\geq$ 10 per cell (PD cosine ",
+   "after": ", 5-consonant c"
+  },
+  {
+   "region": "conclusion",
+   "ref": "H:n_consonant_features~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_consonant_features"
+   },
+   "value_at_build": "5",
+   "before": "10 per cell (PD cosine 0.975, ",
+   "after": "-consonant comp"
+  },
+  {
+   "region": "conclusion",
+   "ref": "J:results/v9/v9_originals.json#states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.10.PD.n_languages~int",
+   "src": {
+    "src": "results/v9/v9_originals.json",
+    "path": "states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.10.PD.n_languages"
+   },
+   "value_at_build": "5",
+   "before": "0.975, 5-consonant composite; ",
+   "after": " languages qual"
+  },
+  {
+   "region": "conclusion",
+   "ref": "H:min_n_threshold_top~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "min_n_threshold_top"
+   },
+   "value_at_build": "10",
+   "before": "anguages qualifying at n$\\geq$",
+   "after": "), and token-ma"
+  },
+  {
+   "region": "conclusion",
+   "ref": "H:tm_p_max~lt=0.001",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "tm_p_max"
+   },
+   "value_at_build": "0.001",
+   "before": "severity comparisons (all p < ",
+   "after": "). Validated ac"
+  },
+  {
+   "region": "conclusion",
+   "ref": "H:n_speakers~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_speakers"
+   },
+   "value_at_build": "3,374",
+   "before": " p < 0.001). Validated across ",
+   "after": " speakers drawn"
+  },
+  {
+   "region": "conclusion",
+   "ref": "H:n_datasets~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_datasets"
+   },
+   "value_at_build": "25",
+   "before": "oss 3,374 speakers drawn from ",
+   "after": " datasets spann"
+  },
+  {
+   "region": "conclusion",
+   "ref": "H:n_languages~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_languages"
+   },
+   "value_at_build": "12",
+   "before": "awn from 25 datasets spanning ",
+   "after": " languages and "
+  },
+  {
+   "region": "conclusion",
+   "ref": "H:n_aetiologies~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_aetiologies"
+   },
+   "value_at_build": "5",
+   "before": "ets spanning 12 languages and ",
+   "after": " aetiologies, t"
+  },
+  {
+   "region": "conclusion",
+   "ref": "H:n_languages~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_languages"
+   },
+   "value_at_build": "12",
+   "before": " was applied unchanged across ",
+   "after": " languages and "
+  },
+  {
+   "region": "conclusion",
+   "ref": "H:n_languages~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_languages"
+   },
+   "value_at_build": "12",
+   "before": "ne feature configurations for ",
+   "after": " languages are "
+  },
+  {
+   "region": "highlights",
+   "ref": "H:mod_d~2dp",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "mod_d"
+   },
+   "value_at_build": "0.01",
+   "before": "te-only pooled difference d = ",
+   "after": "\nCross-language"
+  },
+  {
+   "region": "highlights",
+   "ref": "J:results/test2_delta_corrected.json#perm_lang_dataset_hcnorm.p_null_ge_obs~3dp",
+   "src": {
+    "src": "results/test2_delta_corrected.json",
+    "path": "perm_lang_dataset_hcnorm.p_null_ge_obs"
+   },
+   "value_at_build": "0.055",
+   "before": "sh aetiology specificity (p = ",
+   "after": ")\nSix SSL backb"
+  },
+  {
+   "region": "figure1",
+   "ref": "H:fig1_n_features~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "fig1_n_features"
+   },
+   "value_at_build": "13",
+   "before": "tandard deviation). Rows show ",
+   "after": " phonological a"
+  },
+  {
+   "region": "figure1",
+   "ref": "H:fig1_n_aetiologies~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "fig1_n_aetiologies"
+   },
+   "value_at_build": "5",
+   "before": "osodic features; columns show ",
+   "after": " dysarthric aet"
+  },
+  {
+   "region": "figure1",
+   "ref": "H:fig1_min_cell~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "fig1_min_cell"
+   },
+   "value_at_build": "5",
+   "before": " value (a cell needs at least ",
+   "after": ").}"
+  },
+  {
+   "region": "figure2",
+   "ref": "J:results/v5/fig2_group_means.json#ratio_to_hc.HC.nasal_dprime~1dp",
+   "src": {
+    "src": "results/v5/fig2_group_means.json",
+    "path": "ratio_to_hc.HC.nasal_dprime"
+   },
+   "value_at_build": "1.0",
+   "before": "ference (light blue, fixed at ",
+   "after": "). The sample i"
+  },
+  {
+   "region": "figure2",
+   "ref": "J:results/v5/fig2_group_means.json#n_speakers.HC~int",
+   "src": {
+    "src": "results/v5/fig2_group_means.json",
+    "path": "n_speakers.HC"
+   },
+   "value_at_build": "1,445",
+   "before": "t all severity levels (HC n = ",
+   "after": ", PD n = 648, C"
+  },
+  {
+   "region": "figure2",
+   "ref": "J:results/v5/fig2_group_means.json#n_speakers.PD~int",
+   "src": {
+    "src": "results/v5/fig2_group_means.json",
+    "path": "n_speakers.PD"
+   },
+   "value_at_build": "648",
+   "before": " levels (HC n = 1,445, PD n = ",
+   "after": ", CP n = 379, A"
+  },
+  {
+   "region": "figure2",
+   "ref": "J:results/v5/fig2_group_means.json#n_speakers.CP~int",
+   "src": {
+    "src": "results/v5/fig2_group_means.json",
+    "path": "n_speakers.CP"
+   },
+   "value_at_build": "379",
+   "before": "n = 1,445, PD n = 648, CP n = ",
+   "after": ", ALS n = 325, "
+  },
+  {
+   "region": "figure2",
+   "ref": "J:results/v5/fig2_group_means.json#n_speakers.ALS~int",
+   "src": {
+    "src": "results/v5/fig2_group_means.json",
+    "path": "n_speakers.ALS"
+   },
+   "value_at_build": "325",
+   "before": " n = 648, CP n = 379, ALS n = ",
+   "after": ", DS n = 166, s"
+  },
+  {
+   "region": "figure2",
+   "ref": "J:results/v5/fig2_group_means.json#n_speakers.DS~int",
+   "src": {
+    "src": "results/v5/fig2_group_means.json",
+    "path": "n_speakers.DS"
+   },
+   "value_at_build": "166",
+   "before": " n = 379, ALS n = 325, DS n = ",
+   "after": ", stroke n = 99"
+  },
+  {
+   "region": "figure2",
+   "ref": "J:results/v5/fig2_group_means.json#n_speakers.Stroke~int",
+   "src": {
+    "src": "results/v5/fig2_group_means.json",
+    "path": "n_speakers.Stroke"
+   },
+   "value_at_build": "99",
+   "before": "= 325, DS n = 166, stroke n = ",
+   "after": "), not the mode"
+  },
+  {
+   "region": "figure2",
+   "ref": "H:vta_ds_n~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "vta_ds_n"
+   },
+   "value_at_build": "12",
+   "before": "nd the Down syndrome point on ",
+   "after": " speakers.}"
+  },
+  {
+   "region": "figure3",
+   "ref": "H:fig3_n_langs~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "fig3_n_langs"
+   },
+   "value_at_build": "6",
+   "before": "son's disease profiles in the ",
+   "after": " languages with"
+  },
+  {
+   "region": "figure3",
+   "ref": "H:min_cell~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "min_cell"
+   },
+   "value_at_build": "3",
+   "before": "the 6 languages with at least ",
+   "after": " PD speakers. E"
+  },
+  {
+   "region": "figure3",
+   "ref": "H:n_segmental~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_segmental"
+   },
+   "value_at_build": "9",
+   "before": "althy-control mean for one of ",
+   "after": " d-prime featur"
+  },
+  {
+   "region": "figure3",
+   "ref": "H:hc_reference~1dp",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "hc_reference"
+   },
+   "value_at_build": "1.0",
+   "before": "or one of 9 d-prime features (",
+   "after": " = healthy). Th"
+  },
+  {
+   "region": "figure3",
+   "ref": "H:fig3_nl_pd~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "fig3_nl_pd"
+   },
+   "value_at_build": "13",
+   "before": "talian and Slovak; Dutch (n = ",
+   "after": ") deviates most"
+  },
+  {
+   "region": "figure3",
+   "ref": "H:fig3_pt_pd~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "fig3_pt_pd"
+   },
+   "value_at_build": "3",
+   "before": "; the Portuguese bars rest on ",
+   "after": " speakers and D"
+  },
+  {
+   "region": "figure4",
+   "ref": "H:n_backbones~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_backbones"
+   },
+   "value_at_build": "6",
+   "before": " 4.} Severity gradient across ",
+   "after": " SSL backbones."
+  },
+  {
+   "region": "figure4",
+   "ref": "H:fig4_n_boot~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "fig4_n_boot"
+   },
+   "value_at_build": "1,000",
+   "before": " intervals of the group mean (",
+   "after": " resamples over"
+  },
+  {
+   "region": "figure4",
+   "ref": "R:f4_xlsr_mm_margin",
+   "src": {
+    "src": "registry",
+    "id": "f4_xlsr_mm_margin"
+   },
+   "value_at_build": "0.05",
+   "before": "te step for XLS-R (difference ",
+   "after": ", 95\\% CI [-0.0"
+  },
+  {
+   "region": "figure4",
+   "ref": "R:f4_xlsr_mm_lo",
+   "src": {
+    "src": "registry",
+    "id": "f4_xlsr_mm_lo"
+   },
+   "value_at_build": "-0.02",
+   "before": "-R (difference 0.05, 95\\% CI [",
+   "after": ", 0.12]) and MM"
+  },
+  {
+   "region": "figure4",
+   "ref": "R:f4_xlsr_mm_hi",
+   "src": {
+    "src": "registry",
+    "id": "f4_xlsr_mm_hi"
+   },
+   "value_at_build": "0.12",
+   "before": "ference 0.05, 95\\% CI [-0.02, ",
+   "after": "]) and MMS (0.0"
+  },
+  {
+   "region": "figure4",
+   "ref": "R:f4_mms_mm_margin",
+   "src": {
+    "src": "registry",
+    "id": "f4_mms_mm_margin"
+   },
+   "value_at_build": "0.03",
+   "before": "\\% CI [-0.02, 0.12]) and MMS (",
+   "after": " [-0.04, 0.08])"
+  },
+  {
+   "region": "figure4",
+   "ref": "R:f4_mms_mm_lo",
+   "src": {
+    "src": "registry",
+    "id": "f4_mms_mm_lo"
+   },
+   "value_at_build": "-0.04",
+   "before": "[-0.02, 0.12]) and MMS (0.03 [",
+   "after": ", 0.08]). All m"
+  },
+  {
+   "region": "figure4",
+   "ref": "R:f4_mms_mm_hi",
+   "src": {
+    "src": "registry",
+    "id": "f4_mms_mm_hi"
+   },
+   "value_at_build": "0.08",
+   "before": " 0.12]) and MMS (0.03 [-0.04, ",
+   "after": "]). All models "
+  },
+  {
+   "region": "figure5",
+   "ref": "R:t5_xlsr|mms_n_int",
+   "src": {
+    "src": "registry",
+    "id": "t5_xlsr|mms_n_int"
+   },
+   "value_at_build": "3,101",
+   "before": "nant features valid; the same ",
+   "after": " speakers for e"
+  },
+  {
+   "region": "figure5",
+   "ref": "H:family_min_rho~gt=0.90",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "family_min_rho"
+   },
+   "value_at_build": "0.90",
+   "before": "arge, WavLM) cluster at rho > ",
+   "after": ". Multilingual "
+  },
+  {
+   "region": "table1",
+   "ref": "H:n_datasets~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_datasets"
+   },
+   "value_at_build": "25",
+   "before": "tbf{Table 1.} Overview of the ",
+   "after": " datasets spann"
+  },
+  {
+   "region": "table1",
+   "ref": "H:n_languages~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_languages"
+   },
+   "value_at_build": "12",
+   "before": "w of the 25 datasets spanning ",
+   "after": " languages (26 "
+  },
+  {
+   "region": "table1",
+   "ref": "H:n_dataset_labels~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_dataset_labels"
+   },
+   "value_at_build": "26",
+   "before": "tasets spanning 12 languages (",
+   "after": " dataset rows a"
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_hu_english~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_hu_english"
+   },
+   "value_at_build": "8",
+   "before": "Hungarian Dysarthria includes ",
+   "after": " English-langua"
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_language_n.en~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_language_n.en"
+   },
+   "value_at_build": "1,435",
+   "before": "source}\n \\\\\n\\midrule\nEnglish (",
+   "after": ")\n & SAP [20] ("
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_dataset_n.SAP~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_dataset_n.SAP"
+   },
+   "value_at_build": "1,233",
+   "before": "\nEnglish (1,435)\n & SAP [20] (",
+   "after": ")\n & PD, ALS, C"
+  },
+  {
+   "region": "table1",
+   "ref": "H:sap_scale_min~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "sap_scale_min"
+   },
+   "value_at_build": "1",
+   "before": "ener intelligibility ratings (",
+   "after": "--7), threshold"
+  },
+  {
+   "region": "table1",
+   "ref": "H:sap_scale_max~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "sap_scale_max"
+   },
+   "value_at_build": "7",
+   "before": "r intelligibility ratings (1--",
+   "after": "), thresholded\n"
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_dataset_n.LibriSpeech_English~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_dataset_n.LibriSpeech_English"
+   },
+   "value_at_build": "150",
+   "before": "lded\n \\\\\n & LibriSpeech [21] (",
+   "after": ")\n & HC\n & N/A\n"
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_dataset_n.TORGO~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_dataset_n.TORGO"
+   },
+   "value_at_build": "15",
+   "before": " HC\n & N/A\n \\\\\n & TORGO [22] (",
+   "after": ")\n & CP, ALS, H"
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_dataset_n.UASPEECH~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_dataset_n.UASPEECH"
+   },
+   "value_at_build": "15",
+   "before": "tation\n \\\\\n & UA-Speech [23] (",
+   "after": ")\n & CP\n & Corp"
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_dataset_n.UASPEECH_control~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_dataset_n.UASPEECH_control"
+   },
+   "value_at_build": "13",
+   "before": "\\\n & UA-Speech controls [23] (",
+   "after": ")\n & HC\n & N/A\n"
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_language_n.sk~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_language_n.sk"
+   },
+   "value_at_build": "602",
+   "before": "(13)\n & HC\n & N/A\n \\\\\nSlovak (",
+   "after": ")\n & EWA-DB [24"
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_dataset_n.EWA-DB~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_dataset_n.EWA-DB"
+   },
+   "value_at_build": "602",
+   "before": "\nSlovak (602)\n & EWA-DB [24] (",
+   "after": ")\n & PD, HC\n & "
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_language_n.pt~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_language_n.pt"
+   },
+   "value_at_build": "370",
+   "before": "s unlabelled)\n \\\\\nPortuguese (",
+   "after": ")\n & AVFAD [25]"
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_dataset_n.AVFAD~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_dataset_n.AVFAD"
+   },
+   "value_at_build": "370",
+   "before": "rtuguese (370)\n & AVFAD [25] (",
+   "after": ")\n & ALS, PD, H"
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_language_n.nl~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_language_n.nl"
+   },
+   "value_at_build": "283",
+   "before": "eakers unlabelled)\n \\\\\nDutch (",
+   "after": ")\n & COPAS [26]"
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_dataset_n.COPAS~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_dataset_n.COPAS"
+   },
+   "value_at_build": "227",
+   "before": "\\\\\nDutch (283)\n & COPAS [26] (",
+   "after": ")\n & Mixed, cle"
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_dataset_n.Domotica~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_dataset_n.Domotica"
+   },
+   "value_at_build": "43",
+   "before": "pancic)\n \\\\\n & Domotica [26] (",
+   "after": ")\n & Mixed\n & N"
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_dataset_n.CHASING~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_dataset_n.CHASING"
+   },
+   "value_at_build": "8",
+   "before": "\n & None\n \\\\\n & CHASING [27] (",
+   "after": ")\n & PD\n & List"
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_dataset_n.TreasureHunters1~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_dataset_n.TreasureHunters1"
+   },
+   "value_at_build": "5",
+   "before": " \\\\\n & TreasureHunters1 [28] (",
+   "after": ")\n & PD\n & Assi"
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_language_n.es~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_language_n.es"
+   },
+   "value_at_build": "211",
+   "before": "listener results\n \\\\\nSpanish (",
+   "after": ")\n & Neurovoz ["
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_dataset_n.Neurovoz~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_dataset_n.Neurovoz"
+   },
+   "value_at_build": "111",
+   "before": "anish (211)\n & Neurovoz [29] (",
+   "after": ")\n & PD, HC\n & "
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_dataset_n.PC-GITA~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_dataset_n.PC-GITA"
+   },
+   "value_at_build": "100",
+   "before": "GRBAS G)\n \\\\\n & PC-GITA [30] (",
+   "after": ")\n & PD, HC\n & "
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_language_n.it~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_language_n.it"
+   },
+   "value_at_build": "120",
+   "before": "DRS speech item)\n \\\\\nItalian (",
+   "after": ")\n & IPVS [31] "
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_dataset_n.IPVS~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_dataset_n.IPVS"
+   },
+   "value_at_build": "65",
+   "before": "\\\nItalian (120)\n & IPVS [31] (",
+   "after": ")\n & PD, HC\n & "
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_dataset_n.EasyCall~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_dataset_n.EasyCall"
+   },
+   "value_at_build": "55",
+   "before": " scores\n \\\\\n & EasyCall [32] (",
+   "after": ")\n & Mixed, HC\n"
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_language_n.zh~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_language_n.zh"
+   },
+   "value_at_build": "100",
+   "before": "ers unlabelled)\n \\\\\nMandarin (",
+   "after": ")\n & MDSC [33] "
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_dataset_n.MDSC~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_dataset_n.MDSC"
+   },
+   "value_at_build": "56",
+   "before": "\nMandarin (100)\n & MDSC [33] (",
+   "after": ")\n & CP, HC\n & "
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_dataset_n.CDSD~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_dataset_n.CDSD"
+   },
+   "value_at_build": "44",
+   "before": "(Stipancic)\n \\\\\n & CDSD [34] (",
+   "after": ")\n & CP\n & None"
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_language_n.ta~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_language_n.ta"
+   },
+   "value_at_build": "80",
+   "before": "(44)\n & CP\n & None\n \\\\\nTamil (",
+   "after": ")\n & SLR65 [35]"
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_dataset_n.SLR65_Tamil~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_dataset_n.SLR65_Tamil"
+   },
+   "value_at_build": "50",
+   "before": " \\\\\nTamil (80)\n & SLR65 [35] (",
+   "after": ")\n & HC\n & N/A\n"
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_dataset_n.SSNCE_Tamil~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_dataset_n.SSNCE_Tamil"
+   },
+   "value_at_build": "30",
+   "before": "/A\n \\\\\n & SSNCE (LDC2021S04) (",
+   "after": ")\n & CP, HC\n & "
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_language_n.de~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_language_n.de"
+   },
+   "value_at_build": "66",
+   "before": "pus documentation\n \\\\\nGerman (",
+   "after": ")\n & SVD [36] ("
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_dataset_n.SVD~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_dataset_n.SVD"
+   },
+   "value_at_build": "53",
+   "before": "\n \\\\\nGerman (66)\n & SVD [36] (",
+   "after": ")\n & HC, unknow"
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_dataset_n.YouTube_German~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_dataset_n.YouTube_German"
+   },
+   "value_at_build": "13",
+   "before": "erman (collected by authors) (",
+   "after": ")\n & ALS, HC\n &"
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_language_n.hu~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_language_n.hu"
+   },
+   "value_at_build": "59",
+   "before": "(not clinical)\n \\\\\nHungarian (",
+   "after": ")\n & Hungarian "
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_dataset_n.Hungarian_Dysarthria~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_dataset_n.Hungarian_Dysarthria"
+   },
+   "value_at_build": "39",
+   "before": " (59)\n & Hungarian Dys. [37] (",
+   "after": "), CV\\_Hungaria"
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_dataset_n.CV_Hungarian~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_dataset_n.CV_Hungarian"
+   },
+   "value_at_build": "27",
+   "before": "ys. [37] (39), CV\\_Hungarian (",
+   "after": "), Hungarian\\_H"
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_dataset_n.Hungarian_HC~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_dataset_n.Hungarian_HC"
+   },
+   "value_at_build": "1",
+   "before": "ungarian (27), Hungarian\\_HC (",
+   "after": ")\n & PD, Stroke"
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_hu_labelled~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_hu_labelled"
+   },
+   "value_at_build": "15",
+   "before": "& Supplied by a collaborator (",
+   "after": " of 39 speakers"
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_hu_total~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_hu_total"
+   },
+   "value_at_build": "39",
+   "before": "lied by a collaborator (15 of ",
+   "after": " speakers)\n \\\\\n"
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_language_n.fr~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_language_n.fr"
+   },
+   "value_at_build": "24",
+   "before": "5 of 39 speakers)\n \\\\\nFrench (",
+   "after": ")\n & YouTube Fr"
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_dataset_n.YouTube_French~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_dataset_n.YouTube_French"
+   },
+   "value_at_build": "24",
+   "before": "rench (collected by authors) (",
+   "after": ")\n & ALS, HC\n &"
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_language_n.sw~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_language_n.sw"
+   },
+   "value_at_build": "24",
+   "before": "s (not clinical)\n \\\\\nSwahili (",
+   "after": ")\n & CDLI Kenya"
+  },
+  {
+   "region": "table1",
+   "ref": "H:t1_dataset_n.CDLI_Kenyan_Swahili~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t1_dataset_n.CDLI_Kenyan_Swahili"
+   },
+   "value_at_build": "25",
+   "before": "ili (24)\n & CDLI Kenyan [38] (",
+   "after": ")\n & CP, PD, MS"
+  },
+  {
+   "region": "table2",
+   "ref": "X:hubert_large_librilight_hours~int",
+   "src": {
+    "src": "results/v10/v10_external_descriptors.json",
+    "path": "hubert_large_librilight_hours"
+   },
+   "value_at_build": "60,000",
+   "before": "elf-supervised pre-trained on ",
+   "after": " hours of Libri"
+  },
+  {
+   "region": "table2",
+   "ref": "X:wavlm_base_librispeech_hours~int",
+   "src": {
+    "src": "results/v10/v10_external_descriptors.json",
+    "path": "wavlm_base_librispeech_hours"
+   },
+   "value_at_build": "960",
+   "before": "-base [40] was pre-trained on ",
+   "after": " hours of Libri"
+  },
+  {
+   "region": "table2",
+   "ref": "X:wavlm_large_hours~int",
+   "src": {
+    "src": "results/v10/v10_external_descriptors.json",
+    "path": "wavlm_large_hours"
+   },
+   "value_at_build": "94,000",
+   "before": "LibriSpeech (WavLM-Large uses ",
+   "after": " hours; we use "
+  },
+  {
+   "region": "table2",
+   "ref": "X:hidden_hubert_base~exact",
+   "src": {
+    "src": "results/v10/v10_external_descriptors.json",
+    "path": "hidden_hubert_base"
+   },
+   "value_at_build": "768",
+   "before": "facebook/hubert-base-ls960\n & ",
+   "after": "\n & English LS "
+  },
+  {
+   "region": "table2",
+   "ref": "X:hidden_hubert_large~exact",
+   "src": {
+    "src": "results/v10/v10_external_descriptors.json",
+    "path": "hidden_hubert_large"
+   },
+   "value_at_build": "1024",
+   "before": "ook/hubert-large-ls960-ft*\n & ",
+   "after": "\n & English LS "
+  },
+  {
+   "region": "table2",
+   "ref": "X:hidden_wavlm_base~exact",
+   "src": {
+    "src": "results/v10/v10_external_descriptors.json",
+    "path": "hidden_wavlm_base"
+   },
+   "value_at_build": "768",
+   "before": "se\n & microsoft/wavlm-base\n & ",
+   "after": "\n & English LS "
+  },
+  {
+   "region": "table2",
+   "ref": "X:hidden_wav2vec2_base~exact",
+   "src": {
+    "src": "results/v10/v10_external_descriptors.json",
+    "path": "hidden_wav2vec2_base"
+   },
+   "value_at_build": "768",
+   "before": "\n & facebook/wav2vec2-base\n & ",
+   "after": "\n & English LS "
+  },
+  {
+   "region": "table2",
+   "ref": "X:hidden_xlsr_300m~exact",
+   "src": {
+    "src": "results/v10/v10_external_descriptors.json",
+    "path": "hidden_xlsr_300m"
+   },
+   "value_at_build": "1024",
+   "before": "cebook/wav2vec2-xls-r-300m\n & ",
+   "after": "\n & 128 languag"
+  },
+  {
+   "region": "table2",
+   "ref": "X:xlsr_languages~int",
+   "src": {
+    "src": "results/v10/v10_external_descriptors.json",
+    "path": "xlsr_languages"
+   },
+   "value_at_build": "128",
+   "before": "av2vec2-xls-r-300m\n & 1024\n & ",
+   "after": " languages, 436"
+  },
+  {
+   "region": "table2",
+   "ref": "X:hidden_mms_300m~exact",
+   "src": {
+    "src": "results/v10/v10_external_descriptors.json",
+    "path": "hidden_mms_300m"
+   },
+   "value_at_build": "1024",
+   "before": "-300M\n & facebook/mms-300m\n & ",
+   "after": "\n & 1,100+ lang"
+  },
+  {
+   "region": "table2",
+   "ref": "X:mms_languages~int",
+   "src": {
+    "src": "results/v10/v10_external_descriptors.json",
+    "path": "mms_languages"
+   },
+   "value_at_build": "1,100",
+   "before": " facebook/mms-300m\n & 1024\n & ",
+   "after": "+ languages\n & "
+  },
+  {
+   "region": "table3",
+   "ref": "H:n_features_all~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_features_all"
+   },
+   "value_at_build": "15",
+   "before": " CP, ALS, DS, Stroke) for all ",
+   "after": " features. The "
+  },
+  {
+   "region": "table3",
+   "ref": "H:n_features_main~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_features_main"
+   },
+   "value_at_build": "13",
+   "before": " in Sections 4.2--4.3 use the ",
+   "after": "-feature main s"
+  },
+  {
+   "region": "table3",
+   "ref": "H:large_threshold~2dp",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "large_threshold"
+   },
+   "value_at_build": "0.14",
+   "before": "ion: large (epsilon-squared > ",
+   "after": "), medium (0.06"
+  },
+  {
+   "region": "table3",
+   "ref": "H:medium_threshold~2dp",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "medium_threshold"
+   },
+   "value_at_build": "0.06",
+   "before": "ilon-squared > 0.14), medium (",
+   "after": "--0.14), small "
+  },
+  {
+   "region": "table3",
+   "ref": "H:large_threshold~2dp",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "large_threshold"
+   },
+   "value_at_build": "0.14",
+   "before": "quared > 0.14), medium (0.06--",
+   "after": "), small (< 0.0"
+  },
+  {
+   "region": "table3",
+   "ref": "H:medium_threshold~2dp",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "medium_threshold"
+   },
+   "value_at_build": "0.06",
+   "before": "medium (0.06--0.14), small (< ",
+   "after": ").}\n\n\\begin{lon"
+  },
+  {
+   "region": "table3",
+   "ref": "R:t3row_nasal_dprime",
+   "src": {
+    "src": "registry",
+    "id": "t3row_nasal_dprime"
+   },
+   "value_at_build": " & 1,191.4\n & $2.1 \\times 10^{-255}$\n & 0.426\n & 2,791\n",
+   "before": "e}\n \\\\\n\\midrule\nNasality d$'$\n",
+   "after": " & Large\n \\\\\nVo"
+  },
+  {
+   "region": "table3",
+   "ref": "R:t3row_voicing_dprime",
+   "src": {
+    "src": "registry",
+    "id": "t3row_voicing_dprime"
+   },
+   "value_at_build": " & 1,253.6\n & $7.4 \\times 10^{-269}$\n & 0.424\n & 2,953\n",
+   "before": "791\n & Large\n \\\\\nVoicing d$'$\n",
+   "after": " & Large\n \\\\\nSo"
+  },
+  {
+   "region": "table3",
+   "ref": "R:t3row_sonorant_dprime",
+   "src": {
+    "src": "registry",
+    "id": "t3row_sonorant_dprime"
+   },
+   "value_at_build": " & 700.3\n & $4.3 \\times 10^{-149}$\n & 0.237\n & 2,943\n",
+   "before": "3\n & Large\n \\\\\nSonorance d$'$\n",
+   "after": " & Large\n \\\\\nSt"
+  },
+  {
+   "region": "table3",
+   "ref": "R:t3row_strident_dprime",
+   "src": {
+    "src": "registry",
+    "id": "t3row_strident_dprime"
+   },
+   "value_at_build": " & 1,239.2\n & $9.4 \\times 10^{-266}$\n & 0.431\n & 2,867\n",
+   "before": "3\n & Large\n \\\\\nStridency d$'$\n",
+   "after": " & Large\n \\\\\nMa"
+  },
+  {
+   "region": "table3",
+   "ref": "R:t3row_manner_dprime",
+   "src": {
+    "src": "registry",
+    "id": "t3row_manner_dprime"
+   },
+   "value_at_build": " & 1,153.7\n & $3.2 \\times 10^{-247}$\n & 0.395\n & 2,917\n",
+   "before": ",867\n & Large\n \\\\\nManner d$'$\n",
+   "after": " & Large\n \\\\\nHe"
+  },
+  {
+   "region": "table3",
+   "ref": "R:t3row_high_dprime",
+   "src": {
+    "src": "registry",
+    "id": "t3row_high_dprime"
+   },
+   "value_at_build": " & 1,381.6\n & $1.3 \\times 10^{-296}$\n & 0.498\n & 2,768\n",
+   "before": ",917\n & Large\n \\\\\nHeight d$'$\n",
+   "after": " & Large\n \\\\\nLo"
+  },
+  {
+   "region": "table3",
+   "ref": "R:t3row_low_dprime",
+   "src": {
+    "src": "registry",
+    "id": "t3row_low_dprime"
+   },
+   "value_at_build": " & 961.7\n & $1.2 \\times 10^{-205}$\n & 0.345\n & 2,775\n",
+   "before": "768\n & Large\n \\\\\nLowness d$'$\n",
+   "after": " & Large\n \\\\\nBa"
+  },
+  {
+   "region": "table3",
+   "ref": "R:t3row_back_dprime",
+   "src": {
+    "src": "registry",
+    "id": "t3row_back_dprime"
+   },
+   "value_at_build": " & 1,080.0\n & $2.8 \\times 10^{-231}$\n & 0.390\n & 2,760\n",
+   "before": "75\n & Large\n \\\\\nBackness d$'$\n",
+   "after": " & Large\n \\\\\nRo"
+  },
+  {
+   "region": "table3",
+   "ref": "R:t3row_round_dprime",
+   "src": {
+    "src": "registry",
+    "id": "t3row_round_dprime"
+   },
+   "value_at_build": " & 1,172.2\n & $3.1 \\times 10^{-251}$\n & 0.443\n & 2,639\n",
+   "before": "60\n & Large\n \\\\\nRounding d$'$\n",
+   "after": " & Large\n \\\\\nVo"
+  },
+  {
+   "region": "table3",
+   "ref": "R:t3row_vowel_triangle_area",
+   "src": {
+    "src": "registry",
+    "id": "t3row_vowel_triangle_area"
+   },
+   "value_at_build": " & 397.4\n & $1.1 \\times 10^{-83}$\n & 0.341\n & 1,157\n",
+   "before": "Large\n \\\\\nVowel triangle area\n",
+   "after": " & Large\n \\\\\nBo"
+  },
+  {
+   "region": "table3",
+   "ref": "R:t3row_boundary_sharpness",
+   "src": {
+    "src": "registry",
+    "id": "t3row_boundary_sharpness"
+   },
+   "value_at_build": " & 191.7\n & $1.7 \\times 10^{-39}$\n & 0.063\n & 2,974\n",
+   "before": " Large\n \\\\\nBoundary sharpness\n",
+   "after": " & Medium\n \\\\\nC"
+  },
+  {
+   "region": "table3",
+   "ref": "R:t3row_cross_position_cosim",
+   "src": {
+    "src": "registry",
+    "id": "t3row_cross_position_cosim"
+   },
+   "value_at_build": " & 196.8\n & $1.3 \\times 10^{-40}$\n & 0.065\n & 2,974\n",
+   "before": "ium\n \\\\\nCross-position cosine\n",
+   "after": " & Medium\n \\\\\nS"
+  },
+  {
+   "region": "table3",
+   "ref": "R:t3row_speech_rate",
+   "src": {
+    "src": "registry",
+    "id": "t3row_speech_rate"
+   },
+   "value_at_build": " & 155.4\n & $9.2 \\times 10^{-32}$\n & 0.055\n & 2,739\n",
+   "before": "974\n & Medium\n \\\\\nSpeech rate\n",
+   "after": " & Small\n \\\\\nVo"
+  },
+  {
+   "region": "table3",
+   "ref": "R:t3row_vowel_duration_cv",
+   "src": {
+    "src": "registry",
+    "id": "t3row_vowel_duration_cv"
+   },
+   "value_at_build": " & 278.6\n & $3.9 \\times 10^{-58}$\n & 0.105\n & 2,607\n",
+   "before": "& Small\n \\\\\nVowel duration CV\n",
+   "after": " & Medium\n \\\\\nP"
+  },
+  {
+   "region": "table3",
+   "ref": "R:t3row_pause_rate",
+   "src": {
+    "src": "registry",
+    "id": "t3row_pause_rate"
+   },
+   "value_at_build": " & 64.6\n & $1.3 \\times 10^{-12}$\n & 0.022\n & 2,739\n",
+   "before": ",607\n & Medium\n \\\\\nPause rate\n",
+   "after": " & Small\n \\\\\n\\b"
+  },
+  {
+   "region": "table4",
+   "ref": "H:n_consonant_features~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_consonant_features"
+   },
+   "value_at_build": "5",
+   "before": "Cosine similarity computed on ",
+   "after": "-consonant d-pr"
+  },
+  {
+   "region": "table4",
+   "ref": "H:min_cell~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "min_cell"
+   },
+   "value_at_build": "3",
+   "before": "s all languages with at least ",
+   "after": " speakers per c"
+  },
+  {
+   "region": "table4",
+   "ref": "H:t4_nlang.CP~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t4_nlang.CP"
+   },
+   "value_at_build": "4",
+   "before": "extbf{Max}\n \\\\\n\\midrule\nCP\n & ",
+   "after": " (en, zh, sw, t"
+  },
+  {
+   "region": "table4",
+   "ref": "R:t4row_CP",
+   "src": {
+    "src": "registry",
+    "id": "t4row_CP"
+   },
+   "value_at_build": " & 0.987\n & 0.974\n & 0.999\n",
+   "before": "rule\nCP\n & 4 (en, zh, sw, ta)\n",
+   "after": " \\\\\nALS\n & 4 (e"
+  },
+  {
+   "region": "table4",
+   "ref": "H:t4_nlang.ALS~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t4_nlang.ALS"
+   },
+   "value_at_build": "4",
+   "before": "\n & 0.974\n & 0.999\n \\\\\nALS\n & ",
+   "after": " (en, de, fr, p"
+  },
+  {
+   "region": "table4",
+   "ref": "R:t4row_ALS",
+   "src": {
+    "src": "registry",
+    "id": "t4row_ALS"
+   },
+   "value_at_build": " & 0.985\n & 0.969\n & 0.998\n",
+   "before": " \\\\\nALS\n & 4 (en, de, fr, pt)\n",
+   "after": " \\\\\nPD\n & 6 (en"
+  },
+  {
+   "region": "table4",
+   "ref": "H:t4_nlang.PD~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t4_nlang.PD"
+   },
+   "value_at_build": "6",
+   "before": "5\n & 0.969\n & 0.998\n \\\\\nPD\n & ",
+   "after": " (en, es, it, n"
+  },
+  {
+   "region": "table4",
+   "ref": "R:t4row_PD",
+   "src": {
+    "src": "registry",
+    "id": "t4row_PD"
+   },
+   "value_at_build": " & 0.978\n & 0.937\n & 0.998\n",
+   "before": " & 6 (en, es, it, nl, pt, sk)\n",
+   "after": " \\\\\nHC\n & 11 (d"
+  },
+  {
+   "region": "table4",
+   "ref": "H:t4_nlang.HC~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "t4_nlang.HC"
+   },
+   "value_at_build": "11",
+   "before": "8\n & 0.937\n & 0.998\n \\\\\nHC\n & ",
+   "after": " (de, en, es, f"
+  },
+  {
+   "region": "table4",
+   "ref": "R:t4row_HC",
+   "src": {
+    "src": "registry",
+    "id": "t4row_HC"
+   },
+   "value_at_build": " & 0.980\n & 0.930\n & 0.999\n",
+   "before": ", hu, it, nl, pt, sk, ta, zh)\n",
+   "after": " \\\\\n\\bottomrule"
+  },
+  {
+   "region": "table5",
+   "ref": "H:n_backbone_pairs~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "n_backbone_pairs"
+   },
+   "value_at_build": "15",
+   "before": "onsonant features valid). All ",
+   "after": " pairs are comp"
+  },
+  {
+   "region": "table5",
+   "ref": "R:t5_xlsr|mms_n_int",
+   "src": {
+    "src": "registry",
+    "id": "t5_xlsr|mms_n_int"
+   },
+   "value_at_build": "3,101",
+   "before": "airs are computed on the same ",
+   "after": " speakers. HuBE"
+  },
+  {
+   "region": "table5",
+   "ref": "H:family_min_rho~gt=0.90",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "family_min_rho"
+   },
+   "value_at_build": "0.90",
+   "before": "amily models cluster at rho > ",
+   "after": "; multilingual "
+  },
+  {
+   "region": "table5",
+   "ref": "R:t5_hubert-base|wavlm_3dp",
+   "src": {
+    "src": "registry",
+    "id": "t5_hubert-base|wavlm_3dp"
+   },
+   "value_at_build": "0.985",
+   "before": "\nHuBERT-base vs WavLM-base\n & ",
+   "after": "\n & 3,101\n \\\\\nH"
+  },
+  {
+   "region": "table5",
+   "ref": "R:t5_hubert-base|wavlm_n_int",
+   "src": {
+    "src": "registry",
+    "id": "t5_hubert-base|wavlm_n_int"
+   },
+   "value_at_build": "3,101",
+   "before": "ase vs WavLM-base\n & 0.985\n & ",
+   "after": "\n \\\\\nHuBERT-lar"
+  },
+  {
+   "region": "table5",
+   "ref": "R:t5_hubert-large|wavlm_3dp",
+   "src": {
+    "src": "registry",
+    "id": "t5_hubert-large|wavlm_3dp"
+   },
+   "value_at_build": "0.968",
+   "before": "HuBERT-large vs WavLM-base\n & ",
+   "after": "\n & 3,101\n \\\\\nH"
+  },
+  {
+   "region": "table5",
+   "ref": "R:t5_hubert-large|wavlm_n_int",
+   "src": {
+    "src": "registry",
+    "id": "t5_hubert-large|wavlm_n_int"
+   },
+   "value_at_build": "3,101",
+   "before": "rge vs WavLM-base\n & 0.968\n & ",
+   "after": "\n \\\\\nHuBERT-bas"
+  },
+  {
+   "region": "table5",
+   "ref": "R:t5_hubert-base|hubert-large_3dp",
+   "src": {
+    "src": "registry",
+    "id": "t5_hubert-base|hubert-large_3dp"
+   },
+   "value_at_build": "0.963",
+   "before": "uBERT-base vs HuBERT-large\n & ",
+   "after": "\n & 3,101\n \\\\\nH"
+  },
+  {
+   "region": "table5",
+   "ref": "R:t5_hubert-base|hubert-large_n_int",
+   "src": {
+    "src": "registry",
+    "id": "t5_hubert-base|hubert-large_n_int"
+   },
+   "value_at_build": "3,101",
+   "before": "e vs HuBERT-large\n & 0.963\n & ",
+   "after": "\n \\\\\nHuBERT-bas"
+  },
+  {
+   "region": "table5",
+   "ref": "R:t5_hubert-base|wav2vec2_3dp",
+   "src": {
+    "src": "registry",
+    "id": "t5_hubert-base|wav2vec2_3dp"
+   },
+   "value_at_build": "0.949",
+   "before": "BERT-base vs wav2vec2-base\n & ",
+   "after": "\n & 3,101\n \\\\\nW"
+  },
+  {
+   "region": "table5",
+   "ref": "R:t5_hubert-base|wav2vec2_n_int",
+   "src": {
+    "src": "registry",
+    "id": "t5_hubert-base|wav2vec2_n_int"
+   },
+   "value_at_build": "3,101",
+   "before": " vs wav2vec2-base\n & 0.949\n & ",
+   "after": "\n \\\\\nWavLM-base"
+  },
+  {
+   "region": "table5",
+   "ref": "R:t5_wavlm|wav2vec2_3dp",
+   "src": {
+    "src": "registry",
+    "id": "t5_wavlm|wav2vec2_3dp"
+   },
+   "value_at_build": "0.948",
+   "before": "avLM-base vs wav2vec2-base\n & ",
+   "after": "\n & 3,101\n \\\\\nH"
+  },
+  {
+   "region": "table5",
+   "ref": "R:t5_wavlm|wav2vec2_n_int",
+   "src": {
+    "src": "registry",
+    "id": "t5_wavlm|wav2vec2_n_int"
+   },
+   "value_at_build": "3,101",
+   "before": " vs wav2vec2-base\n & 0.948\n & ",
+   "after": "\n \\\\\nHuBERT-lar"
+  },
+  {
+   "region": "table5",
+   "ref": "R:t5_hubert-large|wav2vec2_3dp",
+   "src": {
+    "src": "registry",
+    "id": "t5_hubert-large|wav2vec2_3dp"
+   },
+   "value_at_build": "0.934",
+   "before": "ERT-large vs wav2vec2-base\n & ",
+   "after": "\n & 3,101\n \\\\\nH"
+  },
+  {
+   "region": "table5",
+   "ref": "R:t5_hubert-large|wav2vec2_n_int",
+   "src": {
+    "src": "registry",
+    "id": "t5_hubert-large|wav2vec2_n_int"
+   },
+   "value_at_build": "3,101",
+   "before": " vs wav2vec2-base\n & 0.934\n & ",
+   "after": "\n \\\\\nHuBERT-bas"
+  },
+  {
+   "region": "table5",
+   "ref": "R:t5_hubert-base|mms_3dp",
+   "src": {
+    "src": "registry",
+    "id": "t5_hubert-base|mms_3dp"
+   },
+   "value_at_build": "0.872",
+   "before": "\\\\\nHuBERT-base vs MMS-300M\n & ",
+   "after": "\n & 3,101\n \\\\\nW"
+  },
+  {
+   "region": "table5",
+   "ref": "R:t5_hubert-base|mms_n_int",
+   "src": {
+    "src": "registry",
+    "id": "t5_hubert-base|mms_n_int"
+   },
+   "value_at_build": "3,101",
+   "before": "-base vs MMS-300M\n & 0.872\n & ",
+   "after": "\n \\\\\nWavLM-base"
+  },
+  {
+   "region": "table5",
+   "ref": "R:t5_wavlm|mms_3dp",
+   "src": {
+    "src": "registry",
+    "id": "t5_wavlm|mms_3dp"
+   },
+   "value_at_build": "0.870",
+   "before": " \\\\\nWavLM-base vs MMS-300M\n & ",
+   "after": "\n & 3,101\n \\\\\nH"
+  },
+  {
+   "region": "table5",
+   "ref": "R:t5_wavlm|mms_n_int",
+   "src": {
+    "src": "registry",
+    "id": "t5_wavlm|mms_n_int"
+   },
+   "value_at_build": "3,101",
+   "before": "-base vs MMS-300M\n & 0.870\n & ",
+   "after": "\n \\\\\nHuBERT-lar"
+  },
+  {
+   "region": "table5",
+   "ref": "R:t5_hubert-large|mms_3dp",
+   "src": {
+    "src": "registry",
+    "id": "t5_hubert-large|mms_3dp"
+   },
+   "value_at_build": "0.859",
+   "before": "\\\nHuBERT-large vs MMS-300M\n & ",
+   "after": "\n & 3,101\n \\\\\nH"
+  },
+  {
+   "region": "table5",
+   "ref": "R:t5_hubert-large|mms_n_int",
+   "src": {
+    "src": "registry",
+    "id": "t5_hubert-large|mms_n_int"
+   },
+   "value_at_build": "3,101",
+   "before": "large vs MMS-300M\n & 0.859\n & ",
+   "after": "\n \\\\\nHuBERT-bas"
+  },
+  {
+   "region": "table5",
+   "ref": "R:t5_hubert-base|xlsr_3dp",
+   "src": {
+    "src": "registry",
+    "id": "t5_hubert-base|xlsr_3dp"
+   },
+   "value_at_build": "0.859",
+   "before": "\nHuBERT-base vs XLS-R-300M\n & ",
+   "after": "\n & 3,101\n \\\\\nW"
+  },
+  {
+   "region": "table5",
+   "ref": "R:t5_hubert-base|xlsr_n_int",
+   "src": {
+    "src": "registry",
+    "id": "t5_hubert-base|xlsr_n_int"
+   },
+   "value_at_build": "3,101",
+   "before": "ase vs XLS-R-300M\n & 0.859\n & ",
+   "after": "\n \\\\\nWavLM-base"
+  },
+  {
+   "region": "table5",
+   "ref": "R:t5_wavlm|xlsr_3dp",
+   "src": {
+    "src": "registry",
+    "id": "t5_wavlm|xlsr_3dp"
+   },
+   "value_at_build": "0.858",
+   "before": "\\\nWavLM-base vs XLS-R-300M\n & ",
+   "after": "\n & 3,101\n \\\\\nH"
+  },
+  {
+   "region": "table5",
+   "ref": "R:t5_wavlm|xlsr_n_int",
+   "src": {
+    "src": "registry",
+    "id": "t5_wavlm|xlsr_n_int"
+   },
+   "value_at_build": "3,101",
+   "before": "ase vs XLS-R-300M\n & 0.858\n & ",
+   "after": "\n \\\\\nHuBERT-lar"
+  },
+  {
+   "region": "table5",
+   "ref": "R:t5_hubert-large|xlsr_3dp",
+   "src": {
+    "src": "registry",
+    "id": "t5_hubert-large|xlsr_3dp"
+   },
+   "value_at_build": "0.852",
+   "before": "HuBERT-large vs XLS-R-300M\n & ",
+   "after": "\n & 3,101\n \\\\\nW"
+  },
+  {
+   "region": "table5",
+   "ref": "R:t5_hubert-large|xlsr_n_int",
+   "src": {
+    "src": "registry",
+    "id": "t5_hubert-large|xlsr_n_int"
+   },
+   "value_at_build": "3,101",
+   "before": "rge vs XLS-R-300M\n & 0.852\n & ",
+   "after": "\n \\\\\nWav2vec2-b"
+  },
+  {
+   "region": "table5",
+   "ref": "R:t5_wav2vec2|xlsr_3dp",
+   "src": {
+    "src": "registry",
+    "id": "t5_wav2vec2|xlsr_3dp"
+   },
+   "value_at_build": "0.839",
+   "before": "av2vec2-base vs XLS-R-300M\n & ",
+   "after": "\n & 3,101\n \\\\\nW"
+  },
+  {
+   "region": "table5",
+   "ref": "R:t5_wav2vec2|xlsr_n_int",
+   "src": {
+    "src": "registry",
+    "id": "t5_wav2vec2|xlsr_n_int"
+   },
+   "value_at_build": "3,101",
+   "before": "ase vs XLS-R-300M\n & 0.839\n & ",
+   "after": "\n \\\\\nWav2vec2-b"
+  },
+  {
+   "region": "table5",
+   "ref": "R:t5_wav2vec2|mms_3dp",
+   "src": {
+    "src": "registry",
+    "id": "t5_wav2vec2|mms_3dp"
+   },
+   "value_at_build": "0.834",
+   "before": "\nWav2vec2-base vs MMS-300M\n & ",
+   "after": "\n & 3,101\n \\\\\nX"
+  },
+  {
+   "region": "table5",
+   "ref": "R:t5_wav2vec2|mms_n_int",
+   "src": {
+    "src": "registry",
+    "id": "t5_wav2vec2|mms_n_int"
+   },
+   "value_at_build": "3,101",
+   "before": "-base vs MMS-300M\n & 0.834\n & ",
+   "after": "\n \\\\\nXLS-R-300M"
+  },
+  {
+   "region": "table5",
+   "ref": "R:t5_xlsr|mms_3dp",
+   "src": {
+    "src": "registry",
+    "id": "t5_xlsr|mms_3dp"
+   },
+   "value_at_build": "0.830",
+   "before": " \\\\\nXLS-R-300M vs MMS-300M\n & ",
+   "after": "\n & 3,101\n \\\\\n\\"
+  },
+  {
+   "region": "table5",
+   "ref": "R:t5_xlsr|mms_n_int",
+   "src": {
+    "src": "registry",
+    "id": "t5_xlsr|mms_n_int"
+   },
+   "value_at_build": "3,101",
+   "before": "-300M vs MMS-300M\n & 0.830\n & ",
+   "after": "\n \\\\\n\\bottomrul"
+  },
+  {
+   "region": "table6",
+   "ref": "H:budget_min~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "budget_min"
+   },
+   "value_at_build": "20",
+   "before": "res HC, PD, CP, ALS and DS at ",
+   "after": "--100 tokens an"
+  },
+  {
+   "region": "table6",
+   "ref": "H:budget_100~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "budget_100"
+   },
+   "value_at_build": "100",
+   "before": "HC, PD, CP, ALS and DS at 20--",
+   "after": " tokens and HC,"
+  },
+  {
+   "region": "table6",
+   "ref": "H:budget_max~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "budget_max"
+   },
+   "value_at_build": "200",
+   "before": "ens and HC, CP, ALS and DS at ",
+   "after": " tokens (stroke"
+  },
+  {
+   "region": "table6",
+   "ref": "H:budget_max~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "budget_max"
+   },
+   "value_at_build": "200",
+   "before": "200 tokens (stroke, and PD at ",
+   "after": " tokens, have f"
+  },
+  {
+   "region": "table6",
+   "ref": "H:kw_min_group~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "kw_min_group"
+   },
+   "value_at_build": "5",
+   "before": "t 200 tokens, have fewer than ",
+   "after": " qualifying spe"
+  },
+  {
+   "region": "table6",
+   "ref": "H:budget_0~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "budget_0"
+   },
+   "value_at_build": "20",
+   "before": "epsilon-squared}\n \\\\\n\\midrule\n",
+   "after": "\n & 845\n & -0.5"
+  },
+  {
+   "region": "table6",
+   "ref": "R:t6row_20",
+   "src": {
+    "src": "registry",
+    "id": "t6row_20"
+   },
+   "value_at_build": " & 845\n & -0.586\n",
+   "before": "ilon-squared}\n \\\\\n\\midrule\n20\n",
+   "after": " & < $10^{-78}$"
+  },
+  {
+   "region": "table6",
+   "ref": "J:results/v9/v9_originals.json#states.corrected.parsed.fixed_token_dprime.expA_per_budget.20.p~lt10:-78",
+   "src": {
+    "src": "results/v9/v9_originals.json",
+    "path": "states.corrected.parsed.fixed_token_dprime.expA_per_budget.20.p"
+   },
+   "value_at_build": "-78",
+   "before": "20\n & 845\n & -0.586\n & < $10^{",
+   "after": "}$\n & 0.355\n \\\\"
+  },
+  {
+   "region": "table6",
+   "ref": "R:t6eps_20",
+   "src": {
+    "src": "registry",
+    "id": "t6eps_20"
+   },
+   "value_at_build": "0.355",
+   "before": "\n & -0.586\n & < $10^{-78}$\n & ",
+   "after": "\n \\\\\n50\n & 639\n"
+  },
+  {
+   "region": "table6",
+   "ref": "H:budget_1~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "budget_1"
+   },
+   "value_at_build": "50",
+   "before": "\n & < $10^{-78}$\n & 0.355\n \\\\\n",
+   "after": "\n & 639\n & -0.6"
+  },
+  {
+   "region": "table6",
+   "ref": "R:t6row_50",
+   "src": {
+    "src": "registry",
+    "id": "t6row_50"
+   },
+   "value_at_build": " & 639\n & -0.672\n",
+   "before": " < $10^{-78}$\n & 0.355\n \\\\\n50\n",
+   "after": " & < $10^{-84}$"
+  },
+  {
+   "region": "table6",
+   "ref": "J:results/v9/v9_originals.json#states.corrected.parsed.fixed_token_dprime.expA_per_budget.50.p~lt10:-84",
+   "src": {
+    "src": "results/v9/v9_originals.json",
+    "path": "states.corrected.parsed.fixed_token_dprime.expA_per_budget.50.p"
+   },
+   "value_at_build": "-84",
+   "before": "50\n & 639\n & -0.672\n & < $10^{",
+   "after": "}$\n & 0.540\n \\\\"
+  },
+  {
+   "region": "table6",
+   "ref": "R:t6eps_50",
+   "src": {
+    "src": "registry",
+    "id": "t6eps_50"
+   },
+   "value_at_build": "0.540",
+   "before": "\n & -0.672\n & < $10^{-84}$\n & ",
+   "after": "\n \\\\\n100\n & 550"
+  },
+  {
+   "region": "table6",
+   "ref": "H:budget_2~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "budget_2"
+   },
+   "value_at_build": "100",
+   "before": "\n & < $10^{-84}$\n & 0.540\n \\\\\n",
+   "after": "\n & 550\n & -0.7"
+  },
+  {
+   "region": "table6",
+   "ref": "R:t6row_100",
+   "src": {
+    "src": "registry",
+    "id": "t6row_100"
+   },
+   "value_at_build": " & 550\n & -0.736\n",
+   "before": "< $10^{-84}$\n & 0.540\n \\\\\n100\n",
+   "after": " & < $10^{-94}$"
+  },
+  {
+   "region": "table6",
+   "ref": "J:results/v9/v9_originals.json#states.corrected.parsed.fixed_token_dprime.expA_per_budget.100.p~lt10:-94",
+   "src": {
+    "src": "results/v9/v9_originals.json",
+    "path": "states.corrected.parsed.fixed_token_dprime.expA_per_budget.100.p"
+   },
+   "value_at_build": "-94",
+   "before": "00\n & 550\n & -0.736\n & < $10^{",
+   "after": "}$\n & 0.576\n \\\\"
+  },
+  {
+   "region": "table6",
+   "ref": "R:t6eps_100",
+   "src": {
+    "src": "registry",
+    "id": "t6eps_100"
+   },
+   "value_at_build": "0.576",
+   "before": "\n & -0.736\n & < $10^{-94}$\n & ",
+   "after": "\n \\\\\n200\n & 467"
+  },
+  {
+   "region": "table6",
+   "ref": "H:budget_3~int",
+   "src": {
+    "src": "results/v10/v10_hr_values.json",
+    "path": "budget_3"
+   },
+   "value_at_build": "200",
+   "before": "\n & < $10^{-94}$\n & 0.576\n \\\\\n",
+   "after": "\n & 467\n & -0.7"
+  },
+  {
+   "region": "table6",
+   "ref": "R:t6row_200",
+   "src": {
+    "src": "registry",
+    "id": "t6row_200"
+   },
+   "value_at_build": " & 467\n & -0.733\n",
+   "before": "< $10^{-94}$\n & 0.576\n \\\\\n200\n",
+   "after": " & < $10^{-79}$"
+  },
+  {
+   "region": "table6",
+   "ref": "J:results/v9/v9_originals.json#states.corrected.parsed.fixed_token_dprime.expA_per_budget.200.p~lt10:-79",
+   "src": {
+    "src": "results/v9/v9_originals.json",
+    "path": "states.corrected.parsed.fixed_token_dprime.expA_per_budget.200.p"
+   },
+   "value_at_build": "-79",
+   "before": "00\n & 467\n & -0.733\n & < $10^{",
+   "after": "}$\n & 0.546\n \\\\"
+  },
+  {
+   "region": "table6",
+   "ref": "R:t6eps_200",
+   "src": {
+    "src": "registry",
+    "id": "t6eps_200"
+   },
+   "value_at_build": "0.546",
+   "before": "\n & -0.733\n & < $10^{-79}$\n & ",
+   "after": "\n \\\\\n\\bottomrul"
+  }
+ ]
+}
