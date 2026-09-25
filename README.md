@@ -22,7 +22,7 @@ The method requires **no dysarthric training data and no model adaptation** — 
 - Effect replicates within every individual corpus (rho up to −0.92)
 - 8 robustness experiments (bootstrap CIs, LOCO, meta-analysis, alternative SSL backbones)
 
-**Paper 2 (3,374 speakers, 25 corpora, 12 languages, 6 SSL backbones):**
+**Paper 2 (3,374 speakers, 25 corpora, 12 languages, 6 SSL backbones)** — the bullets below describe the originally submitted version (April 2026). The revised manuscript recomputes all results on corrected inputs and several values and interpretations changed; see [`paper2-revision/`](paper2-revision/README.md) for the revision code:
 - Aetiology-specific degradation profiles distinguishable at the group level (10 of 13 features: Large effect sizes, epsilon-squared > 0.14, FDR-corrected p < 0.001)
 - Cross-lingual profile-shape stability (cosine similarity > 0.95 across available languages per aetiology)
 - Architecture-independent (inter-model rho > 0.77 across HuBERT-base, HuBERT-large, WavLM, wav2vec2, XLS-R, MMS)
@@ -131,6 +131,10 @@ Each script maps to a specific table, figure, or section. Assumes `track4_master
 | `scripts/fixed_token_dprime.py` | Section 4.5 and 5.1 (fixed-token d-prime + cross-lingual permutation baseline) |
 | `scripts/sap_excluded_sensitivity.py` | Section 4.5 (SAP-excluded sensitivity) |
 | `scripts/robustness_pass5.py` | Section 4.5 (common-speaker fixed-token + HC minimum-n) |
+
+## Paper 2 revision (September 2026)
+
+The analysis code for the revised Paper 2 manuscript, run on corrected inputs, is in [`paper2-revision/`](paper2-revision/README.md). That README maps each script to the table, figure or section it produces and lists the derived inputs it expects. Those inputs are not public: the per-speaker tables are covered by the data-use agreements of the underlying corpora.
 
 ## Phone feature configurations
 
