@@ -1,7 +1,7 @@
 {
   "language": "Slovak (Czech MFA model)",
   "consonant_features": {
-    "nasality": {
+    "nasal": {
       "positive": ["m", "n", "ɲ", "ŋ", "m̩"],
       "negative": ["p", "b", "t", "d", "k", "ɡ", "c", "ɟ", "f", "v", "s", "z", "ʃ", "ʒ", "x", "ɦ", "ts", "tʃ", "r", "l", "j", "r̩", "l̩"]
     },

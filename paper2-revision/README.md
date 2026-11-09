@@ -72,4 +72,23 @@ The figure scripts write to `paper2-revision/figures/`, so create that directory
 
 Other scripts here are supporting checks (`v5_investigation/*.py`, `results/v5/swap_run/unsourced_numbers.py`, `scripts/v8/v8_cite_order.py`, `scripts/v10/v10_cite_order.py`, `scripts/v10/apply_v10_edits.py`, `scripts/v10/build_numbers_v10.py`, `scripts/v8/v8_measure_figs.py`, `scripts/v6/v6_measure_figs.py`, `scripts/v6/v6_misc.py`) or input-correction bookkeeping and earlier reconstruction checks (`scripts/rebuild_phase1.py`, `scripts/aetiology_undetermined.py`, `scripts/copas_recompute_v4.py`, `scripts/nl_repair.py`, `scripts/corrected/test9_recompute.py`, `scripts/corrected/test7_lodo_repro.py`, `scripts/corrected/test6_backbone_stability.py`, `scripts/test6_v5.py`, `scripts/regen_fig5_v5.py`).
 
-The code for the originally submitted version stays at tag `submitted-state-2026-09`. The first corrected-revision battery stays at tag `corrected-revision-2026-09`. Tags `paper2-csl-revision-2026-09-25-r2` and `-r3` hold the previous revision rounds; the manuscript cites tag `paper2-csl-revision-2026-09-25-r4`.
+The code for the originally submitted version stays at tag `submitted-state-2026-09`. The first corrected-revision battery stays at tag `corrected-revision-2026-09`. Tags `paper2-csl-revision-2026-09-25-r2`, `-r3` and `-r4` hold the previous revision rounds; the manuscript of the second revision cites tag `paper2-csl-revision-2026-11-r5`.
+
+
+## Second revision (November 2026, tag `paper2-csl-revision-2026-11-r5`)
+
+The second-revision manuscript adds a new Table 4, so the earlier Tables 4, 5 and 6 named above are now Tables 5, 6 and 7.
+
+| Manuscript element | Script |
+|---|---|
+| §4.1, Table 4: per-feature Kruskal-Wallis at matched severity (mild, moderate; all corpora and SAP only); centred profile-shape permutation test with pooled healthy controls | `scripts/v12/v12_matched_severity_features.py` |
+| §4.1: centred profile-shape test with same-language healthy controls | `scripts/v17/v17_matched_severity_samelang.py` (imports the v12 script unchanged) |
+| §4.5, Table 7: fixed-token d′ along each speaker's own axis and along the healthy-control directions, same draws | `scripts/v17/v17_fixed_token_hcdir.py` |
+| response letter: comparison with the submitted values, restricted analysis without Slovak and Swahili, resampling shift | `scripts/v17/v17_compare_fixed_token.py` |
+
+`scripts/v12/v12_fixed_token_hcdir.py` is the first version of the fixed-token extension. It keeps the phone classes of the submitted `fixed_token_dprime.py` (Slovak scored with the German map, Swahili with the English map) and reproduces the submitted Table 6 exactly. `scripts/v17/v17_fixed_token_hcdir.py` differs from it only in using, for every language, the phone classes behind the reported per-speaker d′ values (Slovak map for Slovak, Swahili map for Swahili). Run it with `DYSARTHRIA_BASE` pointing at a directory holding `results/track4/track4_master.csv`, `results/track4/embeddings/` and `config/`, and `EXTRA_CONFIG_DIR` pointing at this repository's `config/` (for `phone_features_sw.json`).
+
+Configuration corrections in this tag, both at the repository root:
+
+- `config/phone_features_sk.json`: the nasal contrast key is now `nasal`, as in every other language (it was `nasality`). The phone classes are unchanged.
+- `config/phone_features_hu.json` keeps the `consonant_features` / `vowel_features` schema the pipeline reads. Earlier tags `submitted-state-2026-09` and `corrected-revision-2026-09` carry an older copy with `consonants` / `vowels` keys, which the pipeline does not read.
