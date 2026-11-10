@@ -22,12 +22,14 @@ live in tagged history, not in parallel directories.
    current main branch. The revision's pre-registered analysis battery and the audited data
    repairs (MDSC labels, COPAS control flags, SAP join canonicalisation, Dutch direction
    rebuild) now live directly in `scripts/`; `config/phone_features_hu.json` is the
-   schema-translated Hungarian configuration. On full re-extraction from audio it reproduces
-   the submitted values of the 28 Hungarian healthy controls (Spearman 0.983-1.000) but those
-   of the 31 Hungarian Dysarthria speakers only approximately (Spearman 0.851, median absolute
-   difference 0.19); pooled over all 59 speakers the agreement is 0.946. The configuration
-   that produced the dysarthric-corpus values was not retained (the lost-schema original is
-   preserved under the tags), so the revised manuscript keeps the submitted Hungarian values;
+   schema-translated Hungarian configuration. On full re-extraction from audio its values agree
+   closely with the submitted values of the 28 Hungarian healthy controls (Spearman 0.983-1.000)
+   but only approximately with those of the 31 Hungarian Dysarthria speakers (Spearman 0.851,
+   median absolute difference 0.19); pooled over all 59 speakers the agreement is 0.946. The
+   cause of the difference is unconfirmed. The configuration that produced the submitted values
+   was not preserved (the lost-schema original is kept under the tags), so the revised
+   manuscript keeps the submitted Hungarian values; a sensitivity check finds that no reported
+   conclusion changes (`results/v19/HU_SENSITIVITY_FINDINGS.md`);
    see `paper2-revision/README.md`, section "Current reproduction route". Results reported in the revised manuscript come from these scripts run on the
    corrected master. Speaker-level inputs are governed by data-use agreements and are not
    distributed here.

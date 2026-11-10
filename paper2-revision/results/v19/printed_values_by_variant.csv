@@ -1,0 +1,1404 @@
+item,source,V0_retained,V1_reextracted,V2_excl_HD,V3_excl_all_hu,changed_V1,changed_V2,changed_V3
+pc_min_PD_3dp,results/v8/v8_test6.json:profile_cosine_min_per_aetiology.PD,0.980,0.980,0.980,0.980,False,False,False
+pc_min_PD_2dp,results/v8/v8_test6.json:profile_cosine_min_per_aetiology.PD,0.98,0.98,0.98,0.98,False,False,False
+pc_lo_PD_3dp,results/v8/v8_test6.json:profile_cosines.PD.hubert-large|mms.ci95.0,0.977,0.977,0.977,0.977,False,False,False
+pc_hi_PD_3dp,results/v8/v8_test6.json:profile_cosines.PD.hubert-large|mms.ci95.1,0.984,0.984,0.984,0.984,False,False,False
+pc_min_CP_3dp,results/v8/v8_test6.json:profile_cosine_min_per_aetiology.CP,0.960,0.960,0.960,0.960,False,False,False
+pc_min_CP_2dp,results/v8/v8_test6.json:profile_cosine_min_per_aetiology.CP,0.96,0.96,0.96,0.96,False,False,False
+pc_lo_CP_3dp,results/v8/v8_test6.json:profile_cosines.CP.hubert-large|mms.ci95.0,0.954,0.954,0.954,0.954,False,False,False
+pc_hi_CP_3dp,results/v8/v8_test6.json:profile_cosines.CP.hubert-large|mms.ci95.1,0.965,0.965,0.965,0.965,False,False,False
+pc_min_ALS_3dp,results/v8/v8_test6.json:profile_cosine_min_per_aetiology.ALS,0.915,0.915,0.915,0.915,False,False,False
+pc_min_ALS_2dp,results/v8/v8_test6.json:profile_cosine_min_per_aetiology.ALS,0.91,0.91,0.91,0.91,False,False,False
+pc_lo_ALS_3dp,results/v8/v8_test6.json:profile_cosines.ALS.hubert-large|mms.ci95.0,0.908,0.908,0.908,0.908,False,False,False
+pc_hi_ALS_3dp,results/v8/v8_test6.json:profile_cosines.ALS.hubert-large|mms.ci95.1,0.921,0.921,0.921,0.921,False,False,False
+pc_min_DS_3dp,results/v8/v8_test6.json:profile_cosine_min_per_aetiology.DS,0.955,0.955,0.955,0.955,False,False,False
+pc_min_DS_2dp,results/v8/v8_test6.json:profile_cosine_min_per_aetiology.DS,0.96,0.96,0.96,0.96,False,False,False
+pc_lo_DS_3dp,results/v8/v8_test6.json:profile_cosines.DS.hubert-large|mms.ci95.0,0.948,0.948,0.948,0.948,False,False,False
+pc_hi_DS_3dp,results/v8/v8_test6.json:profile_cosines.DS.hubert-large|mms.ci95.1,0.962,0.962,0.962,0.962,False,False,False
+pc_min_Stroke_3dp,results/v8/v8_test6.json:profile_cosine_min_per_aetiology.Stroke,0.939,0.939,0.939,0.939,False,False,False
+pc_min_Stroke_2dp,results/v8/v8_test6.json:profile_cosine_min_per_aetiology.Stroke,0.94,0.94,0.94,0.94,False,False,False
+pc_lo_Stroke_3dp,results/v8/v8_test6.json:profile_cosines.Stroke.hubert-large|mms.ci95.0,0.925,0.925,0.925,0.925,False,False,False
+pc_hi_Stroke_3dp,results/v8/v8_test6.json:profile_cosines.Stroke.hubert-large|mms.ci95.1,0.950,0.950,0.950,0.950,False,False,False
+pc_min_HC_3dp,results/v8/v8_test6.json:profile_cosine_min_per_aetiology.HC,0.965,0.965,0.965,0.964,False,False,True
+pc_min_HC_2dp,results/v8/v8_test6.json:profile_cosine_min_per_aetiology.HC,0.96,0.96,0.96,0.96,False,False,False
+pc_lo_HC_3dp,results/v8/v8_test6.json:profile_cosines.HC.xlsr|mms.ci95.0,0.962,0.962,0.962,0.961,False,False,True
+pc_hi_HC_3dp,results/v8/v8_test6.json:profile_cosines.HC.xlsr|mms.ci95.1,0.968,0.968,0.968,0.968,False,False,False
+pc_min_all_2dp,results/v8/v8_test6.json:profile_cosine_min_overall,0.91,0.91,0.91,0.91,False,False,False
+kw_PD_2dp,results/v8/v8_test6.json:kendalls_w.PD,0.44,0.44,0.44,0.44,False,False,False
+kw_CP_2dp,results/v8/v8_test6.json:kendalls_w.CP,0.71,0.71,0.71,0.68,False,False,True
+kw_ALS_2dp,results/v8/v8_test6.json:kendalls_w.ALS,0.33,0.33,0.33,0.29,False,False,True
+kw_DS_2dp,results/v8/v8_test6.json:kendalls_w.DS,0.52,0.52,0.52,0.55,False,False,True
+kw_Stroke_2dp,results/v8/v8_test6.json:kendalls_w.Stroke,0.48,0.47,0.47,0.53,True,True,True
+kw_min_2dp,results/v8/v8_test6.json:kendalls_w_range.0,0.33,0.33,0.33,0.29,False,False,True
+kw_max_2dp,results/v8/v8_test6.json:kendalls_w_range.1,0.71,0.71,0.71,0.68,False,False,True
+grp_n_PD_int,results/v8/v8_test6.json:group_n_per_backbone.xlsr.PD,647,647,647,647,False,False,False
+grp_n_CP_int,results/v8/v8_test6.json:group_n_per_backbone.xlsr.CP,378,378,378,378,False,False,False
+grp_n_ALS_int,results/v8/v8_test6.json:group_n_per_backbone.xlsr.ALS,325,325,325,325,False,False,False
+grp_n_DS_int,results/v8/v8_test6.json:group_n_per_backbone.xlsr.DS,166,166,166,166,False,False,False
+grp_n_Stroke_int,results/v8/v8_test6.json:group_n_per_backbone.xlsr.Stroke,97,97,97,97,False,False,False
+sev_n_min_int,results/v8/v8_test6.json:severity_rho_per_backbone.xlsr.n,"1,753","1,753","1,753","1,725",False,False,True
+sev_n_max_int,results/v8/v8_test6.json:severity_rho_per_backbone.hubert-base.n,"1,761","1,761","1,758","1,730",False,True,True
+sev_rho_xlsr_3dp,results/v8/v8_test6.json:severity_rho_per_backbone.xlsr.rho,-0.590,-0.590,-0.590,-0.597,False,False,True
+sev_rho_hubert-base_3dp,results/v8/v8_test6.json:severity_rho_per_backbone.hubert-base.rho,-0.543,-0.543,-0.541,-0.545,False,True,True
+sev_rho_mms_3dp,results/v8/v8_test6.json:severity_rho_per_backbone.mms.rho,-0.541,-0.541,-0.541,-0.542,False,False,True
+sev_rho_wav2vec2_3dp,results/v8/v8_test6.json:severity_rho_per_backbone.wav2vec2.rho,-0.528,-0.528,-0.528,-0.534,False,False,True
+sev_rho_wavlm_3dp,results/v8/v8_test6.json:severity_rho_per_backbone.wavlm.rho,-0.527,-0.527,-0.527,-0.530,False,False,True
+sev_rho_hubert-large_3dp,results/v8/v8_test6.json:severity_rho_per_backbone.hubert-large.rho,-0.521,-0.521,-0.521,-0.525,False,False,True
+t5_hubert-base|hubert-large_3dp,results/v8/v8_test6.json:per_pair.hubert-base|hubert-large.rho,0.963,0.963,0.963,0.963,False,False,False
+t5_hubert-base|hubert-large_n_int,results/v8/v8_test6.json:per_pair.hubert-base|hubert-large.n,"3,101","3,101","3,101","3,073",False,False,True
+t5_hubert-base|wavlm_3dp,results/v8/v8_test6.json:per_pair.hubert-base|wavlm.rho,0.985,0.985,0.985,0.986,False,False,True
+t5_hubert-base|wavlm_n_int,results/v8/v8_test6.json:per_pair.hubert-base|wavlm.n,"3,101","3,101","3,101","3,073",False,False,True
+t5_hubert-base|wav2vec2_3dp,results/v8/v8_test6.json:per_pair.hubert-base|wav2vec2.rho,0.949,0.949,0.949,0.949,False,False,False
+t5_hubert-base|wav2vec2_n_int,results/v8/v8_test6.json:per_pair.hubert-base|wav2vec2.n,"3,101","3,101","3,101","3,073",False,False,True
+t5_hubert-base|xlsr_3dp,results/v8/v8_test6.json:per_pair.hubert-base|xlsr.rho,0.859,0.859,0.859,0.860,False,False,True
+t5_hubert-base|xlsr_n_int,results/v8/v8_test6.json:per_pair.hubert-base|xlsr.n,"3,101","3,101","3,101","3,073",False,False,True
+t5_hubert-base|mms_3dp,results/v8/v8_test6.json:per_pair.hubert-base|mms.rho,0.872,0.872,0.872,0.874,False,False,True
+t5_hubert-base|mms_n_int,results/v8/v8_test6.json:per_pair.hubert-base|mms.n,"3,101","3,101","3,101","3,073",False,False,True
+t5_hubert-large|wavlm_3dp,results/v8/v8_test6.json:per_pair.hubert-large|wavlm.rho,0.968,0.968,0.968,0.968,False,False,False
+t5_hubert-large|wavlm_n_int,results/v8/v8_test6.json:per_pair.hubert-large|wavlm.n,"3,101","3,101","3,101","3,073",False,False,True
+t5_hubert-large|wav2vec2_3dp,results/v8/v8_test6.json:per_pair.hubert-large|wav2vec2.rho,0.934,0.934,0.934,0.935,False,False,True
+t5_hubert-large|wav2vec2_n_int,results/v8/v8_test6.json:per_pair.hubert-large|wav2vec2.n,"3,101","3,101","3,101","3,073",False,False,True
+t5_hubert-large|xlsr_3dp,results/v8/v8_test6.json:per_pair.hubert-large|xlsr.rho,0.852,0.852,0.852,0.854,False,False,True
+t5_hubert-large|xlsr_n_int,results/v8/v8_test6.json:per_pair.hubert-large|xlsr.n,"3,101","3,101","3,101","3,073",False,False,True
+t5_hubert-large|mms_3dp,results/v8/v8_test6.json:per_pair.hubert-large|mms.rho,0.859,0.859,0.859,0.861,False,False,True
+t5_hubert-large|mms_n_int,results/v8/v8_test6.json:per_pair.hubert-large|mms.n,"3,101","3,101","3,101","3,073",False,False,True
+t5_wavlm|wav2vec2_3dp,results/v8/v8_test6.json:per_pair.wavlm|wav2vec2.rho,0.948,0.948,0.948,0.949,False,False,True
+t5_wavlm|wav2vec2_n_int,results/v8/v8_test6.json:per_pair.wavlm|wav2vec2.n,"3,101","3,101","3,101","3,073",False,False,True
+t5_wavlm|xlsr_3dp,results/v8/v8_test6.json:per_pair.wavlm|xlsr.rho,0.858,0.858,0.858,0.860,False,False,True
+t5_wavlm|xlsr_n_int,results/v8/v8_test6.json:per_pair.wavlm|xlsr.n,"3,101","3,101","3,101","3,073",False,False,True
+t5_wavlm|mms_3dp,results/v8/v8_test6.json:per_pair.wavlm|mms.rho,0.870,0.870,0.870,0.872,False,False,True
+t5_wavlm|mms_n_int,results/v8/v8_test6.json:per_pair.wavlm|mms.n,"3,101","3,101","3,101","3,073",False,False,True
+t5_wav2vec2|xlsr_3dp,results/v8/v8_test6.json:per_pair.wav2vec2|xlsr.rho,0.839,0.839,0.839,0.840,False,False,True
+t5_wav2vec2|xlsr_n_int,results/v8/v8_test6.json:per_pair.wav2vec2|xlsr.n,"3,101","3,101","3,101","3,073",False,False,True
+t5_wav2vec2|mms_3dp,results/v8/v8_test6.json:per_pair.wav2vec2|mms.rho,0.834,0.834,0.834,0.837,False,False,True
+t5_wav2vec2|mms_n_int,results/v8/v8_test6.json:per_pair.wav2vec2|mms.n,"3,101","3,101","3,101","3,073",False,False,True
+t5_xlsr|mms_3dp,results/v8/v8_test6.json:per_pair.xlsr|mms.rho,0.830,0.830,0.830,0.836,False,False,True
+t5_xlsr|mms_n_int,results/v8/v8_test6.json:per_pair.xlsr|mms.n,"3,101","3,101","3,101","3,073",False,False,True
+xb_min_2dp,results/v8/v8_test6.json:rho_min,0.83,0.83,0.83,0.84,False,False,True
+xb_max_2dp,results/v8/v8_test6.json:rho_max,0.99,0.99,0.99,0.99,False,False,False
+xb_min_3dp,results/v8/v8_test6.json:rho_min,0.830,0.830,0.830,0.836,False,False,True
+nl_min_without_3dp,results/v8/v8_test6.json:dutch_exclusion.rho_min_without_nl,0.849,0.849,0.849,0.855,False,False,True
+nl_n_without_int,results/v8/v8_test6.json:dutch_exclusion.n_range_without_nl.0,"2,893","2,893","2,893","2,865",False,False,True
+nl_pc_PD_with_3dp,results/v8/v8_test6.json:dutch_exclusion.profile_cos_min_with_nl.PD,0.980,0.980,0.980,0.980,False,False,False
+nl_pc_PD_without_3dp,results/v8/v8_test6.json:dutch_exclusion.profile_cos_min_without_nl.PD,0.980,0.980,0.980,0.980,False,False,False
+nl_pc_HC_with_3dp,results/v8/v8_test6.json:dutch_exclusion.profile_cos_min_with_nl.HC,0.965,0.965,0.965,0.964,False,False,True
+nl_pc_HC_without_3dp,results/v8/v8_test6.json:dutch_exclusion.profile_cos_min_without_nl.HC,0.962,0.962,0.962,0.962,False,False,False
+nl_pc_maxchange_3dp,results/v8/v8_test6.json:_derived.nl_pc_maxchange,0.003,0.003,0.003,0.003,False,False,False
+sev_p_bound,results/v8/v8_test6.json:_derived.sev_p_max,-120,-120,-120,-120,False,False,False
+tamil_pooled_tokens_int,results/v6/v6_tamil_provenance.json:_derived.pooled_tokens,"164,200","164,200","164,200","164,200",False,False,False
+tamil_slr65_tokens_int,results/v6/v6_tamil_provenance.json:files.track4_results_xlsr.csv.slr65_18_n_phones_sum,"21,710","21,710","21,710","21,710",False,False,False
+t2_raw_lo_3dp,results/test2_delta_corrected.json:primary_raw.ci95.0,-0.004,-0.004,-0.004,-0.004,False,False,False
+t2_raw_hi_3dp,results/test2_delta_corrected.json:primary_raw.ci95.1,0.002,0.002,0.002,0.002,False,False,False
+t2_4d_lo_3dp,results/test2_delta_corrected.json:sensitivities.no_manner_4dim.ci95.0,-0.005,-0.005,-0.005,-0.005,False,False,False
+t2_4d_hi_3dp,results/test2_delta_corrected.json:sensitivities.no_manner_4dim.ci95.1,0.003,0.003,0.003,0.003,False,False,False
+t2_2s_lo_3dp,results/test2_delta_corrected.json:sensitivities.two_stage_bootstrap.ci95.0,-0.004,-0.004,-0.004,-0.004,False,False,False
+t2_2s_hi_3dp,results/test2_delta_corrected.json:sensitivities.two_stage_bootstrap.ci95.1,0.006,0.006,0.006,0.006,False,False,False
+t2_mc5_d_4dp,results/v8/v8_test2_sensitivity.json:min_cell_5.delta,0.0037,0.0037,0.0037,0.0037,False,False,False
+t2_mc5_lo_4dp,results/v8/v8_test2_sensitivity.json:min_cell_5.ci95.0,-0.0005,-0.0005,-0.0005,-0.0003,False,False,True
+t2_mc5_hi_4dp,results/v8/v8_test2_sensitivity.json:min_cell_5.ci95.1,0.0106,0.0106,0.0106,0.0098,False,False,True
+t2_mc5_nperm_int,results/v8/v8_test2_sensitivity.json:n_perm,"2,000","2,000","2,000","2,000",False,False,False
+tm_cm_n_int,results/v8/v8_originals.json:parsed.corrected.token_matched.Control vs Mild.n_matched,185,185,184,180,False,True,True
+tm_cm_d_2dp,results/v8/v8_originals.json:parsed.corrected.token_matched.Control vs Mild.d,0.60,0.60,0.59,0.58,False,True,True
+tm_mm_n_int,results/v8/v8_originals.json:parsed.corrected.token_matched.Mild vs Moderate.n_matched,99,99,98,98,False,True,True
+tm_mm_d_2dp,results/v8/v8_originals.json:parsed.corrected.token_matched.Mild vs Moderate.d,0.54,0.54,0.55,0.55,False,True,True
+tm_ms_n_int,results/v8/v8_originals.json:parsed.corrected.token_matched.Moderate vs Severe.n_matched,37,37,37,37,False,False,False
+tm_ms_d_2dp,results/v8/v8_originals.json:parsed.corrected.token_matched.Moderate vs Severe.d,0.94,0.94,0.94,0.94,False,False,False
+tm_d_min_2dp,results/v8/v8_originals.json:parsed.corrected.token_matched.Mild vs Moderate.d,0.54,0.54,0.55,0.55,False,True,True
+tm_d_max_2dp,results/v8/v8_originals.json:parsed.corrected.token_matched.Moderate vs Severe.d,0.94,0.94,0.94,0.94,False,False,False
+rank_first_nasal_word,results/v8/v8_originals.json:parsed.corrected.feature_ranking_by_abs_severity_rho.first_counts.nasal,three,three,three,three,False,False,False
+rank_top3_nasal_word,results/v8/v8_originals.json:parsed.corrected.feature_ranking_by_abs_severity_rho.top3_count_per_feature.nasal,four,four,four,four,False,False,False
+rank_top3_voicing_word,results/v8/v8_originals.json:parsed.corrected.feature_ranking_by_abs_severity_rho.top3_count_per_feature.voicing,five,five,five,five,False,False,False
+rank_top3_strident_word,results/v8/v8_originals.json:parsed.corrected.feature_ranking_by_abs_severity_rho.top3_count_per_feature.strident,four,four,four,two,False,False,True
+sx_rho_excl_3dp,results/v8/v8_originals.json:parsed.corrected.sap_excluded.sap_excluded.severity.rho,-0.408,-0.408,-0.405,-0.410,False,True,True
+sx_n_excl_int,results/v8/v8_originals.json:parsed.corrected.sap_excluded.sap_excluded.severity.n,"1,573","1,573","1,570","1,542",False,True,True
+sx_rho_full_3dp,results/v8/v8_originals.json:parsed.corrected.sap_excluded.full.severity.rho,-0.542,-0.542,-0.540,-0.544,False,True,True
+sx_n_full_int,results/v8/v8_originals.json:parsed.corrected.sap_excluded.full.severity.n,"1,761","1,761","1,758","1,730",False,True,True
+sx_comp_eps_excl_3dp,results/v8/v8_originals.json:parsed.corrected.sap_excluded.sap_excluded.composite_kw.eps2,0.162,0.162,0.161,0.165,False,True,True
+sx_comp_H_excl_int,results/v8/v8_originals.json:parsed.corrected.sap_excluded.sap_excluded.composite_kw.H,276,276,275,277,False,True,True
+sx_comp_eps_full_3dp,results/v8/v8_originals.json:parsed.corrected.sap_excluded.full.composite_kw.eps2,0.435,0.435,0.434,0.435,False,True,False
+sx_n_speakers_excl_int,results/v8/v8_originals.json:parsed.corrected.sap_excluded.sap_excluded.n_speakers,"2,141","2,141","2,102","2,082",False,True,True
+sx_nasal_full_3dp,results/v8/v8_originals.json:parsed.corrected.sap_excluded.full.per_feature_kw_dysarthric_groups.nasal_dprime.eps2,0.180,0.179,0.179,0.179,True,True,True
+sx_nasal_excl_3dp,results/v8/v8_originals.json:parsed.corrected.sap_excluded.sap_excluded.per_feature_kw_dysarthric_groups.nasal_dprime.eps2,0.066,0.066,0.067,0.067,False,True,True
+sx_high_full_3dp,results/v8/v8_originals.json:parsed.corrected.sap_excluded.full.per_feature_kw_dysarthric_groups.high_dprime.eps2,0.190,0.190,0.192,0.192,False,True,True
+sx_high_excl_3dp,results/v8/v8_originals.json:parsed.corrected.sap_excluded.sap_excluded.per_feature_kw_dysarthric_groups.high_dprime.eps2,0.205,0.205,0.204,0.204,False,True,True
+sx_round_full_3dp,results/v8/v8_originals.json:parsed.corrected.sap_excluded.full.per_feature_kw_dysarthric_groups.round_dprime.eps2,0.165,0.163,0.165,0.165,True,False,False
+sx_round_excl_3dp,results/v8/v8_originals.json:parsed.corrected.sap_excluded.sap_excluded.per_feature_kw_dysarthric_groups.round_dprime.eps2,0.221,0.221,0.221,0.221,False,False,False
+vta_ratio_PD_1dp,results/v8/v8_master_facts.json:vta.ratio_hc_to_group.PD,1.3,1.3,1.3,1.3,False,False,False
+vta_mean_HC_1dp,results/v8/v8_master_facts.json:vta.mean.HC,31.2,31.2,31.2,31.6,False,False,True
+vta_mean_PD_1dp,results/v8/v8_master_facts.json:vta.mean.PD,23.7,23.7,23.7,23.7,False,False,False
+vta_mean_DS_1dp,results/v8/v8_master_facts.json:vta.mean.DS,15.6,15.6,15.6,15.6,False,False,False
+vta_mean_ALS_1dp,results/v8/v8_master_facts.json:vta.mean.ALS,15.5,15.5,15.5,15.5,False,False,False
+vta_mean_CP_1dp,results/v8/v8_master_facts.json:vta.mean.CP,12.9,12.9,12.9,12.9,False,False,False
+vta_n_any_int,results/v8/v8_master_facts.json:vta.n_any_group_valid,"1,161","1,161","1,161","1,134",False,False,True
+yt_fr_n_int,results/v8/v8_master_facts.json:table1.YouTube_French.n,24,24,24,24,False,False,False
+yt_fr_als_int,results/v8/v8_master_facts.json:table1.YouTube_French.aetiology.als,4,4,4,4,False,False,False
+yt_fr_hc_int,results/v8/v8_master_facts.json:table1.YouTube_French.aetiology.healthy,20,20,20,20,False,False,False
+yt_de_n_int,results/v8/v8_master_facts.json:table1.YouTube_German.n,13,13,13,13,False,False,False
+yt_de_als_int,results/v8/v8_master_facts.json:table1.YouTube_German.aetiology.als,4,4,4,4,False,False,False
+yt_de_hc_int,results/v8/v8_master_facts.json:table1.YouTube_German.aetiology.healthy,9,9,9,9,False,False,False
+blocks_int,results/v8/v8_master_facts.json:test2_blocks.n_blocks,19,19,18,18,False,True,True
+blocks_mixing_int,results/v8/v8_master_facts.json:test2_blocks.n_mixing_blocks,5,5,5,5,False,False,False
+blocks_perm_int,results/v8/v8_master_facts.json:test2_blocks.n_speakers_in_mixing_blocks,"1,010","1,010","1,010","1,010",False,False,False
+blocks_sap_int,results/v8/v8_master_facts.json:test2_blocks.n_speakers_in_mixing_blocks_SAP,971,971,971,971,False,False,False
+svd_n_int,results/v8/v8_master_facts.json:svd.n,53,53,53,53,False,False,False
+svd_hc_int,results/v8/v8_master_facts.json:svd.aetiology.healthy,30,30,30,30,False,False,False
+svd_unknown_int,results/v8/v8_master_facts.json:svd.aetiology.unknown,20,20,20,20,False,False,False
+q_n_int,results/v8/v8_token_quartiles.json:corrected_min3.n,"1,761","1,761","1,758","1,730",False,True,True
+q_b1_int,results/v8/v8_token_quartiles.json:corrected_min3.boundaries.0,127,127,127,127,False,False,False
+q_b2_int,results/v8/v8_token_quartiles.json:corrected_min3.boundaries.1,183,183,182,170,False,True,True
+q_b3_int,results/v8/v8_token_quartiles.json:corrected_min3.boundaries.2,"2,222","2,222","2,225","2,146",False,True,True
+q1_rho_2dp,results/v8/v8_token_quartiles.json:corrected_min3.quartiles.Q1.rho,-0.06,-0.06,-0.06,-0.06,False,False,False
+q1_n_int,results/v8/v8_token_quartiles.json:corrected_min3.quartiles.Q1.n,756,756,756,756,False,False,False
+q1_dys_int,results/v8/v8_token_quartiles.json:corrected_min3.quartiles.Q1.n_dysarthric,1,1,1,1,False,False,False
+q1_lo_int,results/v8/v8_token_quartiles.json:corrected_min3.quartiles.Q1.n_phones_range.0,27,27,27,27,False,False,False
+q2_rho_2dp,results/v8/v8_token_quartiles.json:corrected_min3.quartiles.Q2.rho,-0.22,-0.22,-0.22,-0.23,False,False,True
+q2_n_int,results/v8/v8_token_quartiles.json:corrected_min3.quartiles.Q2.n,125,125,123,110,False,True,True
+q2_dys_int,results/v8/v8_token_quartiles.json:corrected_min3.quartiles.Q2.n_dysarthric,2,2,2,2,False,False,False
+q2_lo_int,results/v8/v8_token_quartiles.json:corrected_min3.quartiles.Q2.n_phones_range.0,128,128,128,128,False,False,False
+q3_rho_2dp,results/v8/v8_token_quartiles.json:corrected_min3.quartiles.Q3.rho,-0.39,-0.39,-0.39,-0.39,False,False,False
+q3_n_int,results/v8/v8_token_quartiles.json:corrected_min3.quartiles.Q3.n,440,440,439,432,False,True,True
+q3_dys_int,results/v8/v8_token_quartiles.json:corrected_min3.quartiles.Q3.n_dysarthric,161,161,158,157,False,True,True
+q3_lo_int,results/v8/v8_token_quartiles.json:corrected_min3.quartiles.Q3.n_phones_range.0,185,185,183,171,False,True,True
+q4_rho_2dp,results/v8/v8_token_quartiles.json:corrected_min3.quartiles.Q4.rho,-0.70,-0.70,-0.70,-0.71,False,False,True
+q4_n_int,results/v8/v8_token_quartiles.json:corrected_min3.quartiles.Q4.n,440,440,440,432,False,False,True
+q4_dys_int,results/v8/v8_token_quartiles.json:corrected_min3.quartiles.Q4.n_dysarthric,274,274,274,275,False,False,True
+q4_lo_int,results/v8/v8_token_quartiles.json:corrected_min3.quartiles.Q4.n_phones_range.0,"2,226","2,226","2,226","2,148",False,False,True
+q1_p_3dp,results/v8/v8_token_quartiles.json:corrected_min3.quartiles.Q1.p,0.105,0.105,0.105,0.105,False,False,False
+q2_p_3dp,results/v8/v8_token_quartiles.json:corrected_min3.quartiles.Q2.p,0.016,0.016,0.016,0.016,False,False,False
+ret_en_mild_lo_pct,results/v8/v8_cp_retention.json:retention.en.mild.range_5c.0,44,44,44,44,False,False,False
+ret_en_mild_hi_pct,results/v8/v8_cp_retention.json:retention.en.mild.range_5c.1,62,62,62,62,False,False,False
+ret_en_mod_lo_pct,results/v8/v8_cp_retention.json:retention.en.moderate.range_5c.0,31,31,31,31,False,False,False
+ret_en_mod_hi_pct,results/v8/v8_cp_retention.json:retention.en.moderate.range_5c.1,48,48,48,48,False,False,False
+t3_low_eps_3dp,results/rebuild_2026-09-23/table3_regenerated.json:_rows.low_dprime.epsilon_squared,0.345,0.346,0.346,0.356,True,True,True
+t3_back_H_1dp,results/rebuild_2026-09-23/table3_regenerated.json:_rows.back_dprime.H,"1,080.0","1,078.8","1,079.5","1,078.7",True,True,True
+t3_xpos_H_1dp,results/rebuild_2026-09-23/table3_regenerated.json:_rows.cross_position_cosim.H,196.8,196.8,197.2,193.6,False,True,True
+t3_rate_H_1dp,results/rebuild_2026-09-23/table3_regenerated.json:_rows.speech_rate.H,155.4,155.4,155.7,155.7,False,True,True
+t5row_hubert-base|wavlm,results/v8/v8_test6.json:per_pair.hubert-base|wavlm.rho,0.985,0.985,0.985,0.986,False,False,True
+t5row_hubert-large|wavlm,results/v8/v8_test6.json:per_pair.hubert-large|wavlm.rho,0.968,0.968,0.968,0.968,False,False,False
+t5row_hubert-base|hubert-large,results/v8/v8_test6.json:per_pair.hubert-base|hubert-large.rho,0.963,0.963,0.963,0.963,False,False,False
+t5row_hubert-base|wav2vec2,results/v8/v8_test6.json:per_pair.hubert-base|wav2vec2.rho,0.949,0.949,0.949,0.949,False,False,False
+t5row_wavlm|wav2vec2,results/v8/v8_test6.json:per_pair.wavlm|wav2vec2.rho,0.948,0.948,0.948,0.949,False,False,True
+t5row_hubert-large|wav2vec2,results/v8/v8_test6.json:per_pair.hubert-large|wav2vec2.rho,0.934,0.934,0.934,0.935,False,False,True
+t5row_hubert-base|mms,results/v8/v8_test6.json:per_pair.hubert-base|mms.rho,0.872,0.872,0.872,0.874,False,False,True
+t5row_wavlm|mms,results/v8/v8_test6.json:per_pair.wavlm|mms.rho,0.870,0.870,0.870,0.872,False,False,True
+t5row_hubert-large|mms,results/v8/v8_test6.json:per_pair.hubert-large|mms.rho,0.859,0.859,0.859,0.861,False,False,True
+t5row_hubert-base|xlsr,results/v8/v8_test6.json:per_pair.hubert-base|xlsr.rho,0.859,0.859,0.859,0.860,False,False,True
+t5row_wavlm|xlsr,results/v8/v8_test6.json:per_pair.wavlm|xlsr.rho,0.858,0.858,0.858,0.860,False,False,True
+t5row_hubert-large|xlsr,results/v8/v8_test6.json:per_pair.hubert-large|xlsr.rho,0.852,0.852,0.852,0.854,False,False,True
+t5row_wav2vec2|xlsr,results/v8/v8_test6.json:per_pair.wav2vec2|xlsr.rho,0.839,0.839,0.839,0.840,False,False,True
+t5row_wav2vec2|mms,results/v8/v8_test6.json:per_pair.wav2vec2|mms.rho,0.834,0.834,0.834,0.837,False,False,True
+t5row_xlsr|mms,results/v8/v8_test6.json:per_pair.xlsr|mms.rho,0.830,0.830,0.830,0.836,False,False,True
+t3row_nasal_dprime,results/rebuild_2026-09-23/table3_regenerated.json:_rows.nasal_dprime," & 1,191.4
+ & $2.1 \times 10^{-255}$
+ & 0.426
+ & 2,791
+"," & 1,190.9
+ & $2.8 \times 10^{-255}$
+ & 0.426
+ & 2,791
+"," & 1,188.3
+ & $9.9 \times 10^{-255}$
+ & 0.425
+ & 2,788
+"," & 1,191.3
+ & $2.2 \times 10^{-255}$
+ & 0.431
+ & 2,760
+",True,True,True
+t3row_voicing_dprime,results/rebuild_2026-09-23/table3_regenerated.json:_rows.voicing_dprime," & 1,253.6
+ & $7.4 \times 10^{-269}$
+ & 0.424
+ & 2,953
+"," & 1,253.0
+ & $9.5 \times 10^{-269}$
+ & 0.423
+ & 2,953
+"," & 1,252.7
+ & $1.1 \times 10^{-268}$
+ & 0.424
+ & 2,950
+"," & 1,238.3
+ & $1.5 \times 10^{-265}$
+ & 0.423
+ & 2,922
+",True,True,True
+t3row_sonorant_dprime,results/rebuild_2026-09-23/table3_regenerated.json:_rows.sonorant_dprime," & 700.3
+ & $4.3 \times 10^{-149}$
+ & 0.237
+ & 2,943
+"," & 700.6
+ & $3.6 \times 10^{-149}$
+ & 0.237
+ & 2,943
+"," & 698.3
+ & $1.1 \times 10^{-148}$
+ & 0.236
+ & 2,940
+"," & 700.4
+ & $4.0 \times 10^{-149}$
+ & 0.239
+ & 2,912
+",True,True,True
+t3row_strident_dprime,results/rebuild_2026-09-23/table3_regenerated.json:_rows.strident_dprime," & 1,239.2
+ & $9.4 \times 10^{-266}$
+ & 0.431
+ & 2,867
+"," & 1,239.3
+ & $8.8 \times 10^{-266}$
+ & 0.431
+ & 2,867
+"," & 1,237.0
+ & $2.8 \times 10^{-265}$
+ & 0.431
+ & 2,864
+"," & 1,215.6
+ & $1.2 \times 10^{-260}$
+ & 0.428
+ & 2,836
+",True,True,True
+t3row_manner_dprime,results/rebuild_2026-09-23/table3_regenerated.json:_rows.manner_dprime," & 1,153.7
+ & $3.2 \times 10^{-247}$
+ & 0.395
+ & 2,917
+"," & 1,153.6
+ & $3.3 \times 10^{-247}$
+ & 0.395
+ & 2,917
+"," & 1,150.9
+ & $1.3 \times 10^{-246}$
+ & 0.394
+ & 2,914
+"," & 1,140.2
+ & $2.6 \times 10^{-244}$
+ & 0.394
+ & 2,886
+",True,True,True
+t3row_high_dprime,results/rebuild_2026-09-23/table3_regenerated.json:_rows.high_dprime," & 1,381.6
+ & $1.3 \times 10^{-296}$
+ & 0.498
+ & 2,768
+"," & 1,382.9
+ & $6.9 \times 10^{-297}$
+ & 0.499
+ & 2,768
+"," & 1,388.7
+ & $3.8 \times 10^{-298}$
+ & 0.502
+ & 2,765
+"," & 1,370.3
+ & $3.7 \times 10^{-294}$
+ & 0.500
+ & 2,737
+",True,True,True
+t3row_low_dprime,results/rebuild_2026-09-23/table3_regenerated.json:_rows.low_dprime," & 961.7
+ & $1.2 \times 10^{-205}$
+ & 0.345
+ & 2,775
+"," & 962.2
+ & $9.3 \times 10^{-206}$
+ & 0.346
+ & 2,775
+"," & 961.2
+ & $1.5 \times 10^{-205}$
+ & 0.346
+ & 2,772
+"," & 979.2
+ & $2.0 \times 10^{-209}$
+ & 0.356
+ & 2,744
+",True,True,True
+t3row_back_dprime,results/rebuild_2026-09-23/table3_regenerated.json:_rows.back_dprime," & 1,080.0
+ & $2.8 \times 10^{-231}$
+ & 0.390
+ & 2,760
+"," & 1,078.8
+ & $5.3 \times 10^{-231}$
+ & 0.390
+ & 2,760
+"," & 1,079.5
+ & $3.6 \times 10^{-231}$
+ & 0.391
+ & 2,757
+"," & 1,078.7
+ & $5.4 \times 10^{-231}$
+ & 0.394
+ & 2,729
+",True,True,True
+t3row_round_dprime,results/rebuild_2026-09-23/table3_regenerated.json:_rows.round_dprime," & 1,172.2
+ & $3.1 \times 10^{-251}$
+ & 0.443
+ & 2,639
+"," & 1,169.9
+ & $9.7 \times 10^{-251}$
+ & 0.442
+ & 2,642
+"," & 1,172.2
+ & $3.1 \times 10^{-251}$
+ & 0.443
+ & 2,639
+"," & 1,155.4
+ & $1.4 \times 10^{-247}$
+ & 0.442
+ & 2,611
+",True,False,True
+t3row_vowel_triangle_area,results/rebuild_2026-09-23/table3_regenerated.json:_rows.vowel_triangle_area," & 397.4
+ & $1.1 \times 10^{-83}$
+ & 0.341
+ & 1,157
+"," & 397.4
+ & $1.1 \times 10^{-83}$
+ & 0.341
+ & 1,157
+"," & 397.4
+ & $1.1 \times 10^{-83}$
+ & 0.341
+ & 1,157
+"," & 409.1
+ & $3.2 \times 10^{-86}$
+ & 0.360
+ & 1,130
+",False,False,True
+t3row_boundary_sharpness,results/rebuild_2026-09-23/table3_regenerated.json:_rows.boundary_sharpness," & 191.7
+ & $1.7 \times 10^{-39}$
+ & 0.063
+ & 2,974
+"," & 191.7
+ & $1.7 \times 10^{-39}$
+ & 0.063
+ & 2,974
+"," & 191.9
+ & $1.5 \times 10^{-39}$
+ & 0.063
+ & 2,971
+"," & 188.1
+ & $9.9 \times 10^{-39}$
+ & 0.062
+ & 2,943
+",False,True,True
+t3row_cross_position_cosim,results/rebuild_2026-09-23/table3_regenerated.json:_rows.cross_position_cosim," & 196.8
+ & $1.3 \times 10^{-40}$
+ & 0.065
+ & 2,974
+"," & 196.8
+ & $1.3 \times 10^{-40}$
+ & 0.065
+ & 2,974
+"," & 197.2
+ & $1.1 \times 10^{-40}$
+ & 0.065
+ & 2,971
+"," & 193.6
+ & $6.6 \times 10^{-40}$
+ & 0.064
+ & 2,943
+",False,True,True
+t3row_speech_rate,results/rebuild_2026-09-23/table3_regenerated.json:_rows.speech_rate," & 155.4
+ & $9.2 \times 10^{-32}$
+ & 0.055
+ & 2,739
+"," & 155.4
+ & $9.2 \times 10^{-32}$
+ & 0.055
+ & 2,739
+"," & 155.7
+ & $8.1 \times 10^{-32}$
+ & 0.055
+ & 2,736
+"," & 155.7
+ & $8.1 \times 10^{-32}$
+ & 0.055
+ & 2,736
+",False,True,True
+t3row_pause_rate,results/rebuild_2026-09-23/table3_regenerated.json:_rows.pause_rate," & 64.6
+ & $1.3 \times 10^{-12}$
+ & 0.022
+ & 2,739
+"," & 64.6
+ & $1.3 \times 10^{-12}$
+ & 0.022
+ & 2,739
+"," & 64.9
+ & $1.2 \times 10^{-12}$
+ & 0.022
+ & 2,736
+"," & 64.9
+ & $1.2 \times 10^{-12}$
+ & 0.022
+ & 2,736
+",False,True,True
+t3row_vowel_duration_cv,results/rebuild_2026-09-23/table3_regenerated.json:_rows.vowel_duration_cv," & 278.6
+ & $3.9 \times 10^{-58}$
+ & 0.105
+ & 2,607
+"," & 278.6
+ & $3.9 \times 10^{-58}$
+ & 0.105
+ & 2,607
+"," & 279.1
+ & $3.2 \times 10^{-58}$
+ & 0.105
+ & 2,604
+"," & 279.1
+ & $3.2 \times 10^{-58}$
+ & 0.105
+ & 2,604
+",False,True,True
+t4row_CP,results/v6/v6_crossling.json:min_n_3.CP," & 0.987
+ & 0.974
+ & 0.999
+"," & 0.987
+ & 0.974
+ & 0.999
+"," & 0.987
+ & 0.974
+ & 0.999
+"," & 0.987
+ & 0.974
+ & 0.999
+",False,False,False
+t4row_ALS,results/v6/v6_crossling.json:min_n_3.ALS," & 0.985
+ & 0.969
+ & 0.998
+"," & 0.985
+ & 0.969
+ & 0.998
+"," & 0.985
+ & 0.969
+ & 0.998
+"," & 0.985
+ & 0.969
+ & 0.998
+",False,False,False
+t4row_PD,results/v6/v6_crossling.json:min_n_3.PD," & 0.978
+ & 0.937
+ & 0.998
+"," & 0.978
+ & 0.937
+ & 0.998
+"," & 0.978
+ & 0.937
+ & 0.998
+"," & 0.978
+ & 0.937
+ & 0.998
+",False,False,False
+t4row_HC,results/v6/v6_crossling.json:min_n_3.HC," & 0.980
+ & 0.930
+ & 0.999
+"," & 0.980
+ & 0.930
+ & 0.999
+"," & 0.980
+ & 0.930
+ & 0.999
+"," & 0.979
+ & 0.930
+ & 0.999
+",False,False,True
+b_PD_mean,results/v9/v9_originals.json:states.corrected.parsed.robustness_analyses.a2_crosslingual_bootstrap.PD.mean_cosine,0.978,0.978,0.978,0.978,False,False,False
+b_PD_lo,results/v9/v9_originals.json:states.corrected.parsed.robustness_analyses.a2_crosslingual_bootstrap.PD.mean_of_pair_ci_lower,0.956,0.956,0.956,0.956,False,False,False
+b_PD_hi,results/v9/v9_originals.json:states.corrected.parsed.robustness_analyses.a2_crosslingual_bootstrap.PD.mean_of_pair_ci_upper,0.984,0.984,0.984,0.984,False,False,False
+b_CP_mean,results/v9/v9_originals.json:states.corrected.parsed.robustness_analyses.a2_crosslingual_bootstrap.CP.mean_cosine,0.987,0.987,0.987,0.987,False,False,False
+b_CP_lo,results/v9/v9_originals.json:states.corrected.parsed.robustness_analyses.a2_crosslingual_bootstrap.CP.mean_of_pair_ci_lower,0.976,0.976,0.976,0.976,False,False,False
+b_CP_hi,results/v9/v9_originals.json:states.corrected.parsed.robustness_analyses.a2_crosslingual_bootstrap.CP.mean_of_pair_ci_upper,0.994,0.994,0.994,0.994,False,False,False
+b_ALS_mean,results/v9/v9_originals.json:states.corrected.parsed.robustness_analyses.a2_crosslingual_bootstrap.ALS.mean_cosine,0.985,0.985,0.985,0.985,False,False,False
+b_ALS_lo,results/v9/v9_originals.json:states.corrected.parsed.robustness_analyses.a2_crosslingual_bootstrap.ALS.mean_of_pair_ci_lower,0.954,0.954,0.954,0.955,False,False,True
+b_ALS_hi,results/v9/v9_originals.json:states.corrected.parsed.robustness_analyses.a2_crosslingual_bootstrap.ALS.mean_of_pair_ci_upper,0.989,0.989,0.989,0.989,False,False,False
+b_HC_mean,results/v9/v9_originals.json:states.corrected.parsed.robustness_analyses.a2_crosslingual_bootstrap.HC.mean_cosine,0.980,0.980,0.980,0.979,False,False,True
+b_HC_lo,results/v9/v9_originals.json:states.corrected.parsed.robustness_analyses.a2_crosslingual_bootstrap.HC.mean_of_pair_ci_lower,0.968,0.968,0.968,0.966,False,False,True
+b_HC_hi,results/v9/v9_originals.json:states.corrected.parsed.robustness_analyses.a2_crosslingual_bootstrap.HC.mean_of_pair_ci_upper,0.986,0.986,0.986,0.986,False,False,False
+b_PD_tight_cos,results/v9/v9_originals.json:states.corrected.parsed.robustness_analyses.a2_crosslingual_bootstrap.PD.tightest_pair.cos,0.968,0.968,0.968,0.968,False,False,False
+b_PD_tight_lo,results/v9/v9_originals.json:states.corrected.parsed.robustness_analyses.a2_crosslingual_bootstrap.PD.tightest_pair.ci95.0,0.893,0.893,0.893,0.893,False,False,False
+mn3_PD_mean,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.3.PD.mean,0.978,0.978,0.978,0.978,False,False,False
+mn3_PD_lo,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.3.PD.ci95.0,0.970,0.970,0.970,0.970,False,False,False
+mn3_PD_hi,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.3.PD.ci95.1,0.985,0.985,0.985,0.985,False,False,False
+mn3_CP_mean,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.3.CP.mean,0.987,0.987,0.987,0.987,False,False,False
+mn3_CP_lo,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.3.CP.ci95.0,0.980,0.980,0.980,0.980,False,False,False
+mn3_CP_hi,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.3.CP.ci95.1,0.994,0.994,0.994,0.993,False,False,True
+mn3_HC_mean,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.3.HC.mean,0.980,0.980,0.980,0.979,False,False,True
+mn3_HC_lo,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.3.HC.ci95.0,0.975,0.975,0.975,0.974,False,False,True
+mn3_HC_hi,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.3.HC.ci95.1,0.984,0.984,0.984,0.983,False,False,True
+mn5_PD_mean,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.5.PD.mean,0.975,0.975,0.975,0.975,False,False,False
+mn5_PD_lo,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.5.PD.ci95.0,0.964,0.964,0.964,0.964,False,False,False
+mn5_PD_hi,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.5.PD.ci95.1,0.984,0.984,0.984,0.983,False,False,True
+mn5_CP_mean,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.5.CP.mean,0.987,0.987,0.987,0.987,False,False,False
+mn5_CP_lo,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.5.CP.ci95.0,0.980,0.980,0.980,0.980,False,False,False
+mn5_CP_hi,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.5.CP.ci95.1,0.994,0.994,0.993,0.994,False,True,False
+mn5_HC_mean,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.5.HC.mean,0.980,0.980,0.980,0.979,False,False,True
+mn5_HC_lo,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.5.HC.ci95.0,0.975,0.975,0.975,0.974,False,False,True
+mn5_HC_hi,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.5.HC.ci95.1,0.984,0.984,0.984,0.983,False,False,True
+mn10_PD_mean,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.10.PD.mean,0.975,0.975,0.975,0.975,False,False,False
+mn10_PD_lo,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.10.PD.ci95.0,0.965,0.965,0.962,0.964,False,True,True
+mn10_PD_hi,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.10.PD.ci95.1,0.984,0.984,0.984,0.984,False,False,False
+mn10_CP_mean,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.10.CP.mean,0.987,0.987,0.987,0.987,False,False,False
+mn10_CP_lo,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.10.CP.ci95.0,0.980,0.980,0.980,0.980,False,False,False
+mn10_CP_hi,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.10.CP.ci95.1,0.993,0.993,0.993,0.994,False,False,True
+mn10_HC_mean,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.10.HC.mean,0.980,0.980,0.980,0.979,False,False,True
+mn10_HC_lo,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.10.HC.ci95.0,0.975,0.975,0.976,0.974,False,True,True
+mn10_HC_hi,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.10.HC.ci95.1,0.984,0.984,0.984,0.983,False,False,True
+mn3_PD_min,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.3.PD.min,0.937,0.937,0.937,0.937,False,False,False
+holm_n_HC,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp3_holm.group_sizes.HC,"1,323","1,323","1,323","1,295",False,False,True
+holm_n_PD,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp3_holm.group_sizes.PD,638,638,637,637,False,True,True
+holm_hcpd_d_2dp,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp3_holm.pairs.12.cohen_d_first_minus_second,1.00,1.00,1.00,1.01,False,False,True
+holm_hcpd_r_2dp,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp3_holm.pairs.12.r_rb,-0.56,-0.56,-0.56,-0.57,False,False,True
+holm_hcpd_r_3dp,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp3_holm.pairs.12.r_rb,-0.564,-0.564,-0.564,-0.568,False,False,True
+holm_hcpd_p,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp3_holm.pairs.12.p_holm,0.00,0.00,0.00,0.00,False,False,False
+holm_cppd_d_2dp,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp3_holm.pairs.7.cohen_d_first_minus_second,-1.01,-1.01,-1.02,-1.02,False,True,True
+holm_cppd_r_2dp,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp3_holm.pairs.7.r_rb,0.55,0.55,0.55,0.55,False,False,False
+holm_cppd_r_3dp,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp3_holm.pairs.7.r_rb,0.548,0.548,0.548,0.548,False,False,False
+holm_cppd_p,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp3_holm.pairs.7.p_holm,0.00,0.00,0.00,0.00,False,False,False
+holm_alspd_d_2dp,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp3_holm.pairs.3.cohen_d_first_minus_second,-0.62,-0.62,-0.62,-0.62,False,False,False
+holm_alspd_r_2dp,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp3_holm.pairs.3.r_rb,0.31,0.31,0.31,0.31,False,False,False
+holm_alspd_r_3dp,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp3_holm.pairs.3.r_rb,0.312,0.312,0.313,0.313,False,True,True
+holm_alspd_p,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp3_holm.pairs.3.p_holm,0.00,0.00,0.00,0.00,False,False,False
+holm_dspd_d_2dp,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp3_holm.pairs.10.cohen_d_first_minus_second,-1.05,-1.05,-1.05,-1.05,False,False,False
+holm_dspd_r_2dp,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp3_holm.pairs.10.r_rb,0.61,0.61,0.61,0.61,False,False,False
+holm_dspd_r_3dp,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp3_holm.pairs.10.r_rb,0.606,0.606,0.606,0.606,False,False,False
+holm_dspd_p,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp3_holm.pairs.10.p_holm,0.00,0.00,0.00,0.00,False,False,False
+holm_pdst_d_2dp,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp3_holm.pairs.14.cohen_d_first_minus_second,0.98,0.97,0.97,0.97,True,True,True
+holm_pdst_r_2dp,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp3_holm.pairs.14.r_rb,-0.57,-0.57,-0.57,-0.57,False,False,False
+holm_pdst_r_3dp,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp3_holm.pairs.14.r_rb,-0.573,-0.573,-0.569,-0.569,False,True,True
+holm_pdst_p,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp3_holm.pairs.14.p_holm,0.00,0.00,0.00,0.00,False,False,False
+holm_cpst_d_2dp,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp3_holm.pairs.8.cohen_d_first_minus_second,-0.04,-0.04,-0.04,-0.04,False,False,False
+holm_cpst_r_2dp,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp3_holm.pairs.8.r_rb,0.04,0.04,0.04,0.04,False,False,False
+holm_cpst_r_3dp,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp3_holm.pairs.8.r_rb,0.041,0.041,0.045,0.045,False,True,True
+holm_cpst_p,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp3_holm.pairs.8.p_holm,1.00,1.00,1.00,1.00,False,False,False
+holm_cpds_d_2dp,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp3_holm.pairs.5.cohen_d_first_minus_second,0.01,0.01,0.01,0.01,False,False,False
+holm_cpds_r_2dp,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp3_holm.pairs.5.r_rb,0.03,0.03,0.03,0.03,False,False,False
+holm_cpds_r_3dp,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp3_holm.pairs.5.r_rb,0.031,0.031,0.031,0.031,False,False,False
+holm_cpds_p,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp3_holm.pairs.5.p_holm,1.00,1.00,1.00,1.00,False,False,False
+holm_dsst_d_2dp,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp3_holm.pairs.11.cohen_d_first_minus_second,-0.06,-0.06,-0.07,-0.07,False,True,True
+holm_dsst_r_2dp,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp3_holm.pairs.11.r_rb,0.00,0.00,0.00,0.00,False,False,False
+holm_dsst_r_3dp,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp3_holm.pairs.11.r_rb,-0.001,0.001,0.005,0.005,True,True,True
+holm_dsst_p,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp3_holm.pairs.11.p_holm,1.00,1.00,1.00,1.00,False,False,False
+t6row_20,results/v9/v9_originals.json:states.corrected.parsed.fixed_token_dprime.expA_per_budget.20," & 845
+ & -0.586
+"," & 845
+ & -0.586
+"," & 845
+ & -0.586
+"," & 845
+ & -0.586
+",False,False,False
+t6eps_20,results/v9/v9_originals.json:states.corrected.parsed.fixed_token_dprime.expA_per_budget.20.aet_eps2,0.355,0.355,0.355,0.355,False,False,False
+t6rho_20_3dp,results/v9/v9_originals.json:states.corrected.parsed.fixed_token_dprime.expA_per_budget.20.rho,-0.586,-0.586,-0.586,-0.586,False,False,False
+t6n_20,results/v9/v9_originals.json:states.corrected.parsed.fixed_token_dprime.expA_per_budget.20.n,845,845,845,845,False,False,False
+cs_rho_20_3dp,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp1_common_set.per_budget.20.rho,-0.747,-0.747,-0.747,-0.747,False,False,False
+t6row_50,results/v9/v9_originals.json:states.corrected.parsed.fixed_token_dprime.expA_per_budget.50," & 639
+ & -0.672
+"," & 639
+ & -0.672
+"," & 639
+ & -0.672
+"," & 639
+ & -0.672
+",False,False,False
+t6eps_50,results/v9/v9_originals.json:states.corrected.parsed.fixed_token_dprime.expA_per_budget.50.aet_eps2,0.540,0.540,0.540,0.540,False,False,False
+t6rho_50_3dp,results/v9/v9_originals.json:states.corrected.parsed.fixed_token_dprime.expA_per_budget.50.rho,-0.672,-0.672,-0.672,-0.672,False,False,False
+t6n_50,results/v9/v9_originals.json:states.corrected.parsed.fixed_token_dprime.expA_per_budget.50.n,639,639,639,639,False,False,False
+cs_rho_50_3dp,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp1_common_set.per_budget.50.rho,-0.745,-0.745,-0.745,-0.745,False,False,False
+t6row_100,results/v9/v9_originals.json:states.corrected.parsed.fixed_token_dprime.expA_per_budget.100," & 550
+ & -0.736
+"," & 550
+ & -0.736
+"," & 550
+ & -0.736
+"," & 550
+ & -0.736
+",False,False,False
+t6eps_100,results/v9/v9_originals.json:states.corrected.parsed.fixed_token_dprime.expA_per_budget.100.aet_eps2,0.576,0.576,0.576,0.576,False,False,False
+t6rho_100_3dp,results/v9/v9_originals.json:states.corrected.parsed.fixed_token_dprime.expA_per_budget.100.rho,-0.736,-0.736,-0.736,-0.736,False,False,False
+t6n_100,results/v9/v9_originals.json:states.corrected.parsed.fixed_token_dprime.expA_per_budget.100.n,550,550,550,550,False,False,False
+cs_rho_100_3dp,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp1_common_set.per_budget.100.rho,-0.740,-0.740,-0.740,-0.740,False,False,False
+t6row_200,results/v9/v9_originals.json:states.corrected.parsed.fixed_token_dprime.expA_per_budget.200," & 467
+ & -0.733
+"," & 467
+ & -0.733
+"," & 467
+ & -0.733
+"," & 467
+ & -0.733
+",False,False,False
+t6eps_200,results/v9/v9_originals.json:states.corrected.parsed.fixed_token_dprime.expA_per_budget.200.aet_eps2,0.546,0.546,0.546,0.546,False,False,False
+t6rho_200_3dp,results/v9/v9_originals.json:states.corrected.parsed.fixed_token_dprime.expA_per_budget.200.rho,-0.733,-0.733,-0.733,-0.733,False,False,False
+t6n_200,results/v9/v9_originals.json:states.corrected.parsed.fixed_token_dprime.expA_per_budget.200.n,467,467,467,467,False,False,False
+cs_rho_200_3dp,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp1_common_set.per_budget.200.rho,-0.733,-0.733,-0.733,-0.733,False,False,False
+cs_n,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp1_common_set.n_qualifying,467,467,467,467,False,False,False
+t6eps_min_2dp,results/v9/v9_originals.json:states.corrected.parsed.fixed_token_dprime.derived.eps2_min,0.36,0.36,0.36,0.36,False,False,False
+t6eps_max_2dp,results/v9/v9_originals.json:states.corrected.parsed.fixed_token_dprime.derived.eps2_max,0.58,0.58,0.58,0.58,False,False,False
+cs_rho_min_3dp,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp1_common_set.derived.rho_min,-0.747,-0.747,-0.747,-0.747,False,False,False
+cs_rho_max_3dp,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp1_common_set.derived.rho_max,-0.733,-0.733,-0.733,-0.733,False,False,False
+t6_200_p_bound,results/v9/v9_originals.json:states.corrected.parsed.fixed_token_dprime.expA_per_budget.200.p,-79,-79,-79,-79,False,False,False
+cs_p_bound,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp1_common_set.derived.p_max,-79,-79,-79,-79,False,False,False
+mhc1_PD_cos,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.1.PD.cos,0.978,0.978,0.978,0.978,False,False,False
+mhc1_PD_nl,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.1.PD.n_languages,6,6,6,6,False,False,False
+mhc1_PD_lo,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.1.PD.ci95.0,0.970,0.970,0.970,0.970,False,False,False
+mhc1_PD_hi,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.1.PD.ci95.1,0.985,0.985,0.985,0.985,False,False,False
+mhc1_CP_cos,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.1.CP.cos,0.987,0.987,0.987,0.987,False,False,False
+mhc1_CP_nl,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.1.CP.n_languages,4,4,4,4,False,False,False
+mhc1_CP_lo,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.1.CP.ci95.0,0.980,0.980,0.980,0.980,False,False,False
+mhc1_CP_hi,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.1.CP.ci95.1,0.993,0.993,0.993,0.993,False,False,False
+mhc1_ALS_cos,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.1.ALS.cos,0.985,0.985,0.985,0.985,False,False,False
+mhc1_ALS_nl,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.1.ALS.n_languages,4,4,4,4,False,False,False
+mhc1_ALS_lo,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.1.ALS.ci95.0,0.977,0.977,0.977,0.977,False,False,False
+mhc1_ALS_hi,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.1.ALS.ci95.1,0.992,0.992,0.992,0.992,False,False,False
+mhc10_PD_cos,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.10.PD.cos,0.978,0.978,0.978,0.978,False,False,False
+mhc10_PD_nl,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.10.PD.n_languages,6,6,6,6,False,False,False
+mhc10_PD_lo,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.10.PD.ci95.0,0.970,0.970,0.970,0.970,False,False,False
+mhc10_PD_hi,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.10.PD.ci95.1,0.985,0.985,0.985,0.985,False,False,False
+mhc10_CP_cos,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.10.CP.cos,0.984,0.984,0.984,0.984,False,False,False
+mhc10_CP_nl,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.10.CP.n_languages,3,3,3,3,False,False,False
+mhc10_CP_lo,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.10.CP.ci95.0,0.974,0.974,0.974,0.974,False,False,False
+mhc10_CP_hi,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.10.CP.ci95.1,0.994,0.994,0.994,0.994,False,False,False
+mhc10_ALS_cos,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.10.ALS.cos,0.985,0.985,0.985,0.985,False,False,False
+mhc10_ALS_nl,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.10.ALS.n_languages,4,4,4,4,False,False,False
+mhc10_ALS_lo,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.10.ALS.ci95.0,0.977,0.977,0.977,0.977,False,False,False
+mhc10_ALS_hi,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.10.ALS.ci95.1,0.992,0.992,0.992,0.992,False,False,False
+mhc20_PD_cos,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.20.PD.cos,0.978,0.978,0.978,0.978,False,False,False
+mhc20_PD_nl,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.20.PD.n_languages,6,6,6,6,False,False,False
+mhc20_PD_lo,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.20.PD.ci95.0,0.969,0.969,0.969,0.969,False,False,False
+mhc20_PD_hi,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.20.PD.ci95.1,0.985,0.985,0.985,0.985,False,False,False
+mhc20_CP_cos,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.20.CP.cos,0.984,0.984,0.984,0.984,False,False,False
+mhc20_CP_nl,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.20.CP.n_languages,3,3,3,3,False,False,False
+mhc20_CP_lo,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.20.CP.ci95.0,0.974,0.974,0.974,0.974,False,False,False
+mhc20_CP_hi,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.20.CP.ci95.1,0.994,0.994,0.994,0.994,False,False,False
+mhc20_ALS_cos,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.20.ALS.cos,0.985,0.985,0.985,0.985,False,False,False
+mhc20_ALS_nl,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.20.ALS.n_languages,4,4,4,4,False,False,False
+mhc20_ALS_lo,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.20.ALS.ci95.0,0.977,0.977,0.977,0.977,False,False,False
+mhc20_ALS_hi,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.20.ALS.ci95.1,0.992,0.992,0.992,0.992,False,False,False
+mhc5_PD_cos,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.5.PD.cos,0.978,0.978,0.978,0.978,False,False,False
+mhc5_PD_lo,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.5.PD.ci95.0,0.970,0.970,0.970,0.970,False,False,False
+mhc5_PD_hi,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.5.PD.ci95.1,0.985,0.985,0.985,0.985,False,False,False
+mhc5_PD_nl,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.5.PD.n_languages,6,6,6,6,False,False,False
+mhc5_CP_cos,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.5.CP.cos,0.984,0.984,0.984,0.984,False,False,False
+mhc5_CP_lo,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.5.CP.ci95.0,0.974,0.974,0.974,0.974,False,False,False
+mhc5_CP_hi,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.5.CP.ci95.1,0.994,0.994,0.994,0.994,False,False,False
+mhc5_CP_nl,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.5.CP.n_languages,3,3,3,3,False,False,False
+mhc5_ALS_cos,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.5.ALS.cos,0.985,0.985,0.985,0.985,False,False,False
+mhc5_ALS_lo,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.5.ALS.ci95.0,0.977,0.977,0.977,0.977,False,False,False
+mhc5_ALS_hi,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.5.ALS.ci95.1,0.992,0.992,0.992,0.992,False,False,False
+mhc5_ALS_nl,results/v9/v9_originals.json:states.corrected.parsed.robustness_pass5.exp2_min_hc.5.ALS.n_languages,4,4,4,4,False,False,False
+mn1_CP_mean,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.1.CP.mean,0.987,0.987,0.987,0.987,False,False,False
+mn1_CP_lo,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.1.CP.ci95.0,0.980,0.980,0.980,0.980,False,False,False
+mn1_CP_hi,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.1.CP.ci95.1,0.993,0.993,0.993,0.993,False,False,False
+mn5_ALS_nl,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.5.ALS.n_languages,2,2,2,2,False,False,False
+mn5_ALS_np,results/v9/v9_originals.json:states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.5.ALS.n_pairs,1,1,1,1,False,False,False
+f4_xlsr_mm_margin,results/v10/fig4_adjacent_intervals_v10.json:backbones.XLS-R.adjacent.mild-moderate.margin,0.05,0.05,0.05,0.05,False,False,False
+f4_xlsr_mm_lo,results/v10/fig4_adjacent_intervals_v10.json:backbones.XLS-R.adjacent.mild-moderate.ci95.0,-0.02,-0.02,-0.02,-0.02,False,False,False
+f4_xlsr_mm_hi,results/v10/fig4_adjacent_intervals_v10.json:backbones.XLS-R.adjacent.mild-moderate.ci95.1,0.12,0.12,0.12,0.11,False,False,True
+f4_mms_mm_margin,results/v10/fig4_adjacent_intervals_v10.json:backbones.MMS.adjacent.mild-moderate.margin,0.03,0.03,0.03,0.03,False,False,False
+f4_mms_mm_lo,results/v10/fig4_adjacent_intervals_v10.json:backbones.MMS.adjacent.mild-moderate.ci95.0,-0.04,-0.04,-0.04,-0.04,False,False,False
+f4_mms_mm_hi,results/v10/fig4_adjacent_intervals_v10.json:backbones.MMS.adjacent.mild-moderate.ci95.1,0.08,0.08,0.09,0.09,False,True,True
+a1orig_rho,results/v9/v9_originals.json:states.corrected.parsed.robustness_analyses.a1_stratified_bootstrap.mean_rho,-0.542,-0.542,-0.540,-0.545,False,True,True
+a1orig_lo,results/v9/v9_originals.json:states.corrected.parsed.robustness_analyses.a1_stratified_bootstrap.ci95.0,-0.573,-0.573,-0.570,-0.576,False,True,True
+a1orig_hi,results/v9/v9_originals.json:states.corrected.parsed.robustness_analyses.a1_stratified_bootstrap.ci95.1,-0.513,-0.513,-0.510,-0.515,False,True,True
+lodo_n_labels,results/v10/v10_facts.json:lodo_effective.n_labels,26,26,26,24,False,False,True
+lodo_n_eff,results/v10/v10_facts.json:lodo_effective.n_effective,24,24,24,21,False,False,True
+lodo_rho_lo,results/v10/v10_facts.json:lodo_effective.rho_range.0,-0.577,-0.577,-0.577,-0.579,False,False,True
+lodo_rho_hi,results/v10/v10_facts.json:lodo_effective.rho_range.1,-0.406,-0.406,-0.406,-0.408,False,False,True
+lodo_rho_mean,results/v10/v10_facts.json:lodo_effective.rho_mean,-0.541,-0.541,-0.541,-0.542,False,False,True
+lodo_eps_lo,results/v10/v10_facts.json:lodo_effective.eps2_range.0,0.154,0.154,0.154,0.158,False,False,True
+lodo_eps_hi,results/v10/v10_facts.json:lodo_effective.eps2_range.1,0.324,0.324,0.324,0.328,False,False,True
+lodo_eps_mean,results/v10/v10_facts.json:lodo_effective.eps2_mean,0.290,0.290,0.290,0.293,False,False,True
+lodo_p_rho_bound,results/v10/v10_facts.json:lodo_effective.max_p_rho,-62,-62,-62,-62,False,False,False
+lodo_p_kw_bound,results/v10/v10_facts.json:lodo_effective.max_kw_p,-52,-52,-52,-52,False,False,False
+a3orig_lo,results/v9/v9_originals.json:states.corrected.parsed.robustness_analyses.a3_lodo.rho_range.0,-0.574,-0.574,-0.572,-0.576,False,True,True
+a3orig_hi,results/v9/v9_originals.json:states.corrected.parsed.robustness_analyses.a3_lodo.rho_range.1,-0.408,-0.408,-0.405,-0.410,False,True,True
+cov_nasal_pct_1dp,results/v10/v10_facts.json:coverage.nasal_valid_pct,87.8,87.8,87.8,87.6,False,False,True
+cov_absent_no_hb_int,results/v10/v10_facts.json:coverage.absent_with_no_hubert_base_dprime,151,151,151,151,False,False,False
+nl6_maxchange_3dp,results/v10/v10_facts.json:dutch_exclusion_all.max_abs_change,0.003,0.003,0.003,0.003,False,False,False
+vta_ratio_CP_1dp,results/v10/v10_facts.json:vta.hc_ratio.CP,2.4,2.4,2.4,2.4,False,False,False
+vta_ratio_ALS_1dp,results/v10/v10_facts.json:vta.hc_ratio.ALS,2.0,2.0,2.0,2.0,False,False,False
+vta_ratio_DS_1dp,results/v10/v10_facts.json:vta.hc_ratio.DS,2.0,2.0,2.0,2.0,False,False,False
+ftg_N_200,results/v10/v10_fixed_token_groups.json:budgets.200.kruskal_N,465,465,465,465,False,False,False
+ftg_PD_200,results/v10/v10_fixed_token_groups.json:budgets.200.by_group.PD,2,2,2,2,False,False,False
+expB_sub_obs,results/v10/v10_originals_reproduction.json:by_quantity.5.1 permutation: PD observed cosine.original_on_submitted_inputs,0.979,0.979,0.979,0.979,False,False,False
+expB_sub_null,results/v10/v10_originals_reproduction.json:by_quantity.5.1 permutation: PD null mean.original_on_submitted_inputs,0.998,0.998,0.998,0.998,False,False,False
+expB_sub_p,results/v10/v10_originals_reproduction.json:by_quantity.5.1 permutation: PD p.original_on_submitted_inputs,1.00,1.00,1.00,1.00,False,False,False
+sapx_sub_eps_printed,results/v10/v10_originals_reproduction.json:by_quantity.SAP-excluded composite eps2.submitted_printed,0.106,0.106,0.106,0.106,False,False,False
+sapx_sub_n_printed,results/v10/v10_originals_reproduction.json:by_quantity.SAP-excluded n.submitted_printed,"2,161","2,161","2,161","2,161",False,False,False
+g41_HC,results/v6/v6_master_analyses.json:coverage.group_counts_nasal_valid.HC,"1,212","1,212","1,212","1,184",False,False,True
+g41_PD,results/v6/v6_master_analyses.json:coverage.group_counts_nasal_valid.PD,616,616,615,615,False,True,True
+g41_CP,results/v6/v6_master_analyses.json:coverage.group_counts_nasal_valid.CP,378,378,378,378,False,False,False
+g41_ALS,results/v6/v6_master_analyses.json:coverage.group_counts_nasal_valid.ALS,322,322,322,322,False,False,False
+g41_DS,results/v6/v6_master_analyses.json:coverage.group_counts_nasal_valid.DS,165,165,165,165,False,False,False
+g41_Stroke,results/v6/v6_master_analyses.json:coverage.group_counts_nasal_valid.Stroke,98,98,96,96,False,True,True
+holm_n_sig_int,results/v10/v10_hr_values.json:values.holm_n_sig.value,12,12,12,12,False,False,False
+holm_n_pairs_int,results/v10/v10_hr_values.json:values.holm_n_pairs.value,15,15,15,15,False,False,False
+clf_f1_HC,results/v6/v6_classifier.json:corrected.raw_cosine_train_mean.per_class_f1.HC,0.627,0.625,0.625,0.619,True,True,True
+clf_f1_CP,results/v6/v6_classifier.json:corrected.raw_cosine_train_mean.per_class_f1.CP,0.388,0.384,0.389,0.390,True,True,True
+clf_f1_ALS,results/v6/v6_classifier.json:corrected.raw_cosine_train_mean.per_class_f1.ALS,0.231,0.231,0.231,0.231,False,False,False
+ctc_mean_control,results/v6/v6_master_analyses.json:ctc_conf_severity.means.control,0.921,0.921,0.921,0.921,False,False,False
+ctc_mean_mild,results/v6/v6_master_analyses.json:ctc_conf_severity.means.mild,0.911,0.911,0.911,0.911,False,False,False
+ctc_mean_moderate,results/v6/v6_master_analyses.json:ctc_conf_severity.means.moderate,0.858,0.858,0.858,0.858,False,False,False
+ctc_mean_severe,results/v6/v6_master_analyses.json:ctc_conf_severity.means.severe,0.772,0.772,0.772,0.772,False,False,False
+sw_pd_all,results/v6/v6_crossling.json:swahili.pd_sw_vs_all_pd,0.991,0.991,0.991,0.991,False,False,False
+sw_pd_sk,results/v6/v6_crossling.json:swahili.pd_sw_vs_sk_pd,0.988,0.988,0.988,0.988,False,False,False
+sw_cp_zh,results/v6/v6_crossling.json:swahili.cp_sw_vs_zh_cp,0.999,0.999,0.999,0.999,False,False,False
+abstract|H:p1_speakers~int,high-risk binding (v15 hr_bindings),890,890,890,890,False,False,False
+abstract|H:p1_languages~int,high-risk binding (v15 hr_bindings),5,5,5,5,False,False,False
+abstract|H:n_speakers~int,high-risk binding (v15 hr_bindings),"3,374","3,374","3,335","3,315",False,True,True
+abstract|H:n_datasets~int,high-risk binding (v15 hr_bindings),25,25,24,23,False,True,True
+abstract|H:n_languages~int,high-risk binding (v15 hr_bindings),12,12,12,11,False,False,True
+abstract|H:n_aetiologies~int,high-risk binding (v15 hr_bindings),5,5,5,5,False,False,False
+abstract|H:n_backbones~int,high-risk binding (v15 hr_bindings),6,6,6,6,False,False,False
+abstract|H:n_large_main~int,high-risk binding (v15 hr_bindings),10,10,10,10,False,False,False
+abstract|H:n_features_main~int,high-risk binding (v15 hr_bindings),13,13,13,13,False,False,False
+abstract|H:large_threshold~2dp,high-risk binding (v15 hr_bindings),0.14,0.14,0.14,0.14,False,False,False
+abstract|H:kw_p_max_main~lt10:-11,high-risk binding (v15 hr_bindings),-11,-11,-11,-11,False,False,False
+abstract|H:pd_exec_mean_d~2dp,high-risk binding (v15 hr_bindings),1.01,1.01,1.01,1.01,False,False,False
+abstract|H:mod_d~2dp,high-risk binding (v15 hr_bindings),0.01,0.00,-0.01,-0.01,True,True,True
+abstract|H:clf_macro_f1_pct~1dp,high-risk binding (v15 hr_bindings),21.9,21.6,21.0,20.9,True,True,True
+abstract|H:n_consonant_features~int,high-risk binding (v15 hr_bindings),5,5,5,5,False,False,False
+abstract|R:b_PD_mean,high-risk binding (v15 hr_bindings),0.978,0.978,0.978,0.978,False,False,False
+abstract|R:b_CP_mean,high-risk binding (v15 hr_bindings),0.987,0.987,0.987,0.987,False,False,False
+abstract|H:random_floor~2dp,high-risk binding (v15 hr_bindings),0.93,0.93,0.93,0.93,False,False,False
+abstract|J:results/test2_delta_corrected.json#primary_hcnorm.delta~4dp,high-risk binding (v15 hr_bindings),0.0004,0.0004,0.0004,0.0004,False,False,False
+abstract|J:results/test2_delta_corrected.json#primary_hcnorm.ci95.0~3dp,high-risk binding (v15 hr_bindings),-0.003,-0.003,-0.003,-0.004,False,False,True
+abstract|J:results/test2_delta_corrected.json#primary_hcnorm.ci95.1~3dp,high-risk binding (v15 hr_bindings),0.004,0.004,0.004,0.004,False,False,False
+abstract|J:results/v5/swap_run/swap_build_meta.json#rows_replaced~int,high-risk binding (v15 hr_bindings),18,18,18,18,False,False,False
+abstract|J:results/test2_delta_corrected.json#perm_lang_dataset_hcnorm.p_null_ge_obs~3dp,high-risk binding (v15 hr_bindings),0.055,0.055,0.055,0.055,False,False,False
+abstract|J:results/v5/hubert_tamil_swap_impact.json#swapped.test2.p_block_perm~3dp,high-risk binding (v15 hr_bindings),0.032,0.032,0.032,0.032,False,False,False
+abstract|H:cp_pos~int,high-risk binding (v15 hr_bindings),15,15,15,15,False,False,False
+abstract|H:cp_cells~int,high-risk binding (v15 hr_bindings),15,15,15,15,False,False,False
+abstract|H:cp_ci_excl0~int,high-risk binding (v15 hr_bindings),14,14,14,14,False,False,False
+abstract|H:pd_pos~int,high-risk binding (v15 hr_bindings),30,30,30,30,False,False,False
+abstract|H:pd_cells~int,high-risk binding (v15 hr_bindings),30,30,30,30,False,False,False
+abstract|R:xb_min_2dp,high-risk binding (v15 hr_bindings),0.83,0.83,0.83,0.84,False,False,True
+abstract|R:xb_max_2dp,high-risk binding (v15 hr_bindings),0.99,0.99,0.99,0.99,False,False,False
+abstract|H:n_backbone_pairs~int,high-risk binding (v15 hr_bindings),15,15,15,15,False,False,False
+abstract|R:t5_xlsr|mms_n_int,high-risk binding (v15 hr_bindings),"3,101","3,101","3,101","3,073",False,False,True
+abstract|R:kw_min_2dp,high-risk binding (v15 hr_bindings),0.33,0.33,0.33,0.29,False,False,True
+abstract|R:kw_max_2dp,high-risk binding (v15 hr_bindings),0.71,0.71,0.71,0.68,False,False,True
+abstract|R:t6n_200,high-risk binding (v15 hr_bindings),467,467,467,467,False,False,False
+abstract|H:budget_max~int,high-risk binding (v15 hr_bindings),200,200,200,200,False,False,False
+abstract|R:t6rho_200_3dp,high-risk binding (v15 hr_bindings),-0.733,-0.733,-0.733,-0.733,False,False,False
+contributions|H:n_large_main~int,high-risk binding (v15 hr_bindings),10,10,10,10,False,False,False
+contributions|H:n_features_main~int,high-risk binding (v15 hr_bindings),13,13,13,13,False,False,False
+contributions|H:large_threshold~2dp,high-risk binding (v15 hr_bindings),0.14,0.14,0.14,0.14,False,False,False
+contributions|H:pd_exec_mean_d~2dp,high-risk binding (v15 hr_bindings),1.01,1.01,1.01,1.01,False,False,False
+contributions|H:min_features~int,high-risk binding (v15 hr_bindings),3,3,3,3,False,False,False
+contributions|H:cp_stroke_d~2dp,high-risk binding (v15 hr_bindings),0.04,0.04,0.04,0.04,False,False,False
+contributions|H:mod_d~2dp,high-risk binding (v15 hr_bindings),0.01,0.00,-0.01,-0.01,True,True,True
+contributions|H:mod_pd_n~int,high-risk binding (v15 hr_bindings),42,42,41,41,False,True,True
+contributions|H:mod_exec_n~int,high-risk binding (v15 hr_bindings),45,45,44,44,False,True,True
+contributions|H:n_consonant_features~int,high-risk binding (v15 hr_bindings),5,5,5,5,False,False,False
+contributions|H:b_min_mean_pd_cp_als~gt=0.95,high-risk binding (v15 hr_bindings),0.95,0.95,0.95,0.95,False,False,False
+contributions|H:b_PD_nlang~int,high-risk binding (v15 hr_bindings),6,6,6,6,False,False,False
+contributions|H:min_cell~int,high-risk binding (v15 hr_bindings),3,3,3,3,False,False,False
+contributions|H:b_CP_nlang~int,high-risk binding (v15 hr_bindings),4,4,4,4,False,False,False
+contributions|H:b_ALS_nlang~int,high-risk binding (v15 hr_bindings),4,4,4,4,False,False,False
+contributions|H:a2_n_boot~int,high-risk binding (v15 hr_bindings),"1,000","1,000","1,000","1,000",False,False,False
+contributions|R:b_PD_mean,high-risk binding (v15 hr_bindings),0.978,0.978,0.978,0.978,False,False,False
+contributions|R:b_PD_lo,high-risk binding (v15 hr_bindings),0.956,0.956,0.956,0.956,False,False,False
+contributions|R:b_PD_hi,high-risk binding (v15 hr_bindings),0.984,0.984,0.984,0.984,False,False,False
+contributions|R:b_CP_mean,high-risk binding (v15 hr_bindings),0.987,0.987,0.987,0.987,False,False,False
+contributions|R:b_CP_lo,high-risk binding (v15 hr_bindings),0.976,0.976,0.976,0.976,False,False,False
+contributions|R:b_CP_hi,high-risk binding (v15 hr_bindings),0.994,0.994,0.994,0.994,False,False,False
+contributions|R:b_ALS_mean,high-risk binding (v15 hr_bindings),0.985,0.985,0.985,0.985,False,False,False
+contributions|R:b_ALS_lo,high-risk binding (v15 hr_bindings),0.954,0.954,0.954,0.955,False,False,True
+contributions|R:b_ALS_hi,high-risk binding (v15 hr_bindings),0.989,0.989,0.989,0.989,False,False,False
+contributions|R:b_HC_mean,high-risk binding (v15 hr_bindings),0.980,0.980,0.980,0.979,False,False,True
+contributions|R:b_HC_lo,high-risk binding (v15 hr_bindings),0.968,0.968,0.968,0.966,False,False,True
+contributions|R:b_HC_hi,high-risk binding (v15 hr_bindings),0.986,0.986,0.986,0.986,False,False,False
+contributions|R:mn3_PD_min,high-risk binding (v15 hr_bindings),0.937,0.937,0.937,0.937,False,False,False
+contributions|R:b_PD_tight_cos,high-risk binding (v15 hr_bindings),0.968,0.968,0.968,0.968,False,False,False
+contributions|R:b_PD_tight_lo,high-risk binding (v15 hr_bindings),0.893,0.893,0.893,0.893,False,False,False
+contributions|J:results/test2_delta_corrected.json#perm_lang_dataset_hcnorm.p_null_ge_obs~3dp,high-risk binding (v15 hr_bindings),0.055,0.055,0.055,0.055,False,False,False
+contributions|J:results/v5/hubert_tamil_swap_impact.json#swapped.test2.p_block_perm~3dp,high-risk binding (v15 hr_bindings),0.032,0.032,0.032,0.032,False,False,False
+contributions|J:results/test2_delta_corrected.json#primary_hcnorm.delta~4dp,high-risk binding (v15 hr_bindings),0.0004,0.0004,0.0004,0.0004,False,False,False
+contributions|J:results/test2_delta_corrected.json#primary_hcnorm.ci95.0~3dp,high-risk binding (v15 hr_bindings),-0.003,-0.003,-0.003,-0.004,False,False,True
+contributions|J:results/test2_delta_corrected.json#primary_hcnorm.ci95.1~3dp,high-risk binding (v15 hr_bindings),0.004,0.004,0.004,0.004,False,False,False
+contributions|H:cp_ci_excl0~int,high-risk binding (v15 hr_bindings),14,14,14,14,False,False,False
+contributions|H:cp_cells~int,high-risk binding (v15 hr_bindings),15,15,15,15,False,False,False
+contributions|H:pd_pos~int,high-risk binding (v15 hr_bindings),30,30,30,30,False,False,False
+contributions|H:de_als_n~int,high-risk binding (v15 hr_bindings),5,5,5,5,False,False,False
+contributions|H:n_backbones~int,high-risk binding (v15 hr_bindings),6,6,6,6,False,False,False
+contributions|R:xb_min_2dp,high-risk binding (v15 hr_bindings),0.83,0.83,0.83,0.84,False,False,True
+contributions|R:xb_max_2dp,high-risk binding (v15 hr_bindings),0.99,0.99,0.99,0.99,False,False,False
+contributions|H:n_backbone_pairs~int,high-risk binding (v15 hr_bindings),15,15,15,15,False,False,False
+contributions|R:t5_xlsr|mms_n_int,high-risk binding (v15 hr_bindings),"3,101","3,101","3,101","3,073",False,False,True
+contributions|R:pc_min_PD_2dp,high-risk binding (v15 hr_bindings),0.98,0.98,0.98,0.98,False,False,False
+contributions|R:pc_min_CP_2dp,high-risk binding (v15 hr_bindings),0.96,0.96,0.96,0.96,False,False,False
+contributions|R:pc_min_ALS_2dp,high-risk binding (v15 hr_bindings),0.91,0.91,0.91,0.91,False,False,False
+contributions|R:pc_min_DS_2dp,high-risk binding (v15 hr_bindings),0.96,0.96,0.96,0.96,False,False,False
+contributions|R:pc_min_Stroke_2dp,high-risk binding (v15 hr_bindings),0.94,0.94,0.94,0.94,False,False,False
+contributions|H:family_min_rho~gt=0.96,high-risk binding (v15 hr_bindings),0.96,0.96,0.96,0.96,False,False,False
+contributions|R:kw_min_2dp,high-risk binding (v15 hr_bindings),0.33,0.33,0.33,0.29,False,False,True
+contributions|R:kw_max_2dp,high-risk binding (v15 hr_bindings),0.71,0.71,0.71,0.68,False,False,True
+conclusion|H:n_large_main~int,high-risk binding (v15 hr_bindings),10,10,10,10,False,False,False
+conclusion|H:n_features_main~int,high-risk binding (v15 hr_bindings),13,13,13,13,False,False,False
+conclusion|H:large_threshold~2dp,high-risk binding (v15 hr_bindings),0.14,0.14,0.14,0.14,False,False,False
+conclusion|R:holm_alspd_d_2dp~abs,high-risk binding (v15 hr_bindings),0.62,0.62,0.62,0.62,False,False,False
+conclusion|R:holm_dspd_d_2dp~abs,high-risk binding (v15 hr_bindings),1.05,1.05,1.05,1.05,False,False,False
+conclusion|H:mod_d~2dp,high-risk binding (v15 hr_bindings),0.01,0.00,-0.01,-0.01,True,True,True
+conclusion|H:holm_ns_min_p~gt=0.5,high-risk binding (v15 hr_bindings),0.5,0.5,0.5,0.5,False,False,False
+conclusion|H:clf_macro_f1_pct~1dp,high-risk binding (v15 hr_bindings),21.9,21.6,21.0,20.9,True,True,True
+conclusion|H:n_consonant_features~int,high-risk binding (v15 hr_bindings),5,5,5,5,False,False,False
+conclusion|R:b_PD_mean,high-risk binding (v15 hr_bindings),0.978,0.978,0.978,0.978,False,False,False
+conclusion|R:b_CP_mean,high-risk binding (v15 hr_bindings),0.987,0.987,0.987,0.987,False,False,False
+conclusion|J:results/test2_delta_corrected.json#perm_lang_dataset_hcnorm.p_null_ge_obs~3dp,high-risk binding (v15 hr_bindings),0.055,0.055,0.055,0.055,False,False,False
+conclusion|J:results/v5/hubert_tamil_swap_impact.json#swapped.test2.p_block_perm~3dp,high-risk binding (v15 hr_bindings),0.032,0.032,0.032,0.032,False,False,False
+conclusion|H:n_backbones~int,high-risk binding (v15 hr_bindings),6,6,6,6,False,False,False
+conclusion|R:xb_min_2dp,high-risk binding (v15 hr_bindings),0.83,0.83,0.83,0.84,False,False,True
+conclusion|R:xb_max_2dp,high-risk binding (v15 hr_bindings),0.99,0.99,0.99,0.99,False,False,False
+conclusion|H:n_backbone_pairs~int,high-risk binding (v15 hr_bindings),15,15,15,15,False,False,False
+conclusion|R:t5_xlsr|mms_n_int,high-risk binding (v15 hr_bindings),"3,101","3,101","3,101","3,073",False,False,True
+conclusion|R:pc_min_all_2dp,high-risk binding (v15 hr_bindings),0.91,0.91,0.91,0.91,False,False,False
+conclusion|R:cs_rho_min_3dp,high-risk binding (v15 hr_bindings),-0.747,-0.747,-0.747,-0.747,False,False,False
+conclusion|R:cs_rho_max_3dp,high-risk binding (v15 hr_bindings),-0.733,-0.733,-0.733,-0.733,False,False,False
+conclusion|H:abl_rho~3dp,high-risk binding (v15 hr_bindings),-0.453,-0.453,-0.452,-0.452,False,True,True
+conclusion|H:abl_eps2~3dp,high-risk binding (v15 hr_bindings),0.188,0.188,0.188,0.188,False,False,False
+conclusion|H:min_n_threshold_top~int,high-risk binding (v15 hr_bindings),10,10,10,10,False,False,False
+conclusion|R:mn10_PD_mean,high-risk binding (v15 hr_bindings),0.975,0.975,0.975,0.975,False,False,False
+conclusion|J:results/v9/v9_originals.json#states.corrected.parsed.reviewer_experiments.exp2_min_n_language_pair_bootstrap.10.PD.n_languages~int,high-risk binding (v15 hr_bindings),5,5,5,5,False,False,False
+conclusion|H:tm_p_max~lt=0.001,high-risk binding (v15 hr_bindings),0.001,0.001,0.001,0.001,False,False,False
+conclusion|H:n_speakers~int,high-risk binding (v15 hr_bindings),"3,374","3,374","3,335","3,315",False,True,True
+conclusion|H:n_datasets~int,high-risk binding (v15 hr_bindings),25,25,24,23,False,True,True
+conclusion|H:n_languages~int,high-risk binding (v15 hr_bindings),12,12,12,11,False,False,True
+conclusion|H:n_aetiologies~int,high-risk binding (v15 hr_bindings),5,5,5,5,False,False,False
+highlights|H:mod_d~2dp,high-risk binding (v15 hr_bindings),0.01,0.00,-0.01,-0.01,True,True,True
+figure1|H:fig1_n_features~int,high-risk binding (v15 hr_bindings),13,13,13,13,False,False,False
+figure1|H:fig1_n_aetiologies~int,high-risk binding (v15 hr_bindings),5,5,5,5,False,False,False
+figure1|H:fig1_min_cell~int,high-risk binding (v15 hr_bindings),5,5,5,5,False,False,False
+figure2|J:results/v5/fig2_group_means.json#ratio_to_hc.HC.nasal_dprime~1dp,high-risk binding (v15 hr_bindings),1.0,1.0,1.0,1.0,False,False,False
+figure2|J:results/v5/fig2_group_means.json#n_speakers.HC~int,high-risk binding (v15 hr_bindings),"1,445","1,445","1,445","1,417",False,False,True
+figure2|J:results/v5/fig2_group_means.json#n_speakers.PD~int,high-risk binding (v15 hr_bindings),648,648,647,647,False,True,True
+figure2|J:results/v5/fig2_group_means.json#n_speakers.CP~int,high-risk binding (v15 hr_bindings),379,379,379,379,False,False,False
+figure2|J:results/v5/fig2_group_means.json#n_speakers.ALS~int,high-risk binding (v15 hr_bindings),325,325,325,325,False,False,False
+figure2|J:results/v5/fig2_group_means.json#n_speakers.DS~int,high-risk binding (v15 hr_bindings),166,166,166,166,False,False,False
+figure2|J:results/v5/fig2_group_means.json#n_speakers.Stroke~int,high-risk binding (v15 hr_bindings),99,99,97,97,False,True,True
+figure2|H:vta_ds_n~int,high-risk binding (v15 hr_bindings),12,12,12,12,False,False,False
+figure3|H:fig3_n_langs~int,high-risk binding (v15 hr_bindings),6,6,6,6,False,False,False
+figure3|H:min_cell~int,high-risk binding (v15 hr_bindings),3,3,3,3,False,False,False
+figure3|H:n_segmental~int,high-risk binding (v15 hr_bindings),9,9,9,9,False,False,False
+figure3|H:hc_reference~1dp,high-risk binding (v15 hr_bindings),1.0,1.0,1.0,1.0,False,False,False
+figure3|H:fig3_nl_pd~int,high-risk binding (v15 hr_bindings),13,13,13,13,False,False,False
+figure3|H:fig3_pt_pd~int,high-risk binding (v15 hr_bindings),3,3,3,3,False,False,False
+figure4|H:n_backbones~int,high-risk binding (v15 hr_bindings),6,6,6,6,False,False,False
+figure4|H:fig4_n_boot~int,high-risk binding (v15 hr_bindings),"1,000","1,000","1,000","1,000",False,False,False
+figure4|R:f4_xlsr_mm_margin,high-risk binding (v15 hr_bindings),0.05,0.05,0.05,0.05,False,False,False
+figure4|R:f4_xlsr_mm_lo,high-risk binding (v15 hr_bindings),-0.02,-0.02,-0.02,-0.02,False,False,False
+figure4|R:f4_xlsr_mm_hi,high-risk binding (v15 hr_bindings),0.12,0.12,0.12,0.11,False,False,True
+figure4|R:f4_mms_mm_margin,high-risk binding (v15 hr_bindings),0.03,0.03,0.03,0.03,False,False,False
+figure4|R:f4_mms_mm_lo,high-risk binding (v15 hr_bindings),-0.04,-0.04,-0.04,-0.04,False,False,False
+figure4|R:f4_mms_mm_hi,high-risk binding (v15 hr_bindings),0.08,0.08,0.09,0.09,False,True,True
+figure5|R:t5_xlsr|mms_n_int,high-risk binding (v15 hr_bindings),"3,101","3,101","3,101","3,073",False,False,True
+figure5|H:family_min_rho~gt=0.90,high-risk binding (v15 hr_bindings),0.90,0.90,0.90,0.90,False,False,False
+table1|H:n_datasets~int,high-risk binding (v15 hr_bindings),25,25,24,23,False,True,True
+table1|H:n_languages~int,high-risk binding (v15 hr_bindings),12,12,12,11,False,False,True
+table1|H:n_dataset_labels~int,high-risk binding (v15 hr_bindings),26,26,25,24,False,True,True
+table1|H:t1_hu_english~int,high-risk binding (v15 hr_bindings),8,8,0,8,False,True,False
+table1|H:t1_language_n.en~int,high-risk binding (v15 hr_bindings),"1,435","1,435","1,427","1,435",False,True,False
+table1|H:t1_dataset_n.SAP~int,high-risk binding (v15 hr_bindings),"1,233","1,233","1,233","1,233",False,False,False
+table1|H:sap_scale_min~int,high-risk binding (v15 hr_bindings),1,1,1,1,False,False,False
+table1|H:sap_scale_max~int,high-risk binding (v15 hr_bindings),7,7,7,7,False,False,False
+table1|H:t1_dataset_n.LibriSpeech_English~int,high-risk binding (v15 hr_bindings),150,150,150,150,False,False,False
+table1|H:t1_dataset_n.TORGO~int,high-risk binding (v15 hr_bindings),15,15,15,15,False,False,False
+table1|H:t1_dataset_n.UASPEECH~int,high-risk binding (v15 hr_bindings),15,15,15,15,False,False,False
+table1|H:t1_dataset_n.UASPEECH_control~int,high-risk binding (v15 hr_bindings),13,13,13,13,False,False,False
+table1|H:t1_language_n.sk~int,high-risk binding (v15 hr_bindings),602,602,602,602,False,False,False
+table1|H:t1_dataset_n.EWA-DB~int,high-risk binding (v15 hr_bindings),602,602,602,602,False,False,False
+table1|H:t1_language_n.pt~int,high-risk binding (v15 hr_bindings),370,370,370,370,False,False,False
+table1|H:t1_dataset_n.AVFAD~int,high-risk binding (v15 hr_bindings),370,370,370,370,False,False,False
+table1|H:t1_language_n.nl~int,high-risk binding (v15 hr_bindings),283,283,283,283,False,False,False
+table1|H:t1_dataset_n.COPAS~int,high-risk binding (v15 hr_bindings),227,227,227,227,False,False,False
+table1|H:t1_dataset_n.Domotica~int,high-risk binding (v15 hr_bindings),43,43,43,43,False,False,False
+table1|H:t1_dataset_n.CHASING~int,high-risk binding (v15 hr_bindings),8,8,8,8,False,False,False
+table1|H:t1_dataset_n.TreasureHunters1~int,high-risk binding (v15 hr_bindings),5,5,5,5,False,False,False
+table1|H:t1_language_n.es~int,high-risk binding (v15 hr_bindings),211,211,211,211,False,False,False
+table1|H:t1_dataset_n.Neurovoz~int,high-risk binding (v15 hr_bindings),111,111,111,111,False,False,False
+table1|H:t1_dataset_n.PC-GITA~int,high-risk binding (v15 hr_bindings),100,100,100,100,False,False,False
+table1|H:t1_language_n.it~int,high-risk binding (v15 hr_bindings),120,120,120,120,False,False,False
+table1|H:t1_dataset_n.IPVS~int,high-risk binding (v15 hr_bindings),65,65,65,65,False,False,False
+table1|H:t1_dataset_n.EasyCall~int,high-risk binding (v15 hr_bindings),55,55,55,55,False,False,False
+table1|H:t1_language_n.zh~int,high-risk binding (v15 hr_bindings),100,100,100,100,False,False,False
+table1|H:t1_dataset_n.MDSC~int,high-risk binding (v15 hr_bindings),56,56,56,56,False,False,False
+table1|H:t1_dataset_n.CDSD~int,high-risk binding (v15 hr_bindings),44,44,44,44,False,False,False
+table1|H:t1_language_n.ta~int,high-risk binding (v15 hr_bindings),80,80,80,80,False,False,False
+table1|H:t1_dataset_n.SLR65_Tamil~int,high-risk binding (v15 hr_bindings),50,50,50,50,False,False,False
+table1|H:t1_dataset_n.SSNCE_Tamil~int,high-risk binding (v15 hr_bindings),30,30,30,30,False,False,False
+table1|H:t1_language_n.de~int,high-risk binding (v15 hr_bindings),66,66,66,66,False,False,False
+table1|H:t1_dataset_n.SVD~int,high-risk binding (v15 hr_bindings),53,53,53,53,False,False,False
+table1|H:t1_dataset_n.YouTube_German~int,high-risk binding (v15 hr_bindings),13,13,13,13,False,False,False
+table1|H:t1_language_n.hu~int,high-risk binding (v15 hr_bindings),59,59,28,,False,True,True
+table1|H:t1_dataset_n.Hungarian_Dysarthria~int,high-risk binding (v15 hr_bindings),39,39,,8,False,True,True
+table1|H:t1_dataset_n.CV_Hungarian~int,high-risk binding (v15 hr_bindings),27,27,27,,False,False,True
+table1|H:t1_dataset_n.Hungarian_HC~int,high-risk binding (v15 hr_bindings),1,1,1,,False,False,True
+table1|H:t1_hu_labelled~int,high-risk binding (v15 hr_bindings),15,15,0,2,False,True,True
+table1|H:t1_hu_total~int,high-risk binding (v15 hr_bindings),39,39,0,8,False,True,True
+table1|H:t1_language_n.fr~int,high-risk binding (v15 hr_bindings),24,24,24,24,False,False,False
+table1|H:t1_dataset_n.YouTube_French~int,high-risk binding (v15 hr_bindings),24,24,24,24,False,False,False
+table1|H:t1_language_n.sw~int,high-risk binding (v15 hr_bindings),24,24,24,24,False,False,False
+table1|H:t1_dataset_n.CDLI_Kenyan_Swahili~int,high-risk binding (v15 hr_bindings),25,25,25,25,False,False,False
+table2|X:hubert_large_librilight_hours~int,high-risk binding (v15 hr_bindings),"60,000","60,000","60,000","60,000",False,False,False
+table2|X:wavlm_base_librispeech_hours~int,high-risk binding (v15 hr_bindings),960,960,960,960,False,False,False
+table2|X:wavlm_large_hours~int,high-risk binding (v15 hr_bindings),"94,000","94,000","94,000","94,000",False,False,False
+table2|X:hidden_hubert_base~exact,high-risk binding (v15 hr_bindings),768,768,768,768,False,False,False
+table2|X:hidden_hubert_large~exact,high-risk binding (v15 hr_bindings),1024,1024,1024,1024,False,False,False
+table2|X:hidden_wavlm_base~exact,high-risk binding (v15 hr_bindings),768,768,768,768,False,False,False
+table2|X:hidden_wav2vec2_base~exact,high-risk binding (v15 hr_bindings),768,768,768,768,False,False,False
+table2|X:hidden_xlsr_300m~exact,high-risk binding (v15 hr_bindings),1024,1024,1024,1024,False,False,False
+table2|X:xlsr_languages~int,high-risk binding (v15 hr_bindings),128,128,128,128,False,False,False
+table2|X:hidden_mms_300m~exact,high-risk binding (v15 hr_bindings),1024,1024,1024,1024,False,False,False
+table2|X:mms_languages~int,high-risk binding (v15 hr_bindings),"1,400","1,400","1,400","1,400",False,False,False
+table3|H:n_features_all~int,high-risk binding (v15 hr_bindings),15,15,15,15,False,False,False
+table3|H:n_features_main~int,high-risk binding (v15 hr_bindings),13,13,13,13,False,False,False
+table3|H:large_threshold~2dp,high-risk binding (v15 hr_bindings),0.14,0.14,0.14,0.14,False,False,False
+table3|H:medium_threshold~2dp,high-risk binding (v15 hr_bindings),0.06,0.06,0.06,0.06,False,False,False
+table3|R:t3row_nasal_dprime,high-risk binding (v15 hr_bindings)," & 1,191.4
+ & $2.1 \times 10^{-255}$
+ & 0.426
+ & 2,791
+"," & 1,190.9
+ & $2.8 \times 10^{-255}$
+ & 0.426
+ & 2,791
+"," & 1,188.3
+ & $9.9 \times 10^{-255}$
+ & 0.425
+ & 2,788
+"," & 1,191.3
+ & $2.2 \times 10^{-255}$
+ & 0.431
+ & 2,760
+",True,True,True
+table3|R:t3row_voicing_dprime,high-risk binding (v15 hr_bindings)," & 1,253.6
+ & $7.4 \times 10^{-269}$
+ & 0.424
+ & 2,953
+"," & 1,253.0
+ & $9.5 \times 10^{-269}$
+ & 0.423
+ & 2,953
+"," & 1,252.7
+ & $1.1 \times 10^{-268}$
+ & 0.424
+ & 2,950
+"," & 1,238.3
+ & $1.5 \times 10^{-265}$
+ & 0.423
+ & 2,922
+",True,True,True
+table3|R:t3row_sonorant_dprime,high-risk binding (v15 hr_bindings)," & 700.3
+ & $4.3 \times 10^{-149}$
+ & 0.237
+ & 2,943
+"," & 700.6
+ & $3.6 \times 10^{-149}$
+ & 0.237
+ & 2,943
+"," & 698.3
+ & $1.1 \times 10^{-148}$
+ & 0.236
+ & 2,940
+"," & 700.4
+ & $4.0 \times 10^{-149}$
+ & 0.239
+ & 2,912
+",True,True,True
+table3|R:t3row_strident_dprime,high-risk binding (v15 hr_bindings)," & 1,239.2
+ & $9.4 \times 10^{-266}$
+ & 0.431
+ & 2,867
+"," & 1,239.3
+ & $8.8 \times 10^{-266}$
+ & 0.431
+ & 2,867
+"," & 1,237.0
+ & $2.8 \times 10^{-265}$
+ & 0.431
+ & 2,864
+"," & 1,215.6
+ & $1.2 \times 10^{-260}$
+ & 0.428
+ & 2,836
+",True,True,True
+table3|R:t3row_manner_dprime,high-risk binding (v15 hr_bindings)," & 1,153.7
+ & $3.2 \times 10^{-247}$
+ & 0.395
+ & 2,917
+"," & 1,153.6
+ & $3.3 \times 10^{-247}$
+ & 0.395
+ & 2,917
+"," & 1,150.9
+ & $1.3 \times 10^{-246}$
+ & 0.394
+ & 2,914
+"," & 1,140.2
+ & $2.6 \times 10^{-244}$
+ & 0.394
+ & 2,886
+",True,True,True
+table3|R:t3row_high_dprime,high-risk binding (v15 hr_bindings)," & 1,381.6
+ & $1.3 \times 10^{-296}$
+ & 0.498
+ & 2,768
+"," & 1,382.9
+ & $6.9 \times 10^{-297}$
+ & 0.499
+ & 2,768
+"," & 1,388.7
+ & $3.8 \times 10^{-298}$
+ & 0.502
+ & 2,765
+"," & 1,370.3
+ & $3.7 \times 10^{-294}$
+ & 0.500
+ & 2,737
+",True,True,True
+table3|R:t3row_low_dprime,high-risk binding (v15 hr_bindings)," & 961.7
+ & $1.2 \times 10^{-205}$
+ & 0.345
+ & 2,775
+"," & 962.2
+ & $9.3 \times 10^{-206}$
+ & 0.346
+ & 2,775
+"," & 961.2
+ & $1.5 \times 10^{-205}$
+ & 0.346
+ & 2,772
+"," & 979.2
+ & $2.0 \times 10^{-209}$
+ & 0.356
+ & 2,744
+",True,True,True
+table3|R:t3row_back_dprime,high-risk binding (v15 hr_bindings)," & 1,080.0
+ & $2.8 \times 10^{-231}$
+ & 0.390
+ & 2,760
+"," & 1,078.8
+ & $5.3 \times 10^{-231}$
+ & 0.390
+ & 2,760
+"," & 1,079.5
+ & $3.6 \times 10^{-231}$
+ & 0.391
+ & 2,757
+"," & 1,078.7
+ & $5.4 \times 10^{-231}$
+ & 0.394
+ & 2,729
+",True,True,True
+table3|R:t3row_round_dprime,high-risk binding (v15 hr_bindings)," & 1,172.2
+ & $3.1 \times 10^{-251}$
+ & 0.443
+ & 2,639
+"," & 1,169.9
+ & $9.7 \times 10^{-251}$
+ & 0.442
+ & 2,642
+"," & 1,172.2
+ & $3.1 \times 10^{-251}$
+ & 0.443
+ & 2,639
+"," & 1,155.4
+ & $1.4 \times 10^{-247}$
+ & 0.442
+ & 2,611
+",True,False,True
+table3|R:t3row_vowel_triangle_area,high-risk binding (v15 hr_bindings)," & 397.4
+ & $1.1 \times 10^{-83}$
+ & 0.341
+ & 1,157
+"," & 397.4
+ & $1.1 \times 10^{-83}$
+ & 0.341
+ & 1,157
+"," & 397.4
+ & $1.1 \times 10^{-83}$
+ & 0.341
+ & 1,157
+"," & 409.1
+ & $3.2 \times 10^{-86}$
+ & 0.360
+ & 1,130
+",False,False,True
+table3|R:t3row_boundary_sharpness,high-risk binding (v15 hr_bindings)," & 191.7
+ & $1.7 \times 10^{-39}$
+ & 0.063
+ & 2,974
+"," & 191.7
+ & $1.7 \times 10^{-39}$
+ & 0.063
+ & 2,974
+"," & 191.9
+ & $1.5 \times 10^{-39}$
+ & 0.063
+ & 2,971
+"," & 188.1
+ & $9.9 \times 10^{-39}$
+ & 0.062
+ & 2,943
+",False,True,True
+table3|R:t3row_cross_position_cosim,high-risk binding (v15 hr_bindings)," & 196.8
+ & $1.3 \times 10^{-40}$
+ & 0.065
+ & 2,974
+"," & 196.8
+ & $1.3 \times 10^{-40}$
+ & 0.065
+ & 2,974
+"," & 197.2
+ & $1.1 \times 10^{-40}$
+ & 0.065
+ & 2,971
+"," & 193.6
+ & $6.6 \times 10^{-40}$
+ & 0.064
+ & 2,943
+",False,True,True
+table3|R:t3row_speech_rate,high-risk binding (v15 hr_bindings)," & 155.4
+ & $9.2 \times 10^{-32}$
+ & 0.055
+ & 2,739
+"," & 155.4
+ & $9.2 \times 10^{-32}$
+ & 0.055
+ & 2,739
+"," & 155.7
+ & $8.1 \times 10^{-32}$
+ & 0.055
+ & 2,736
+"," & 155.7
+ & $8.1 \times 10^{-32}$
+ & 0.055
+ & 2,736
+",False,True,True
+table3|R:t3row_vowel_duration_cv,high-risk binding (v15 hr_bindings)," & 278.6
+ & $3.9 \times 10^{-58}$
+ & 0.105
+ & 2,607
+"," & 278.6
+ & $3.9 \times 10^{-58}$
+ & 0.105
+ & 2,607
+"," & 279.1
+ & $3.2 \times 10^{-58}$
+ & 0.105
+ & 2,604
+"," & 279.1
+ & $3.2 \times 10^{-58}$
+ & 0.105
+ & 2,604
+",False,True,True
+table3|R:t3row_pause_rate,high-risk binding (v15 hr_bindings)," & 64.6
+ & $1.3 \times 10^{-12}$
+ & 0.022
+ & 2,739
+"," & 64.6
+ & $1.3 \times 10^{-12}$
+ & 0.022
+ & 2,739
+"," & 64.9
+ & $1.2 \times 10^{-12}$
+ & 0.022
+ & 2,736
+"," & 64.9
+ & $1.2 \times 10^{-12}$
+ & 0.022
+ & 2,736
+",False,True,True
+table4|H:n_consonant_features~int,high-risk binding (v15 hr_bindings),5,5,5,5,False,False,False
+table4|H:min_cell~int,high-risk binding (v15 hr_bindings),3,3,3,3,False,False,False
+table4|H:t4_nlang.CP~int,high-risk binding (v15 hr_bindings),4,4,4,4,False,False,False
+table4|R:t4row_CP,high-risk binding (v15 hr_bindings)," & 0.987
+ & 0.974
+ & 0.999
+"," & 0.987
+ & 0.974
+ & 0.999
+"," & 0.987
+ & 0.974
+ & 0.999
+"," & 0.987
+ & 0.974
+ & 0.999
+",False,False,False
+table4|H:t4_nlang.ALS~int,high-risk binding (v15 hr_bindings),4,4,4,4,False,False,False
+table4|R:t4row_ALS,high-risk binding (v15 hr_bindings)," & 0.985
+ & 0.969
+ & 0.998
+"," & 0.985
+ & 0.969
+ & 0.998
+"," & 0.985
+ & 0.969
+ & 0.998
+"," & 0.985
+ & 0.969
+ & 0.998
+",False,False,False
+table4|H:t4_nlang.PD~int,high-risk binding (v15 hr_bindings),6,6,6,6,False,False,False
+table4|R:t4row_PD,high-risk binding (v15 hr_bindings)," & 0.978
+ & 0.937
+ & 0.998
+"," & 0.978
+ & 0.937
+ & 0.998
+"," & 0.978
+ & 0.937
+ & 0.998
+"," & 0.978
+ & 0.937
+ & 0.998
+",False,False,False
+table4|H:t4_nlang.HC~int,high-risk binding (v15 hr_bindings),11,11,11,10,False,False,True
+table4|R:t4row_HC,high-risk binding (v15 hr_bindings)," & 0.980
+ & 0.930
+ & 0.999
+"," & 0.980
+ & 0.930
+ & 0.999
+"," & 0.980
+ & 0.930
+ & 0.999
+"," & 0.979
+ & 0.930
+ & 0.999
+",False,False,True
+table5|H:n_backbone_pairs~int,high-risk binding (v15 hr_bindings),15,15,15,15,False,False,False
+table5|R:t5_xlsr|mms_n_int,high-risk binding (v15 hr_bindings),"3,101","3,101","3,101","3,073",False,False,True
+table5|H:family_min_rho~gt=0.90,high-risk binding (v15 hr_bindings),0.90,0.90,0.90,0.90,False,False,False
+table5|R:t5_hubert-base|wavlm_3dp,high-risk binding (v15 hr_bindings),0.985,0.985,0.985,0.986,False,False,True
+table5|R:t5_hubert-base|wavlm_n_int,high-risk binding (v15 hr_bindings),"3,101","3,101","3,101","3,073",False,False,True
+table5|R:t5_hubert-large|wavlm_3dp,high-risk binding (v15 hr_bindings),0.968,0.968,0.968,0.968,False,False,False
+table5|R:t5_hubert-large|wavlm_n_int,high-risk binding (v15 hr_bindings),"3,101","3,101","3,101","3,073",False,False,True
+table5|R:t5_hubert-base|hubert-large_3dp,high-risk binding (v15 hr_bindings),0.963,0.963,0.963,0.963,False,False,False
+table5|R:t5_hubert-base|hubert-large_n_int,high-risk binding (v15 hr_bindings),"3,101","3,101","3,101","3,073",False,False,True
+table5|R:t5_hubert-base|wav2vec2_3dp,high-risk binding (v15 hr_bindings),0.949,0.949,0.949,0.949,False,False,False
+table5|R:t5_hubert-base|wav2vec2_n_int,high-risk binding (v15 hr_bindings),"3,101","3,101","3,101","3,073",False,False,True
+table5|R:t5_wavlm|wav2vec2_3dp,high-risk binding (v15 hr_bindings),0.948,0.948,0.948,0.949,False,False,True
+table5|R:t5_wavlm|wav2vec2_n_int,high-risk binding (v15 hr_bindings),"3,101","3,101","3,101","3,073",False,False,True
+table5|R:t5_hubert-large|wav2vec2_3dp,high-risk binding (v15 hr_bindings),0.934,0.934,0.934,0.935,False,False,True
+table5|R:t5_hubert-large|wav2vec2_n_int,high-risk binding (v15 hr_bindings),"3,101","3,101","3,101","3,073",False,False,True
+table5|R:t5_hubert-base|mms_3dp,high-risk binding (v15 hr_bindings),0.872,0.872,0.872,0.874,False,False,True
+table5|R:t5_hubert-base|mms_n_int,high-risk binding (v15 hr_bindings),"3,101","3,101","3,101","3,073",False,False,True
+table5|R:t5_wavlm|mms_3dp,high-risk binding (v15 hr_bindings),0.870,0.870,0.870,0.872,False,False,True
+table5|R:t5_wavlm|mms_n_int,high-risk binding (v15 hr_bindings),"3,101","3,101","3,101","3,073",False,False,True
+table5|R:t5_hubert-large|mms_3dp,high-risk binding (v15 hr_bindings),0.859,0.859,0.859,0.861,False,False,True
+table5|R:t5_hubert-large|mms_n_int,high-risk binding (v15 hr_bindings),"3,101","3,101","3,101","3,073",False,False,True
+table5|R:t5_hubert-base|xlsr_3dp,high-risk binding (v15 hr_bindings),0.859,0.859,0.859,0.860,False,False,True
+table5|R:t5_hubert-base|xlsr_n_int,high-risk binding (v15 hr_bindings),"3,101","3,101","3,101","3,073",False,False,True
+table5|R:t5_wavlm|xlsr_3dp,high-risk binding (v15 hr_bindings),0.858,0.858,0.858,0.860,False,False,True
+table5|R:t5_wavlm|xlsr_n_int,high-risk binding (v15 hr_bindings),"3,101","3,101","3,101","3,073",False,False,True
+table5|R:t5_hubert-large|xlsr_3dp,high-risk binding (v15 hr_bindings),0.852,0.852,0.852,0.854,False,False,True
+table5|R:t5_hubert-large|xlsr_n_int,high-risk binding (v15 hr_bindings),"3,101","3,101","3,101","3,073",False,False,True
+table5|R:t5_wav2vec2|xlsr_3dp,high-risk binding (v15 hr_bindings),0.839,0.839,0.839,0.840,False,False,True
+table5|R:t5_wav2vec2|xlsr_n_int,high-risk binding (v15 hr_bindings),"3,101","3,101","3,101","3,073",False,False,True
+table5|R:t5_wav2vec2|mms_3dp,high-risk binding (v15 hr_bindings),0.834,0.834,0.834,0.837,False,False,True
+table5|R:t5_wav2vec2|mms_n_int,high-risk binding (v15 hr_bindings),"3,101","3,101","3,101","3,073",False,False,True
+table5|R:t5_xlsr|mms_3dp,high-risk binding (v15 hr_bindings),0.830,0.830,0.830,0.836,False,False,True
+table6|H:budget_min~int,high-risk binding (v15 hr_bindings),20,20,20,20,False,False,False
+table6|H:budget_100~int,high-risk binding (v15 hr_bindings),100,100,100,100,False,False,False
+table6|H:budget_max~int,high-risk binding (v15 hr_bindings),200,200,200,200,False,False,False
+table6|H:kw_min_group~int,high-risk binding (v15 hr_bindings),5,5,5,5,False,False,False
+table6|H:budget_0~int,high-risk binding (v15 hr_bindings),20,20,20,20,False,False,False
+table6|R:t6row_20,high-risk binding (v15 hr_bindings)," & 845
+ & -0.586
+"," & 845
+ & -0.586
+"," & 845
+ & -0.586
+"," & 845
+ & -0.586
+",False,False,False
+table6|J:results/v9/v9_originals.json#states.corrected.parsed.fixed_token_dprime.expA_per_budget.20.p~lt10:-78,high-risk binding (v15 hr_bindings),-78,-78,-78,-78,False,False,False
+table6|R:t6eps_20,high-risk binding (v15 hr_bindings),0.355,0.355,0.355,0.355,False,False,False
+table6|H:budget_1~int,high-risk binding (v15 hr_bindings),50,50,50,50,False,False,False
+table6|R:t6row_50,high-risk binding (v15 hr_bindings)," & 639
+ & -0.672
+"," & 639
+ & -0.672
+"," & 639
+ & -0.672
+"," & 639
+ & -0.672
+",False,False,False
+table6|J:results/v9/v9_originals.json#states.corrected.parsed.fixed_token_dprime.expA_per_budget.50.p~lt10:-84,high-risk binding (v15 hr_bindings),-84,-84,-84,-84,False,False,False
+table6|R:t6eps_50,high-risk binding (v15 hr_bindings),0.540,0.540,0.540,0.540,False,False,False
+table6|H:budget_2~int,high-risk binding (v15 hr_bindings),100,100,100,100,False,False,False
+table6|R:t6row_100,high-risk binding (v15 hr_bindings)," & 550
+ & -0.736
+"," & 550
+ & -0.736
+"," & 550
+ & -0.736
+"," & 550
+ & -0.736
+",False,False,False
+table6|J:results/v9/v9_originals.json#states.corrected.parsed.fixed_token_dprime.expA_per_budget.100.p~lt10:-94,high-risk binding (v15 hr_bindings),-94,-94,-94,-94,False,False,False
+table6|R:t6eps_100,high-risk binding (v15 hr_bindings),0.576,0.576,0.576,0.576,False,False,False
+table6|H:budget_3~int,high-risk binding (v15 hr_bindings),200,200,200,200,False,False,False
+table6|R:t6row_200,high-risk binding (v15 hr_bindings)," & 467
+ & -0.733
+"," & 467
+ & -0.733
+"," & 467
+ & -0.733
+"," & 467
+ & -0.733
+",False,False,False
+table6|J:results/v9/v9_originals.json#states.corrected.parsed.fixed_token_dprime.expA_per_budget.200.p~lt10:-79,high-risk binding (v15 hr_bindings),-79,-79,-79,-79,False,False,False
+table6|R:t6eps_200,high-risk binding (v15 hr_bindings),0.546,0.546,0.546,0.546,False,False,False
+R2:mild_n_PD,R2 (v12/v17 outputs),98,98,98,98,False,False,False
+R2:mild_n_CP,R2 (v12/v17 outputs),110,110,110,110,False,False,False
+R2:mild_n_ALS,R2 (v12/v17 outputs),68,68,68,68,False,False,False
+R2:mild_n_DS,R2 (v12/v17 outputs),12,12,12,12,False,False,False
+R2:mild_n_sig_holm,R2 (v12/v17 outputs),11,11,11,11,False,False,False
+R2:mild_n_large,R2 (v12/v17 outputs),6,6,6,6,False,False,False
+R2:T4_mild_nasal_dprime,R2 (v12/v17 outputs),0.094*,0.094*,0.094*,0.094*,False,False,False
+R2:T4_mild_voicing_dprime,R2 (v12/v17 outputs),0.172*,0.172*,0.172*,0.172*,False,False,False
+R2:T4_mild_sonorant_dprime,R2 (v12/v17 outputs),0.022,0.022,0.022,0.022,False,False,False
+R2:T4_mild_strident_dprime,R2 (v12/v17 outputs),0.112*,0.112*,0.112*,0.112*,False,False,False
+R2:T4_mild_manner_dprime,R2 (v12/v17 outputs),0.059*,0.059*,0.059*,0.059*,False,False,False
+R2:T4_mild_high_dprime,R2 (v12/v17 outputs),0.567*,0.567*,0.567*,0.567*,False,False,False
+R2:T4_mild_low_dprime,R2 (v12/v17 outputs),0.112*,0.112*,0.112*,0.112*,False,False,False
+R2:T4_mild_back_dprime,R2 (v12/v17 outputs),0.181*,0.181*,0.181*,0.181*,False,False,False
+R2:T4_mild_round_dprime,R2 (v12/v17 outputs),0.539*,0.539*,0.539*,0.539*,False,False,False
+R2:T4_mild_vowel_triangle_area,R2 (v12/v17 outputs),0.540*,0.540*,0.540*,0.540*,False,False,False
+R2:T4_mild_speech_rate,R2 (v12/v17 outputs),0.225*,0.225*,0.225*,0.225*,False,False,False
+R2:T4_mild_pause_rate,R2 (v12/v17 outputs),0.003,0.003,0.003,0.003,False,False,False
+R2:T4_mild_vowel_duration_cv,R2 (v12/v17 outputs),0.085*,0.085*,0.085*,0.085*,False,False,False
+R2:mild_max_consonant_eps2,R2 (v12/v17 outputs),0.1722,0.1722,0.1722,0.1722,False,False,False
+R2:mild_sig_features,R2 (v12/v17 outputs),"nasal,voicing,strident,manner,high,low,back,round,vowel_triangle_area,speech_rate,vowel_duration_cv","nasal,voicing,strident,manner,high,low,back,round,vowel_triangle_area,speech_rate,vowel_duration_cv","nasal,voicing,strident,manner,high,low,back,round,vowel_triangle_area,speech_rate,vowel_duration_cv","nasal,voicing,strident,manner,high,low,back,round,vowel_triangle_area,speech_rate,vowel_duration_cv",False,False,False
+R2:moderate_n_PD,R2 (v12/v17 outputs),42,42,41,41,False,True,True
+R2:moderate_n_CP,R2 (v12/v17 outputs),35,35,35,35,False,False,False
+R2:moderate_n_ALS,R2 (v12/v17 outputs),10,10,10,10,False,False,False
+R2:moderate_n_DS,R2 (v12/v17 outputs),9,9,9,9,False,False,False
+R2:moderate_n_sig_holm,R2 (v12/v17 outputs),3,3,3,3,False,False,False
+R2:moderate_n_large,R2 (v12/v17 outputs),2,2,2,2,False,False,False
+R2:T4_moderate_nasal_dprime,R2 (v12/v17 outputs),0.000,0.000,0.000,0.000,False,False,False
+R2:T4_moderate_voicing_dprime,R2 (v12/v17 outputs),0.005,0.005,0.004,0.004,False,True,True
+R2:T4_moderate_sonorant_dprime,R2 (v12/v17 outputs),0.003,0.001,0.003,0.003,True,False,False
+R2:T4_moderate_strident_dprime,R2 (v12/v17 outputs),0.000,0.000,0.000,0.000,False,False,False
+R2:T4_moderate_manner_dprime,R2 (v12/v17 outputs),0.000,0.000,0.000,0.000,False,False,False
+R2:T4_moderate_high_dprime,R2 (v12/v17 outputs),0.183*,0.183*,0.175*,0.175*,False,True,True
+R2:T4_moderate_low_dprime,R2 (v12/v17 outputs),0.000,0.000,0.000,0.000,False,False,False
+R2:T4_moderate_back_dprime,R2 (v12/v17 outputs),0.000,0.000,0.000,0.000,False,False,False
+R2:T4_moderate_round_dprime,R2 (v12/v17 outputs),0.132*,0.139*,0.132*,0.132*,True,False,False
+R2:T4_moderate_vowel_triangle_area,R2 (v12/v17 outputs),0.124,0.124,0.124,0.124,False,False,False
+R2:T4_moderate_speech_rate,R2 (v12/v17 outputs),0.234*,0.234*,0.220*,0.220*,False,True,True
+R2:T4_moderate_pause_rate,R2 (v12/v17 outputs),0.121,0.121,0.115,0.115,False,True,True
+R2:T4_moderate_vowel_duration_cv,R2 (v12/v17 outputs),0.013,0.013,0.008,0.008,False,True,True
+R2:moderate_max_consonant_eps2,R2 (v12/v17 outputs),0.0053,0.0050,0.0044,0.0044,True,True,True
+R2:moderate_sig_features,R2 (v12/v17 outputs),"high,round,speech_rate","high,round,speech_rate","high,round,speech_rate","high,round,speech_rate",False,False,False
+R2:SAP_mild_n_sig_holm,R2 (v12/v17 outputs),9,9,9,9,False,False,False
+R2:pooled_centred_stat,R2 (v12/v17 outputs),51.6,51.6,51.6,51.0,False,False,True
+R2:pooled_centred_null,R2 (v12/v17 outputs),3.7,3.7,3.7,3.6,False,False,True
+R2:pooled_centred_p,R2 (v12/v17 outputs),0.0001,0.0001,0.0001,0.0001,False,False,False
+R2:pooled_mild_PD_voicing,R2 (v12/v17 outputs),+0.34,+0.34,+0.34,+0.33,False,False,True
+R2:pooled_mild_PD_sonorance,R2 (v12/v17 outputs),-0.35,-0.35,-0.35,-0.35,False,False,False
+R2:pooled_mild_CPALSDS_voicing_range,R2 (v12/v17 outputs),-0.28..-0.15,-0.28..-0.15,-0.28..-0.15,-0.28..-0.15,False,False,False
+R2:pooled_mild_CPALSDS_sonorance_range,R2 (v12/v17 outputs),+0.22..+0.37,+0.22..+0.37,+0.22..+0.37,+0.22..+0.36,False,False,True
+R2:hc_n_for_z,R2 (v12/v17 outputs),1170,1170,1170,1142,False,False,True
+R2:samelang_centred_stat,R2 (v12/v17 outputs),11.0,10.4,10.9,10.9,True,True,True
+R2:samelang_centred_null,R2 (v12/v17 outputs),5.6,5.7,5.6,5.6,True,False,False
+R2:samelang_centred_p,R2 (v12/v17 outputs),0.028,0.042,0.027,0.027,True,True,True
+R2:samelang_mild_PD_max_abs,R2 (v12/v17 outputs),0.115,0.115,0.115,0.115,False,False,False
+R2:samelang_mild_CPALSDS_sonorance_range,R2 (v12/v17 outputs),-0.30..-0.17,-0.30..-0.17,-0.30..-0.17,-0.30..-0.17,False,False,False
+R2:samelang_cells,R2 (v12/v17 outputs),"{""mild"": {""ALS"": 68, ""CP"": 106, ""DS"": 12, ""PD"": 98}, ""moderate"": {""ALS"": 10, ""CP"": 28, ""DS"": 9, ""PD"": 41}}","{""mild"": {""ALS"": 68, ""CP"": 106, ""DS"": 12, ""PD"": 98}, ""moderate"": {""ALS"": 10, ""CP"": 28, ""DS"": 9, ""PD"": 41}}","{""mild"": {""ALS"": 68, ""CP"": 106, ""DS"": 12, ""PD"": 98}, ""moderate"": {""ALS"": 10, ""CP"": 28, ""DS"": 9, ""PD"": 40}}","{""mild"": {""ALS"": 68, ""CP"": 106, ""DS"": 12, ""PD"": 98}, ""moderate"": {""ALS"": 10, ""CP"": 28, ""DS"": 9, ""PD"": 40}}",False,True,True
+R2:pooled_cells,R2 (v12/v17 outputs),"{""mild"": {""ALS"": 68, ""CP"": 110, ""DS"": 12, ""PD"": 98}, ""moderate"": {""ALS"": 10, ""CP"": 35, ""DS"": 9, ""PD"": 42}}","{""mild"": {""ALS"": 68, ""CP"": 110, ""DS"": 12, ""PD"": 98}, ""moderate"": {""ALS"": 10, ""CP"": 35, ""DS"": 9, ""PD"": 42}}","{""mild"": {""ALS"": 68, ""CP"": 110, ""DS"": 12, ""PD"": 98}, ""moderate"": {""ALS"": 10, ""CP"": 35, ""DS"": 9, ""PD"": 41}}","{""mild"": {""ALS"": 68, ""CP"": 110, ""DS"": 12, ""PD"": 98}, ""moderate"": {""ALS"": 10, ""CP"": 35, ""DS"": 9, ""PD"": 41}}",False,True,True
+R2:SAP_samelang_p,R2 (v12/v17 outputs),0.029,0.029,0.029,0.029,False,False,False

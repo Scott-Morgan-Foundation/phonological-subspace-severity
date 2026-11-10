@@ -72,7 +72,7 @@ The figure scripts write to `paper2-revision/figures/`, so create that directory
 
 Other scripts here are supporting checks (`v5_investigation/*.py`, `results/v5/swap_run/unsourced_numbers.py`, `scripts/v8/v8_cite_order.py`, `scripts/v10/v10_cite_order.py`, `scripts/v10/apply_v10_edits.py`, `scripts/v10/build_numbers_v10.py`, `scripts/v8/v8_measure_figs.py`, `scripts/v6/v6_measure_figs.py`, `scripts/v6/v6_misc.py`) or input-correction bookkeeping and earlier reconstruction checks (`scripts/rebuild_phase1.py`, `scripts/aetiology_undetermined.py`, `scripts/copas_recompute_v4.py`, `scripts/nl_repair.py`, `scripts/corrected/test9_recompute.py`, `scripts/corrected/test7_lodo_repro.py`, `scripts/corrected/test6_backbone_stability.py`, `scripts/test6_v5.py`, `scripts/regen_fig5_v5.py`).
 
-The code for the originally submitted version stays at tag `submitted-state-2026-09`. The first corrected-revision battery stays at tag `corrected-revision-2026-09`. Tags `paper2-csl-revision-2026-09-25-r2`, `-r3`, `-r4` and `paper2-csl-revision-2026-11-r5` hold the previous revision rounds; the final manuscript of the second revision (v18) cites tag `paper2-csl-revision-2026-11-r6`.
+The code for the originally submitted version stays at tag `submitted-state-2026-09`. The first corrected-revision battery stays at tag `corrected-revision-2026-09`. Tags `paper2-csl-revision-2026-09-25-r2`, `-r3`, `-r4` and `paper2-csl-revision-2026-11-r5` hold the previous revision rounds; tag `paper2-csl-revision-2026-11-r6` holds the v18 candidate; the final manuscript of the second revision (v19) cites tag `paper2-csl-revision-2026-11-r7`.
 
 
 ## Second revision (November 2026, tag `paper2-csl-revision-2026-11-r5`)
@@ -93,18 +93,18 @@ Configuration corrections in this tag, both at the repository root:
 - `config/phone_features_sk.json`: the nasal contrast key is now `nasal`, as in every other language (it was `nasality`). The phone classes are unchanged.
 - `config/phone_features_hu.json` keeps the `consonant_features` / `vowel_features` schema the pipeline reads. Earlier tags `submitted-state-2026-09` and `corrected-revision-2026-09` carry an older copy with `consonants` / `vowels` keys, which the pipeline does not read.
 
-## Current reproduction route (tag `paper2-csl-revision-2026-11-r6`, manuscript v18)
+## Current reproduction route (tag `paper2-csl-revision-2026-11-r7`, manuscript v19)
 
-This is the route for reproducing the second-revision manuscript (v18). Tag `paper2-csl-revision-2026-11-r6` differs from `-r5` only in documentation (this section, `docs/LINEAGE.md`, the description field of `config/phone_features_hu.json`) and in the Hungarian provenance check below; no analysis script and no phone class changed.
+This is the route for reproducing the second-revision manuscript (v19). Tag `paper2-csl-revision-2026-11-r7` differs from `-r5` only in documentation (this section, `docs/LINEAGE.md`, the description field of `config/phone_features_hu.json`) and in the Hungarian provenance and sensitivity checks below; no analysis script and no phone class changed. Tag `-r6` (manuscript v18) is kept as a historical record.
 
-- **Release:** tag `paper2-csl-revision-2026-11-r6`.
+- **Release:** tag `paper2-csl-revision-2026-11-r7`.
 - **Scripts:** those listed in the tables above, with the second-revision analyses in `scripts/v12/` (matched severity) and `scripts/v17/` (same-language controls, fixed-token). For fixed-token d′ use `scripts/v17/v17_fixed_token_hcdir.py`, not `scripts/v12/v12_fixed_token_hcdir.py` (which keeps the submitted German map for Slovak and English map for Swahili).
 - **Configuration:** the twelve files in `config/` at this tag. For each language the reported d′ values use that language's own file. Two files differ from the copies in the frozen submission package: `phone_features_sk.json` (nasal key `nasal`, was `nasality`; classes unchanged) and `phone_features_hu.json` (`consonant_features` / `vowel_features` schema; description field updated at this tag). The SHA256 of each file at this tag is listed in `config/SHA256SUMS.txt`.
 - **Frozen submission package:** preserved unchanged under tag `submitted-state-2026-09` and in the private verification package. It is a historical record, not a reproduction route: its Hungarian configuration cannot be read by the current pipeline, and its Slovak file names the nasal contrast `nasality`.
 
 ### Hungarian provenance
 
-The manuscript keeps the Hungarian d′ values of the submitted analysis; the corrected master holds them unchanged for all 59 Hungarian speakers. The configuration that produced them was not retained (`docs/LINEAGE.md`, item 2). In September 2026 all 59 speakers were re-extracted from audio with `config/phone_features_hu.json` and compared value by value with the retained values (`scripts/v18/v18_hu_provenance.py`, output `results/v18/v18_hu_provenance.json`):
+The manuscript keeps the Hungarian d′ values of the submitted analysis; the corrected master holds them unchanged for all 59 Hungarian speakers. The configuration that produced them was not preserved (`docs/LINEAGE.md`, item 2). In September 2026 all 59 speakers were re-extracted from audio with `config/phone_features_hu.json` and compared value by value with the retained values (`scripts/v18/v18_hu_provenance.py`, output `results/v18/v18_hu_provenance.json`):
 
 | Corpus | Speakers | Values | Spearman | Median absolute difference |
 |---|---|---|---|---|
@@ -113,6 +113,10 @@ The manuscript keeps the Hungarian d′ values of the submitted analysis; the co
 | Hungarian_Dysarthria | 31 | 241 | 0.851 | 0.191 |
 | All | 59 | 493 | 0.946 | 0.028 |
 
-The pooled 0.946 therefore hides a split: the healthy controls reproduce exactly, the dysarthric corpus only approximately. A likely cause, not confirmed by a re-run, is that the dysarthric-corpus values were produced by a separate extraction that scored that corpus with English phone classes. Three Hungarian Dysarthria speakers (one PD, two stroke) enter the six-group analyses; no Hungarian speaker enters the fixed-token analysis. The manuscript states this limitation in its Data Availability and Reproducibility statement.
+The pooled 0.946 therefore hides a split: the healthy controls agree closely, the dysarthric corpus only approximately. The cause of the difference is unconfirmed; one possibility, not tested by a re-run, is that the dysarthric-corpus values were produced by a separate extraction that scored that corpus with English phone classes. Three Hungarian Dysarthria speakers (one PD, two stroke) enter the six-group analyses; no Hungarian speaker enters the fixed-token analysis. The manuscript states this limitation in its Data Availability and Reproducibility statement.
 
 The comparison reads `corrected/track4_master.csv`, `frozen_package/results/track4_master.csv` and the re-extracted per-speaker table `results/test9_hu_dprime.csv`; none is public.
+
+### Hungarian sensitivity check
+
+Whether the discrepancy changes a reported result was checked without re-extracting audio (`scripts/v19/v19_hu_sensitivity.py`, `scripts/v19/v19_hu_printed_values.py`). Every script behind a reported number was re-run unchanged on four versions of the speaker-level tables: as used for the paper; with the nine d′ values of all 59 Hungarian speakers replaced by the re-extracted values; without the Hungarian_Dysarthria corpus; and without all 59 Hungarian speakers. The consistency check of the first revision then re-derived every bound printed number from each variant's outputs. With the tables as used, all outputs equal the saved ones and the check passes. No reported conclusion changes in any variant. With the re-extracted values, 39 of 763 bound printed values change, all in the last printed digit (for example, leave-one-dataset-out macro F1 21.6% rather than 21.9%), and the same-language profile-shape test gives p = 0.042 rather than 0.028. The fixed-token analysis holds no Hungarian speaker. Summary and table: `results/v19/HU_SENSITIVITY_FINDINGS.md`; every bound printed value under each variant: `results/v19/printed_values_by_variant.csv`.

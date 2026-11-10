@@ -1,6 +1,6 @@
 {
  "language": "hu",
- "description": "Hungarian phonological features for Track 4. Based on hungarian_cv MFA phone set. [Schema-translated to the pipeline's consonant_features/vowel_features form, Sept 2026; on full re-extraction from audio it reproduces the submitted values of the 28 Hungarian healthy controls (Spearman 0.983-1.000) but those of the 31 Hungarian Dysarthria speakers only approximately (Spearman 0.851; 0.946 pooled over all 59 speakers). See paper2-revision/README.md.]",
+ "description": "Hungarian phonological features for Track 4. Based on hungarian_cv MFA phone set. [Schema-translated to the pipeline's consonant_features/vowel_features form, Sept 2026; on full re-extraction from audio its values agree closely with the submitted values of the 28 Hungarian healthy controls (Spearman 0.983-1.000) but only approximately with those of the 31 Hungarian Dysarthria speakers (Spearman 0.851; 0.946 pooled over all 59 speakers); the cause is unconfirmed. See paper2-revision/README.md.]",
  "consonant_features": {
   "nasal": {
    "positive": [
