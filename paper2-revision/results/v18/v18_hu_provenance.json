@@ -1,0 +1,35 @@
+{
+ "CV_Hungarian": {
+  "speakers": 27,
+  "values": 243,
+  "spearman": 0.9998,
+  "median_abs_diff": 0.0051,
+  "p90_abs_diff": 0.0131
+ },
+ "Hungarian_Dysarthria": {
+  "speakers": 31,
+  "values": 241,
+  "spearman": 0.851,
+  "median_abs_diff": 0.1911,
+  "p90_abs_diff": 0.6896
+ },
+ "Hungarian_HC": {
+  "speakers": 1,
+  "values": 9,
+  "spearman": 0.9833,
+  "median_abs_diff": 0.0597,
+  "p90_abs_diff": 0.127
+ },
+ "ALL": {
+  "speakers": 59,
+  "values": 493,
+  "spearman": 0.9458,
+  "median_abs_diff": 0.0279,
+  "p90_abs_diff": 0.4576
+ },
+ "retained_equals_submitted": true,
+ "hungarian_dysarthria_in_six_groups": {
+  "stroke": 2,
+  "parkinsons": 1
+ }
+}

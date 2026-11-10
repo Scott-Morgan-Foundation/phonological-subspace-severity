@@ -81,3 +81,5 @@ e8fda13d77819e45cb6ca4753aaa7b8303c5e45093c2c6c8c2d5aee49d6b49e6 *./scripts/v12/
 5413d23f4a2329c6b239ecc62d60b1731d032dc86faf27f8fcb7856b477ef925 *./scripts/v17/v17_compare_fixed_token.py
 95928608ad6ede6790550d11e9cf3f963eb59182468343b5090885927a05f983 *./scripts/v17/v17_fixed_token_hcdir.py
 639fa234eb1c121ff013d65d4288c1f0c7c7d94402b6a51b1825d0a8fb8a478b *./scripts/v17/v17_matched_severity_samelang.py
+941936a3b34ad31f03523ed63e46c208546f5b04efa92def9a0668efd742e632 *./scripts/v18/v18_hu_provenance.py
+c605ff6af5203e7ec8ee4c3da1debfcb04ceacaa867c98f7a95e065dec7c282d *./results/v18/v18_hu_provenance.json
